@@ -33,8 +33,10 @@ export default function App() {
         </Text>
       </TouchableOpacity>
 
+      // For showing picker just put show state to show prop
       <CountryPicker
         show={show}
+        // when picker button press you will get the country object with dial code
         pickerButtonOnPress={(item) => {
           setCountryCode(item.dial_code);
           setShow(false);
