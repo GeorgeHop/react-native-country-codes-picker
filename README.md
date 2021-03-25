@@ -4,7 +4,7 @@ This lib. provide simple country picker with search functionality. Fully crosspl
 
 # Example
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/47904385/112465485-147ece00-8d65-11eb-9f79-5fad6c723712.gif)
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/47904385/112475469-223a5080-8d71-11eb-92c0-43583056e30c.gif)
 
 # Basic usage
 ```JS
