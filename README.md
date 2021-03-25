@@ -2,6 +2,12 @@
 
 This lib. provide simple country picker with search functionality. Fully crossplatform and created on react-native.
 
+# Installation
+
+``
+npm i react-native-country-codes-picker
+``
+
 # Example
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/47904385/112475469-223a5080-8d71-11eb-92c0-43583056e30c.gif)
