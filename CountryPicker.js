@@ -1,8 +1,8 @@
 import React, {useRef} from 'react';
 import { FlatList, TextInput, Keyboard, Easing, TouchableOpacity, View, Text, Animated, Dimensions, KeyboardAvoidingView } from 'react-native';
-import {countryCodes} from "../constants/countryCodes";
-import {useKeyboardStatus} from "../helpers/useKeyboardStatus";
-import {CountryButton} from "./CountryButton";
+import {countryCodes} from "./constants/countryCodes";
+import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
+import {CountryButton} from "./components/CountryButton";
 
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
