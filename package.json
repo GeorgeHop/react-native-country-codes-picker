@@ -1,5 +1,5 @@
 {
-  "name": "react-native-country-iso-picker",
+  "name": "react-native-country-codes-picker",
   "version": "1.0.0",
   "description": "This lib. provide country iso picker with search functionality",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GeorgeHop/react-native-country-iso-picker.git"
+    "url": "git+https://github.com/GeorgeHop/react-native-country-codes-picker.git"
   },
   "keywords": [
     "react-native",
@@ -32,7 +32,7 @@
   "author": "George Hope",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GeorgeHop/react-native-country-iso-picker/issues"
+    "url": "https://github.com/GeorgeHop/react-native-country-codes-picker/issues"
   },
-  "homepage": "https://github.com/GeorgeHop/react-native-country-iso-picker#readme"
+  "homepage": "https://github.com/GeorgeHop/react-native-country-codes-picker#readme"
 }
