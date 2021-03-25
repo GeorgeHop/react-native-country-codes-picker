@@ -46,3 +46,11 @@ export default function App() {
   );
 }
 ```
+
+# Props
+Below are the props you can pass to the React Component.
+
+| Prop  | Type | Default | Example | Description |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| show  | boolean | | |  This prop using for displaying the modal. Put your show state here |
+| pickerButtonOnPress | function | | (country) => setCode(country.dial_code) | Put your function/functions here for getting country data from picker. |
