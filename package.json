@@ -1,0 +1,38 @@
+{
+  "name": "react-native-country-iso-picker",
+  "version": "1.0.0",
+  "description": "This lib. provide country iso picker with search functionality",
+  "main": "index.js",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "^0.61.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "metro-react-native-babel-preset": "^0.64.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeHop/react-native-country-iso-picker.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "country",
+    "picker",
+    "codes",
+    "search",
+    "animated"
+  ],
+  "author": "George Hope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeHop/react-native-country-iso-picker/issues"
+  },
+  "homepage": "https://github.com/GeorgeHop/react-native-country-iso-picker#readme"
+}
