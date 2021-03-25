@@ -52,5 +52,15 @@ Below are the props you can pass to the React Component.
 
 | Prop  | Type | Default | Example | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| show  | boolean | | |  This prop using for displaying the modal. Put your show state here |
+| show  | boolean | | |  This prop using for displaying the modal. Put your show state here. |
 | pickerButtonOnPress | function | | (country) => setCode(country.dial_code) | Put your function/functions here for getting country data from picker. |
+
+# ToDo
+
+1. Custom styling.
+2. Picker types (modal, input). If you need input with search.
+3. Dark theme option.
+4. Multi lang. (for supporting more languages).
+5. More speed optimization.
+
+If you have something interesting ! Just write to us :)
