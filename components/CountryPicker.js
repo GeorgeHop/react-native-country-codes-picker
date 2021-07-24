@@ -1,12 +1,12 @@
-import React, {useRef} from 'react';
-import { FlatList, TextInput, Keyboard, Easing, TouchableOpacity, View, Text, Animated, Dimensions, KeyboardAvoidingView } from 'react-native';
-import {countryCodes} from "./constants/countryCodes";
-import {CountryButton} from "./components/CountryButton";
+import React from 'react';
+import { FlatList, TextInput, View, Text, Animated, Dimensions } from 'react-native';
+import {countryCodes} from "../constants/countryCodes";
+import {CountryButton} from "./CountryButton";
 
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
-export const CountryPicker = ({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang}) => {
+export default function CountryPicker({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang}) {
     // ToDo need to add prop types
     const [animationDriver] = React.useState(new Animated.Value(0));
     const [searchValue, setSearchValue] = React.useState('');
