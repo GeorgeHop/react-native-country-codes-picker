@@ -1,1453 +1,3135 @@
 export const countryCodes = [
     {
-        "name":"Afghanistan",
+        "name":{
+            "en":"Afghanistan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+93",
         "code":"AF",
         "flag":"🇦🇫"
     },
     {
-        "name":"Albania",
+        "name":{
+            "en":"Albania",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+355",
         "code":"AL",
         "flag":"🇦🇱"
     },
     {
-        "name":"Algeria",
+        "name":{
+            "en":"Algeria",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+213",
         "code":"DZ",
         "flag":"🇩🇿"
     },
     {
-        "name":"AmericanSamoa",
+        "name":{
+            "en":"AmericanSamoa",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1684",
         "code":"AS",
         "flag":"🇦🇸"
     },
     {
-        "name":"Andorra",
+        "name":{
+            "en":"Andorra",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+376",
         "code":"AD",
         "flag":"🇦🇩"
     },
     {
-        "name":"Angola",
+        "name":{
+            "en":"Angola",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+244",
         "code":"AO",
         "flag":"🇦🇴"
     },
     {
-        "name":"Anguilla",
+        "name":{
+            "en":"Anguilla",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1264",
         "code":"AI",
         "flag":"🇦🇮"
     },
     {
-        "name":"Antarctica",
+        "name":{
+            "en":"Antarctica",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+672",
         "code":"AQ",
         "flag":"🇦🇶"
     },
     {
-        "name":"Antigua and Barbuda",
+        "name":{
+            "en":"Antigua and Barbuda",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1268",
         "code":"AG",
         "flag":"🇦🇬"
     },
     {
-        "name":"Argentina",
+        "name":{
+            "en":"Argentina",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+54",
         "code":"AR",
         "flag":"🇦🇷"
     },
     {
-        "name":"Armenia",
+        "name":{
+            "en":"Armenia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+374",
         "code":"AM",
         "flag":"🇦🇲"
     },
     {
-        "name":"Aruba",
+        "name":{
+            "en":"Aruba",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+297",
         "code":"AW",
         "flag":"🇦🇼"
     },
     {
-        "name":"Australia",
+        "name":{
+            "en":"Australia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+61",
         "code":"AU",
-        "preferred":true,
         "flag":"🇦🇺"
     },
     {
-        "name":"Austria",
+        "name":{
+            "en":"Austria",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+43",
         "code":"AT",
         "flag":"🇦🇹"
     },
     {
-        "name":"Azerbaijan",
+        "name":{
+            "en":"Azerbaijan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+994",
         "code":"AZ",
         "flag":"🇦🇿"
     },
     {
-        "name":"Bahamas",
+        "name":{
+            "en":"Bahamas",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1242",
         "code":"BS",
         "flag":"🇧🇸"
     },
     {
-        "name":"Bahrain",
+        "name":{
+            "en":"Bahrain",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+973",
         "code":"BH",
         "flag":"🇧🇭"
     },
     {
-        "name":"Bangladesh",
+        "name":{
+            "en":"Bangladesh",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+880",
         "code":"BD",
         "flag":"🇧🇩"
     },
     {
-        "name":"Barbados",
+        "name":{
+            "en":"Barbados",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1246",
         "code":"BB",
         "flag":"🇧🇧"
     },
     {
-        "name":"Belarus",
+        "name":{
+            "en":"Belarus",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+375",
         "code":"BY",
         "flag":"🇧🇾"
     },
     {
-        "name":"Belgium",
+        "name":{
+            "en":"Belgium",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+32",
         "code":"BE",
         "flag":"🇧🇪"
     },
     {
-        "name":"Belize",
+        "name":{
+            "en":"Belize",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+501",
         "code":"BZ",
         "flag":"🇧🇿"
     },
     {
-        "name":"Benin",
+        "name":{
+            "en":"Benin",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+229",
         "code":"BJ",
         "flag":"🇧🇯"
     },
     {
-        "name":"Bermuda",
+        "name":{
+            "en":"Bermuda",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1441",
         "code":"BM",
         "flag":"🇧🇲"
     },
     {
-        "name":"Bhutan",
+        "name":{
+            "en":"Bhutan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+975",
         "code":"BT",
         "flag":"🇧🇹"
     },
     {
-        "name":"Bolivia, Plurinational State of",
+        "name":{
+            "en":"Bolivia, Plurinational State of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+591",
         "code":"BO",
         "flag":"🇧🇴"
     },
     {
-        "name":"Bosnia and Herzegovina",
+        "name":{
+            "en":"Bosnia and Herzegovina",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+387",
         "code":"BA",
         "flag":"🇧🇦"
     },
     {
-        "name":"Botswana",
+        "name":{
+            "en":"Botswana",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+267",
         "code":"BW",
         "flag":"🇧🇼"
     },
     {
-        "name":"Brazil",
+        "name":{
+            "en":"Brazil",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+55",
         "code":"BR",
         "flag":"🇧🇷"
     },
     {
-        "name":"British Indian Ocean Territory",
+        "name":{
+            "en":"British Indian Ocean Territory",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+246",
         "code":"IO",
         "flag":"🇮🇴"
     },
     {
-        "name":"Brunei Darussalam",
+        "name":{
+            "en":"Brunei Darussalam",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+673",
         "code":"BN",
         "flag":"🇧🇳"
     },
     {
-        "name":"Bulgaria",
+        "name":{
+            "en":"Bulgaria",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+359",
         "code":"BG",
         "flag":"🇧🇬"
     },
     {
-        "name":"Burkina Faso",
+        "name":{
+            "en":"Burkina Faso",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+226",
         "code":"BF",
         "flag":"🇧🇫"
     },
     {
-        "name":"Burundi",
+        "name":{
+            "en":"Burundi",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+257",
         "code":"BI",
         "flag":"🇧🇮"
     },
     {
-        "name":"Cambodia",
+        "name":{
+            "en":"Cambodia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+855",
         "code":"KH",
         "flag":"🇰🇭"
     },
     {
-        "name":"Cameroon",
+        "name":{
+            "en":"Cameroon",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+237",
         "code":"CM",
         "flag":"🇨🇲"
     },
     {
-        "name":"Canada",
+        "name":{
+            "en":"Canada",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1",
         "code":"CA",
         "flag":"🇨🇦"
     },
     {
-        "name":"Cape Verde",
+        "name":{
+            "en":"Cape Verde",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+238",
         "code":"CV",
         "flag":"🇨🇻"
     },
     {
-        "name":"Cayman Islands",
+        "name":{
+            "en":"Cayman Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+345",
         "code":"KY",
         "flag":"🇰🇾"
     },
     {
-        "name":"Central African Republic",
+        "name":{
+            "en":"Central African Republic",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+236",
         "code":"CF",
         "flag":"🇨🇫"
     },
     {
-        "name":"Chad",
+        "name":{
+            "en":"Chad",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+235",
         "code":"TD",
         "flag":"🇹🇩"
     },
     {
-        "name":"Chile",
+        "name":{
+            "en":"Chile",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+56",
         "code":"CL",
         "flag":"🇨🇱"
     },
     {
-        "name":"China",
+        "name":{
+            "en":"China",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+86",
         "code":"CN",
         "flag":"🇨🇳"
     },
     {
-        "name":"Christmas Island",
+        "name":{
+            "en":"Christmas Island",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+61",
         "code":"CX",
         "flag":"🇨🇽"
     },
     {
-        "name":"Cocos (Keeling) Islands",
+        "name":{
+            "en":"Cocos (Keeling) Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+61",
         "code":"CC",
         "flag":"🇨🇨"
     },
     {
-        "name":"Colombia",
+        "name":{
+            "en":"Colombia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+57",
         "code":"CO",
         "flag":"🇨🇴"
     },
     {
-        "name":"Comoros",
+        "name":{
+            "en":"Comoros",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+269",
         "code":"KM",
         "flag":"🇰🇲"
     },
     {
-        "name":"Congo",
+        "name":{
+            "en":"Congo",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+242",
         "code":"CG",
         "flag":"🇨🇬"
     },
     {
-        "name":"Congo, The Democratic Republic of the",
+        "name":{
+            "en":"Congo, The Democratic Republic of the",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+243",
         "code":"CD",
         "flag":"🇨🇩"
     },
     {
-        "name":"Cook Islands",
+        "name":{
+            "en":"Cook Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+682",
         "code":"CK",
         "flag":"🇨🇰"
     },
     {
-        "name":"Costa Rica",
+        "name":{
+            "en":"Costa Rica",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+506",
         "code":"CR",
         "flag":"🇨🇷"
     },
     {
-        "name":"Cote d'Ivoire",
+        "name":{
+            "en":"Cote d'Ivoire",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+225",
         "code":"CI",
         "flag":"🇨🇮"
     },
     {
-        "name":"Croatia",
+        "name":{
+            "en":"Croatia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+385",
         "code":"HR",
         "flag":"🇭🇷"
     },
     {
-        "name":"Cuba",
+        "name":{
+            "en":"Cuba",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+53",
         "code":"CU",
         "flag":"🇨🇺"
     },
     {
-        "name":"Cyprus",
+        "name":{
+            "en":"Cyprus",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+537",
         "code":"CY",
         "flag":"🇨🇾"
     },
     {
-        "name":"Czech Republic",
+        "name":{
+            "en":"Czech Republic",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+420",
         "code":"CZ",
         "flag":"🇨🇿"
     },
     {
-        "name":"Denmark",
+        "name":{
+            "en":"Denmark",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+45",
         "code":"DK",
         "flag":"🇩🇰"
     },
     {
-        "name":"Djibouti",
+        "name":{
+            "en":"Djibouti",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+253",
         "code":"DJ",
         "flag":"🇩🇯"
     },
     {
-        "name":"Dominica",
+        "name":{
+            "en":"Dominica",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1767",
         "code":"DM",
         "flag":"🇩🇲"
     },
     {
-        "name":"Dominican Republic",
+        "name":{
+            "en":"Dominican Republic",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1849",
         "code":"DO",
         "flag":"🇩🇴"
     },
     {
-        "name":"Ecuador",
+        "name":{
+            "en":"Ecuador",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+593",
         "code":"EC",
         "flag":"🇪🇨"
     },
     {
-        "name":"Egypt",
+        "name":{
+            "en":"Egypt",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+20",
         "code":"EG",
         "flag":"🇪🇬"
     },
     {
-        "name":"El Salvador",
+        "name":{
+            "en":"El Salvador",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+503",
         "code":"SV",
         "flag":"🇸🇻"
     },
     {
-        "name":"Equatorial Guinea",
+        "name":{
+            "en":"Equatorial Guinea",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+240",
         "code":"GQ",
         "flag":"🇬🇶"
     },
     {
-        "name":"Eritrea",
+        "name":{
+            "en":"Eritrea",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+291",
         "code":"ER",
         "flag":"🇪🇷"
     },
     {
-        "name":"Estonia",
+        "name":{
+            "en":"Estonia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+372",
         "code":"EE",
         "flag":"🇪🇪"
     },
     {
-        "name":"Ethiopia",
+        "name":{
+            "en":"Ethiopia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+251",
         "code":"ET",
         "flag":"🇪🇹"
     },
     {
-        "name":"Falkland Islands (Malvinas)",
+        "name":{
+            "en":"Falkland Islands (Malvinas)",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+500",
         "code":"FK",
         "flag":"🇫🇰"
     },
     {
-        "name":"Faroe Islands",
+        "name":{
+            "en":"Faroe Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+298",
         "code":"FO",
         "flag":"🇫🇴"
     },
     {
-        "name":"Fiji",
+        "name":{
+            "en":"Fiji",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+679",
         "code":"FJ",
         "flag":"🇫🇯"
     },
     {
-        "name":"Finland",
+        "name":{
+            "en":"Finland",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+358",
         "code":"FI",
         "flag":"🇫🇮"
     },
     {
-        "name":"France",
+        "name":{
+            "en":"France",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+33",
         "code":"FR",
         "flag":"🇫🇷"
     },
     {
-        "name":"French Guiana",
+        "name":{
+            "en":"French Guiana",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+594",
         "code":"GF",
         "flag":"🇬🇫"
     },
     {
-        "name":"French Polynesia",
+        "name":{
+            "en":"French Polynesia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+689",
         "code":"PF",
         "flag":"🇵🇫"
     },
     {
-        "name":"Gabon",
+        "name":{
+            "en":"Gabon",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+241",
         "code":"GA",
         "flag":"🇬🇦"
     },
     {
-        "name":"Gambia",
+        "name":{
+            "en":"Gambia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+220",
         "code":"GM",
         "flag":"🇬🇲"
     },
     {
-        "name":"Georgia",
+        "name":{
+            "en":"Georgia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+995",
         "code":"GE",
         "flag":"🇬🇪"
     },
     {
-        "name":"Germany",
+        "name":{
+            "en":"Germany",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+49",
         "code":"DE",
         "flag":"🇩🇪"
     },
     {
-        "name":"Ghana",
+        "name":{
+            "en":"Ghana",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+233",
         "code":"GH",
         "flag":"🇬🇭"
     },
     {
-        "name":"Gibraltar",
+        "name":{
+            "en":"Gibraltar",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+350",
         "code":"GI",
         "flag":"🇬🇮"
     },
     {
-        "name":"Greece",
+        "name":{
+            "en":"Greece",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+30",
         "code":"GR",
         "flag":"🇬🇷"
     },
     {
-        "name":"Greenland",
+        "name":{
+            "en":"Greenland",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+299",
         "code":"GL",
         "flag":"🇬🇱"
     },
     {
-        "name":"Grenada",
+        "name":{
+            "en":"Grenada",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1473",
         "code":"GD",
         "flag":"🇬🇩"
     },
     {
-        "name":"Guadeloupe",
+        "name":{
+            "en":"Guadeloupe",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+590",
         "code":"GP",
         "flag":"🇬🇵"
     },
     {
-        "name":"Guam",
+        "name":{
+            "en":"Guam",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1671",
         "code":"GU",
         "flag":"🇬🇺"
     },
     {
-        "name":"Guatemala",
+        "name":{
+            "en":"Guatemala",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+502",
         "code":"GT",
         "flag":"🇬🇹"
     },
     {
-        "name":"Guernsey",
+        "name":{
+            "en":"Guernsey",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+44",
         "code":"GG",
         "flag":"🇬🇬"
     },
     {
-        "name":"Guinea",
+        "name":{
+            "en":"Guinea",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+224",
         "code":"GN",
         "flag":"🇬🇳"
     },
     {
-        "name":"Guinea-Bissau",
+        "name":{
+            "en":"Guinea-Bissau",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+245",
         "code":"GW",
         "flag":"🇬🇼"
     },
     {
-        "name":"Guyana",
+        "name":{
+            "en":"Guyana",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+595",
         "code":"GY",
         "flag":"🇬🇾"
     },
     {
-        "name":"Haiti",
+        "name":{
+            "en":"Haiti",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+509",
         "code":"HT",
         "flag":"🇭🇹"
     },
     {
-        "name":"Holy See (Vatican City State)",
+        "name":{
+            "en":"Holy See (Vatican City State)",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+379",
         "code":"VA",
         "flag":"🇻🇦"
     },
     {
-        "name":"Honduras",
+        "name":{
+            "en":"Honduras",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+504",
         "code":"HN",
         "flag":"🇭🇳"
     },
     {
-        "name":"Hong Kong",
+        "name":{
+            "en":"Hong Kong",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+852",
         "code":"HK",
         "flag":"🇭🇰"
     },
     {
-        "name":"Hungary",
+        "name":{
+            "en":"Hungary",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+36",
         "code":"HU",
         "flag":"🇭🇺"
     },
     {
-        "name":"Iceland",
+        "name":{
+            "en":"Iceland",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+354",
         "code":"IS",
         "flag":"🇮🇸"
     },
     {
-        "name":"India",
+        "name":{
+            "en":"India",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+91",
         "code":"IN",
-        "preferred":true,
         "flag":"🇮🇳"
     },
     {
-        "name":"Indonesia",
+        "name":{
+            "en":"Indonesia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+62",
         "code":"ID",
         "flag":"🇮🇩"
     },
     {
-        "name":"Iran, Islamic Republic of",
+        "name":{
+            "en":"Iran, Islamic Republic of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+98",
         "code":"IR",
         "flag":"🇮🇷"
     },
     {
-        "name":"Iraq",
+        "name":{
+            "en":"Iraq",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+964",
         "code":"IQ",
         "flag":"🇮🇶"
     },
     {
-        "name":"Ireland",
+        "name":{
+            "en":"Ireland",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+353",
         "code":"IE",
         "flag":"🇮🇪"
     },
     {
-        "name":"Isle of Man",
+        "name":{
+            "en":"Isle of Man",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+44",
         "code":"IM",
         "flag":"🇮🇲"
     },
     {
-        "name":"Israel",
+        "name":{
+            "en":"Israel",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+972",
         "code":"IL",
         "flag":"🇮🇱"
     },
     {
-        "name":"Italy",
+        "name":{
+            "en":"Italy",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+39",
         "code":"IT",
         "flag":"🇮🇹"
     },
     {
-        "name":"Jamaica",
+        "name":{
+            "en":"Jamaica",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1876",
         "code":"JM",
         "flag":"🇯🇲"
     },
     {
-        "name":"Japan",
+        "name":{
+            "en":"Japan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+81",
         "code":"JP",
         "flag":"🇯🇵"
     },
     {
-        "name":"Jersey",
+        "name":{
+            "en":"Jersey",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+44",
         "code":"JE",
         "flag":"🇯🇪"
     },
     {
-        "name":"Jordan",
+        "name":{
+            "en":"Jordan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+962",
         "code":"JO",
         "flag":"🇯🇴"
     },
     {
-        "name":"Kazakhstan",
+        "name":{
+            "en":"Kazakhstan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+77",
         "code":"KZ",
         "flag":"🇰🇿"
     },
     {
-        "name":"Kenya",
+        "name":{
+            "en":"Kenya",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+254",
         "code":"KE",
         "flag":"🇰🇪"
     },
     {
-        "name":"Kiribati",
+        "name":{
+            "en":"Kiribati",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+686",
         "code":"KI",
         "flag":"🇰🇮"
     },
     {
-        "name":"Korea, Democratic People's Republic of",
+        "name":{
+            "en":"Korea, Democratic People's Republic of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+850",
         "code":"KP",
         "flag":"🇰🇵"
     },
     {
-        "name":"Korea, Republic of",
+        "name":{
+            "en":"Korea, Republic of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+82",
         "code":"KR",
         "flag":"🇰🇷"
     },
     {
-        "name":"Kuwait",
+        "name":{
+            "en":"Kuwait",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+965",
         "code":"KW",
         "flag":"🇰🇼"
     },
     {
-        "name":"Kyrgyzstan",
+        "name":{
+            "en":"Kyrgyzstan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+996",
         "code":"KG",
         "flag":"🇰🇬"
     },
     {
-        "name":"Lao People's Democratic Republic",
+        "name":{
+            "en":"Lao People's Democratic Republic",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+856",
         "code":"LA",
         "flag":"🇱🇦"
     },
     {
-        "name":"Latvia",
+        "name":{
+            "en":"Latvia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+371",
         "code":"LV",
         "flag":"🇱🇻"
     },
     {
-        "name":"Lebanon",
+        "name":{
+            "en":"Lebanon",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+961",
         "code":"LB",
         "flag":"🇱🇧"
     },
     {
-        "name":"Lesotho",
+        "name":{
+            "en":"Lesotho",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+266",
         "code":"LS",
         "flag":"🇱🇸"
     },
     {
-        "name":"Liberia",
+        "name":{
+            "en":"Liberia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+231",
         "code":"LR",
         "flag":"🇱🇷"
     },
     {
-        "name":"Libyan Arab Jamahiriya",
+        "name":{
+            "en":"Libyan Arab Jamahiriya",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+218",
         "code":"LY",
         "flag":"🇱🇾"
     },
     {
-        "name":"Liechtenstein",
+        "name":{
+            "en":"Liechtenstein",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+423",
         "code":"LI",
         "flag":"🇱🇮"
     },
     {
-        "name":"Lithuania",
+        "name":{
+            "en":"Lithuania",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+370",
         "code":"LT",
         "flag":"🇱🇹"
     },
     {
-        "name":"Luxembourg",
+        "name":{
+            "en":"Luxembourg",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+352",
         "code":"LU",
         "flag":"🇱🇺"
     },
     {
-        "name":"Macao",
+        "name":{
+            "en":"Macao",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+853",
         "code":"MO",
         "flag":"🇲🇴"
     },
     {
-        "name":"Macedonia, The Former Yugoslav Republic of",
+        "name":{
+            "en":"Macedonia, The Former Yugoslav Republic of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+389",
         "code":"MK",
         "flag":"🇲🇰"
     },
     {
-        "name":"Madagascar",
+        "name":{
+            "en":"Madagascar",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+261",
         "code":"MG",
         "flag":"🇲🇬"
     },
     {
-        "name":"Malawi",
+        "name":{
+            "en":"Malawi",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+265",
         "code":"MW",
         "flag":"🇲🇼"
     },
     {
-        "name":"Malaysia",
+        "name":{
+            "en":"Malaysia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+60",
         "code":"MY",
         "flag":"🇲🇾"
     },
     {
-        "name":"Maldives",
+        "name":{
+            "en":"Maldives",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+960",
         "code":"MV",
         "flag":"🇲🇻"
     },
     {
-        "name":"Mali",
+        "name":{
+            "en":"Mali",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+223",
         "code":"ML",
         "flag":"🇲🇱"
     },
     {
-        "name":"Malta",
+        "name":{
+            "en":"Malta",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+356",
         "code":"MT",
         "flag":"🇲🇹"
     },
     {
-        "name":"Marshall Islands",
+        "name":{
+            "en":"Marshall Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+692",
         "code":"MH",
         "flag":"🇲🇭"
     },
     {
-        "name":"Martinique",
+        "name":{
+            "en":"Martinique",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+596",
         "code":"MQ",
         "flag":"🇲🇶"
     },
     {
-        "name":"Mauritania",
+        "name":{
+            "en":"Mauritania",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+222",
         "code":"MR",
         "flag":"🇲🇷"
     },
     {
-        "name":"Mauritius",
+        "name":{
+            "en":"Mauritius",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+230",
         "code":"MU",
         "flag":"🇲🇺"
     },
     {
-        "name":"Mayotte",
+        "name":{
+            "en":"Mayotte",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+262",
         "code":"YT",
         "flag":"🇾🇹"
     },
     {
-        "name":"Mexico",
+        "name":{
+            "en":"Mexico",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+52",
         "code":"MX",
         "flag":"🇲🇽"
     },
     {
-        "name":"Micronesia, Federated States of",
+        "name":{
+            "en":"Micronesia, Federated States of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+691",
         "code":"FM",
         "flag":"🇫🇲"
     },
     {
-        "name":"Moldova, Republic of",
+        "name":{
+            "en":"Moldova, Republic of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+373",
         "code":"MD",
         "flag":"🇲🇩"
     },
     {
-        "name":"Monaco",
+        "name":{
+            "en":"Monaco",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+377",
         "code":"MC",
         "flag":"🇲🇨"
     },
     {
-        "name":"Mongolia",
+        "name":{
+            "en":"Mongolia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+976",
         "code":"MN",
         "flag":"🇲🇳"
     },
     {
-        "name":"Montenegro",
+        "name":{
+            "en":"Montenegro",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+382",
         "code":"ME",
         "flag":"🇲🇪"
     },
     {
-        "name":"Montserrat",
+        "name":{
+            "en":"Montserrat",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1664",
         "code":"MS",
         "flag":"🇲🇸"
     },
     {
-        "name":"Morocco",
+        "name":{
+            "en":"Morocco",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+212",
         "code":"MA",
         "flag":"🇲🇦"
     },
     {
-        "name":"Mozambique",
+        "name":{
+            "en":"Mozambique",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+258",
         "code":"MZ",
         "flag":"🇲🇿"
     },
     {
-        "name":"Myanmar",
+        "name":{
+            "en":"Myanmar",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+95",
         "code":"MM",
         "flag":"🇲🇲"
     },
     {
-        "name":"Namibia",
+        "name":{
+            "en":"Namibia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+264",
         "code":"NA",
         "flag":"🇳🇦"
     },
     {
-        "name":"Nauru",
+        "name":{
+            "en":"Nauru",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+674",
         "code":"NR",
         "flag":"🇳🇷"
     },
     {
-        "name":"Nepal",
+        "name":{
+            "en":"Nepal",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+977",
         "code":"NP",
         "flag":"🇳🇵"
     },
     {
-        "name":"Netherlands",
+        "name":{
+            "en":"Netherlands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+31",
         "code":"NL",
         "flag":"🇳🇱"
     },
     {
-        "name":"Netherlands Antilles",
+        "name":{
+            "en":"Netherlands Antilles",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+599",
         "code":"AN",
         "flag":"🇦🇳"
     },
     {
-        "name":"New Caledonia",
+        "name":{
+            "en":"New Caledonia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+687",
         "code":"NC",
         "flag":"🇳🇨"
     },
     {
-        "name":"New Zealand",
+        "name":{
+            "en":"New Zealand",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+64",
         "code":"NZ",
         "flag":"🇳🇿"
     },
     {
-        "name":"Nicaragua",
+        "name":{
+            "en":"Nicaragua",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+505",
         "code":"NI",
         "flag":"🇳🇮"
     },
     {
-        "name":"Niger",
+        "name":{
+            "en":"Niger",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+227",
         "code":"NE",
         "flag":"🇳🇪"
     },
     {
-        "name":"Nigeria",
+        "name":{
+            "en":"Nigeria",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+234",
         "code":"NG",
         "flag":"🇳🇬"
     },
     {
-        "name":"Niue",
+        "name":{
+            "en":"Niue",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+683",
         "code":"NU",
         "flag":"🇳🇺"
     },
     {
-        "name":"Norfolk Island",
+        "name":{
+            "en":"Norfolk Island",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+672",
         "code":"NF",
         "flag":"🇳🇫"
     },
     {
-        "name":"Northern Mariana Islands",
+        "name":{
+            "en":"Northern Mariana Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1670",
         "code":"MP",
         "flag":"🇲🇵"
     },
     {
-        "name":"Norway",
+        "name":{
+            "en":"Norway",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+47",
         "code":"NO",
         "flag":"🇳🇴"
     },
     {
-        "name":"Oman",
+        "name":{
+            "en":"Oman",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+968",
         "code":"OM",
         "flag":"🇴🇲"
     },
     {
-        "name":"Pakistan",
+        "name":{
+            "en":"Pakistan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+92",
         "code":"PK",
         "flag":"🇵🇰"
     },
     {
-        "name":"Palau",
+        "name":{
+            "en":"Palau",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+680",
         "code":"PW",
         "flag":"🇵🇼"
     },
     {
-        "name":"Palestinian Territory, Occupied",
+        "name":{
+            "en":"Palestinian Territory, Occupied",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+970",
         "code":"PS",
         "flag":"🇵🇸"
     },
     {
-        "name":"Panama",
+        "name":{
+            "en":"Panama",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+507",
         "code":"PA",
         "flag":"🇵🇦"
     },
     {
-        "name":"Papua New Guinea",
+        "name":{
+            "en":"Papua New Guinea",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+675",
         "code":"PG",
         "flag":"🇵🇬"
     },
     {
-        "name":"Paraguay",
+        "name":{
+            "en":"Paraguay",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+595",
         "code":"PY",
         "flag":"🇵🇾"
     },
     {
-        "name":"Peru",
+        "name":{
+            "en":"Peru",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+51",
         "code":"PE",
         "flag":"🇵🇪"
     },
     {
-        "name":"Philippines",
+        "name":{
+            "en":"Philippines",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+63",
         "code":"PH",
         "flag":"🇵🇭"
     },
     {
-        "name":"Pitcairn",
+        "name":{
+            "en":"Pitcairn",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+872",
         "code":"PN",
         "flag":"🇵🇳"
     },
     {
-        "name":"Poland",
+        "name":{
+            "en":"Poland",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+48",
         "code":"PL",
         "flag":"🇵🇱"
     },
     {
-        "name":"Portugal",
+        "name":{
+            "en":"Portugal",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+351",
         "code":"PT",
         "flag":"🇵🇹"
     },
     {
-        "name":"Puerto Rico",
+        "name":{
+            "en":"Puerto Rico",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1939",
         "code":"PR",
         "flag":"🇵🇷"
     },
     {
-        "name":"Qatar",
+        "name":{
+            "en":"Qatar",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+974",
         "code":"QA",
         "flag":"🇶🇦"
     },
     {
-        "name":"Romania",
+        "name":{
+            "en":"Romania",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+40",
         "code":"RO",
         "flag":"🇷🇴"
     },
     {
-        "name":"Russia",
+        "name":{
+            "en":"Russia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+7",
         "code":"RU",
         "flag":"🇷🇺"
     },
     {
-        "name":"Rwanda",
+        "name":{
+            "en":"Rwanda",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+250",
         "code":"RW",
         "flag":"🇷🇼"
     },
     {
-        "name":"Réunion",
+        "name":{
+            "en":"Réunion",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+262",
         "code":"RE",
         "flag":"🇷🇪"
     },
     {
-        "name":"Saint Barthélemy",
+        "name":{
+            "en":"Saint Barthélemy",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+590",
         "code":"BL",
         "flag":"🇧🇱"
     },
     {
-        "name":"Saint Helena, Ascension and Tristan Da Cunha",
+        "name":{
+            "en":"Saint Helena, Ascension and Tristan Da Cunha",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+290",
         "code":"SH",
         "flag":"🇸🇭"
     },
     {
-        "name":"Saint Kitts and Nevis",
+        "name":{
+            "en":"Saint Kitts and Nevis",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1869",
         "code":"KN",
         "flag":"🇰🇳"
     },
     {
-        "name":"Saint Lucia",
+        "name":{
+            "en":"Saint Lucia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1758",
         "code":"LC",
         "flag":"🇱🇨"
     },
     {
-        "name":"Saint Martin",
+        "name":{
+            "en":"Saint Martin",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+590",
         "code":"MF",
         "flag":"🇲🇫"
     },
     {
-        "name":"Saint Pierre and Miquelon",
+        "name":{
+            "en":"Saint Pierre and Miquelon",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+508",
         "code":"PM",
         "flag":"🇵🇲"
     },
     {
-        "name":"Saint Vincent and the Grenadines",
+        "name":{
+            "en":"Saint Vincent and the Grenadines",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1784",
         "code":"VC",
         "flag":"🇻🇨"
     },
     {
-        "name":"Samoa",
+        "name":{
+            "en":"Samoa",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+685",
         "code":"WS",
         "flag":"🇼🇸"
     },
     {
-        "name":"San Marino",
+        "name":{
+            "en":"San Marino",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+378",
         "code":"SM",
         "flag":"🇸🇲"
     },
     {
-        "name":"Sao Tome and Principe",
+        "name":{
+            "en":"Sao Tome and Principe",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+239",
         "code":"ST",
         "flag":"🇸🇹"
     },
     {
-        "name":"Saudi Arabia",
+        "name":{
+            "en":"Saudi Arabia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+966",
         "code":"SA",
         "flag":"🇸🇦"
     },
     {
-        "name":"Senegal",
+        "name":{
+            "en":"Senegal",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+221",
         "code":"SN",
         "flag":"🇸🇳"
     },
     {
-        "name":"Serbia",
+        "name":{
+            "en":"Serbia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+381",
         "code":"RS",
         "flag":"🇷🇸"
     },
     {
-        "name":"Seychelles",
+        "name":{
+            "en":"Seychelles",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+248",
         "code":"SC",
         "flag":"🇸🇨"
     },
     {
-        "name":"Sierra Leone",
+        "name":{
+            "en":"Sierra Leone",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+232",
         "code":"SL",
         "flag":"🇸🇱"
     },
     {
-        "name":"Singapore",
+        "name":{
+            "en":"Singapore",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+65",
         "code":"SG",
         "flag":"🇸🇬"
     },
     {
-        "name":"Slovakia",
+        "name":{
+            "en":"Slovakia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+421",
         "code":"SK",
         "flag":"🇸🇰"
     },
     {
-        "name":"Slovenia",
+        "name":{
+            "en":"Slovenia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+386",
         "code":"SI",
         "flag":"🇸🇮"
     },
     {
-        "name":"Solomon Islands",
+        "name":{
+            "en":"Solomon Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+677",
         "code":"SB",
         "flag":"🇸🇧"
     },
     {
-        "name":"Somalia",
+        "name":{
+            "en":"Somalia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+252",
         "code":"SO",
         "flag":"🇸🇴"
     },
     {
-        "name":"South Africa",
+        "name":{
+            "en":"South Africa",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+27",
         "code":"ZA",
         "flag":"🇿🇦"
     },
     {
-        "name":"South Georgia and the South Sandwich Islands",
+        "name":{
+            "en":"South Georgia and the South Sandwich Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+500",
         "code":"GS",
         "flag":"🇬🇸"
     },
     {
-        "name":"Spain",
+        "name":{
+            "en":"Spain",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+34",
         "code":"ES",
         "flag":"🇪🇸"
     },
     {
-        "name":"Sri Lanka",
+        "name":{
+            "en":"Sri Lanka",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+94",
         "code":"LK",
         "flag":"🇱🇰"
     },
     {
-        "name":"Sudan",
+        "name":{
+            "en":"Sudan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+249",
         "code":"SD",
         "flag":"🇸🇩"
     },
     {
-        "name":"Suriname",
+        "name":{
+            "en":"Suriname",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+597",
         "code":"SR",
         "flag":"🇸🇷"
     },
     {
-        "name":"Svalbard and Jan Mayen",
+        "name":{
+            "en":"Svalbard and Jan Mayen",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+47",
         "code":"SJ",
         "flag":"🇸🇯"
     },
     {
-        "name":"Swaziland",
+        "name":{
+            "en":"Swaziland",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+268",
         "code":"SZ",
         "flag":"🇸🇿"
     },
     {
-        "name":"Sweden",
+        "name":{
+            "en":"Sweden",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+46",
         "code":"SE",
         "flag":"🇸🇪"
     },
     {
-        "name":"Switzerland",
+        "name":{
+            "en":"Switzerland",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+41",
         "code":"CH",
         "flag":"🇨🇭"
     },
     {
-        "name":"Syrian Arab Republic",
+        "name":{
+            "en":"Syrian Arab Republic",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+963",
         "code":"SY",
         "flag":"🇸🇾"
     },
     {
-        "name":"Taiwan, Province of China",
+        "name":{
+            "en":"Taiwan, Province of China",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+886",
         "code":"TW",
         "flag":"🇹🇼"
     },
     {
-        "name":"Tajikistan",
+        "name":{
+            "en":"Tajikistan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+992",
         "code":"TJ",
         "flag":"🇹🇯"
     },
     {
-        "name":"Tanzania, United Republic of",
+        "name":{
+            "en":"Tanzania, United Republic of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+255",
         "code":"TZ",
         "flag":"🇹🇿"
     },
     {
-        "name":"Thailand",
+        "name":{
+            "en":"Thailand",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+66",
         "code":"TH",
         "flag":"🇹🇭"
     },
     {
-        "name":"Timor-Leste",
+        "name":{
+            "en":"Timor-Leste",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+670",
         "code":"TL",
         "flag":"🇹🇱"
     },
     {
-        "name":"Togo",
+        "name":{
+            "en":"Togo",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+228",
         "code":"TG",
         "flag":"🇹🇬"
     },
     {
-        "name":"Tokelau",
+        "name":{
+            "en":"Tokelau",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+690",
         "code":"TK",
         "flag":"🇹🇰"
     },
     {
-        "name":"Tonga",
+        "name":{
+            "en":"Tonga",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+676",
         "code":"TO",
         "flag":"🇹🇴"
     },
     {
-        "name":"Trinidad and Tobago",
+        "name":{
+            "en":"Trinidad and Tobago",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1868",
         "code":"TT",
         "flag":"🇹🇹"
     },
     {
-        "name":"Tunisia",
+        "name":{
+            "en":"Tunisia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+216",
         "code":"TN",
         "flag":"🇹🇳"
     },
     {
-        "name":"Turkey",
+        "name":{
+            "en":"Turkey",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+90",
         "code":"TR",
         "flag":"🇹🇷"
     },
     {
-        "name":"Turkmenistan",
+        "name":{
+            "en":"Turkmenistan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+993",
         "code":"TM",
         "flag":"🇹🇲"
     },
     {
-        "name":"Turks and Caicos Islands",
+        "name":{
+            "en":"Turks and Caicos Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1649",
         "code":"TC",
         "flag":"🇹🇨"
     },
     {
-        "name":"Tuvalu",
+        "name":{
+            "en":"Tuvalu",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+688",
         "code":"TV",
         "flag":"🇹🇻"
     },
     {
-        "name":"Uganda",
+        "name":{
+            "en":"Uganda",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+256",
         "code":"UG",
         "flag":"🇺🇬"
     },
     {
-        "name":"Ukraine",
+        "name":{
+            "en":"Ukraine",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+380",
         "code":"UA",
         "flag":"🇺🇦"
     },
     {
-        "name":"United Arab Emirates",
+        "name":{
+            "en":"United Arab Emirates",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+971",
         "code":"AE",
-        "preferred":true,
         "flag":"🇦🇪"
     },
     {
-        "name":"United Kingdom",
+        "name":{
+            "en":"United Kingdom",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+44",
         "code":"GB",
-        "preferred":true,
         "flag":"🇬🇧"
     },
     {
-        "name":"United States",
+        "name":{
+            "en":"United States",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1",
         "code":"US",
-        "preferred":true,
         "flag":"🇺🇸"
     },
     {
-        "name":"Uruguay",
+        "name":{
+            "en":"Uruguay",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+598",
         "code":"UY",
         "flag":"🇺🇾"
     },
     {
-        "name":"Uzbekistan",
+        "name":{
+            "en":"Uzbekistan",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+998",
         "code":"UZ",
         "flag":"🇺🇿"
     },
     {
-        "name":"Vanuatu",
+        "name":{
+            "en":"Vanuatu",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+678",
         "code":"VU",
         "flag":"🇻🇺"
     },
     {
-        "name":"Venezuela, Bolivarian Republic of",
+        "name":{
+            "en":"Venezuela, Bolivarian Republic of",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+58",
         "code":"VE",
         "flag":"🇻🇪"
     },
     {
-        "name":"Viet Nam",
+        "name":{
+            "en":"Viet Nam",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+84",
         "code":"VN",
         "flag":"🇻🇳"
     },
     {
-        "name":"Virgin Islands, British",
+        "name":{
+            "en":"Virgin Islands, British",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1284",
         "code":"VG",
         "flag":"🇻🇬"
     },
     {
-        "name":"Virgin Islands, U.S.",
+        "name":{
+            "en":"Virgin Islands, U.S.",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+1340",
         "code":"VI",
         "flag":"🇻🇮"
     },
     {
-        "name":"Wallis and Futuna",
+        "name":{
+            "en":"Wallis and Futuna",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+681",
         "code":"WF",
         "flag":"🇼🇫"
     },
     {
-        "name":"Yemen",
+        "name":{
+            "en":"Yemen",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+967",
         "code":"YE",
         "flag":"🇾🇪"
     },
     {
-        "name":"Zambia",
+        "name":{
+            "en":"Zambia",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+260",
         "code":"ZM",
         "flag":"🇿🇲"
     },
     {
-        "name":"Zimbabwe",
+        "name":{
+            "en":"Zimbabwe",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+263",
         "code":"ZW",
         "flag":"🇿🇼"
     },
     {
-        "name":"Åland Islands",
+        "name":{
+            "en":"Åland Islands",
+            "ru":"",
+            "pl":"",
+            "ua":"",
+            "cz":"",
+            "by":""
+        },
         "dial_code":"+358",
         "code":"AX",
         "flag":"🇦🇽"
     }
-];
+]

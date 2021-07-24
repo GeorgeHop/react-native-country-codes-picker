@@ -1,6 +1,6 @@
 {
   "name": "react-native-country-codes-picker",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "This lib. provide country iso picker with search functionality",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/GeorgeHop/react-native-country-codes-picker/issues"
   },
+  "contributors": [
+    {
+      "name": "Mutovkin Yurii",
+      "email": "georgehopekek@gmail.com",
+      "url": "https://github.com/GeorgeHop"
+    }
+  ],
   "homepage": "https://github.com/GeorgeHop/react-native-country-codes-picker#readme"
 }

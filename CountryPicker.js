@@ -1,19 +1,15 @@
 import React, {useRef} from 'react';
 import { FlatList, TextInput, Keyboard, Easing, TouchableOpacity, View, Text, Animated, Dimensions, KeyboardAvoidingView } from 'react-native';
 import {countryCodes} from "./constants/countryCodes";
-import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
 import {CountryButton} from "./components/CountryButton";
 
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
-export const CountryPicker = ({show, setClose, pickerButtonOnPress, onBackdropClose}) => {
+export const CountryPicker = ({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang}) => {
     // ToDo need to add prop types
     const [animationDriver] = React.useState(new Animated.Value(0));
-    const animated = useRef(new Animated.Value(0)).current;
-    const keyboardStatus = useKeyboardStatus();
     const [searchValue, setSearchValue] = React.useState('');
-    const [result, setResult] = React.useState([]);
 
     React.useEffect(() => {
         if(show) {
@@ -27,15 +23,12 @@ export const CountryPicker = ({show, setClose, pickerButtonOnPress, onBackdropCl
         }
     }, [show]);
 
-    React.useEffect(() => {
-        if(!keyboardStatus) {
-            animateOut()
-        } else {
-            animateIn()
-        }
-    },[keyboardStatus]);
+    const resultCountries = React.useMemo(() => {
+        if (!isNaN(searchValue))
+            return countryCodes.filter(country => country?.dial_code.includes(searchValue))
 
-    React.useEffect(() => setResult(countryCodes.filter(country => country?.name.includes(searchValue))),[searchValue]);
+        return countryCodes.filter(country => country?.name[lang || 'en'].includes(searchValue))
+    },[searchValue]);
 
     const modalPosition = animationDriver.interpolate({
         inputRange: [0, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 1],
@@ -44,37 +37,13 @@ export const CountryPicker = ({show, setClose, pickerButtonOnPress, onBackdropCl
         useNativeDriver: true,
     });
 
-    const size = animated.interpolate({
-        inputRange: [0, 1],
-        outputRange: [width - 20, width - 90]
-    });
-
     const closeModal = () => {
         Animated.timing(animationDriver, {
             toValue: 0,
             duration: 400,
             useNativeDriver: false
         }).start();
-    }
-
-    const animateIn = () => {
-        Animated.timing(animated, {
-            toValue: 1,
-            duration: 300,
-            easing: Easing.ease,
-            useNativeDriver: false
-        }).start();
     };
-
-    const animateOut = () => {
-        Keyboard.dismiss();
-        Animated.timing(animated, {
-            toValue: 0,
-            duration: 300,
-            easing: Easing.ease,
-            useNativeDriver: false
-        }).start();
-    }
 
     return(
         <Animated.View
@@ -97,38 +66,16 @@ export const CountryPicker = ({show, setClose, pickerButtonOnPress, onBackdropCl
             >
                 <Animated.View
                     style={{
-                        width: size || '100%'
+                        width: '100%'
                     }}
                 >
                     <TextInput
                         style={styles.searchBar}
                         value={searchValue}
                         onChangeText={(text) => setSearchValue(text)}
-                        placeholder={'Search your country'}
+                        placeholder={inputPlaceholder || 'Search your country'}
                     />
                 </Animated.View>
-                <TouchableOpacity
-                    onPress={() => {
-                        setSearchValue('')
-                        animateOut()
-                    }}
-                    style={{
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        padding: 10,
-                    }}
-                >
-                    <Text
-                        style={{
-                            color: '#42a5f5',
-                            fontSize: 15,
-                            width: 65,
-                            top: 3,
-                        }}
-                    >
-                        Cancel
-                    </Text>
-                </TouchableOpacity>
             </View>
             <View
                 style={{
@@ -140,7 +87,7 @@ export const CountryPicker = ({show, setClose, pickerButtonOnPress, onBackdropCl
                     marginVertical: 5,
                 }}
             />
-            {result.length === 0 ? (
+            {resultCountries.length === 0 ? (
                 <View
                     style={{
                         justifyContent: 'center',
@@ -154,20 +101,21 @@ export const CountryPicker = ({show, setClose, pickerButtonOnPress, onBackdropCl
                             fontSize: 16,
                         }}
                     >
-                        Sorry we cant find your country :(
+                        {searchMessage || 'Sorry we cant find your country :('}
                     </Text>
                 </View>
             ) : (
                 <FlatList
                     // ToDo add showing new countries only when fat list is scrolling using onScroll
                     showsVerticalScrollIndicator={false}
-                    data={!!result ? result : countryCodes}
+                    data={resultCountries || countryCodes}
                     keyExtractor={(item, index) => item + index}
                     initialNumToRender={7}
                     renderItem={({item, index}) => (
                         <CountryButton
                             key={index}
                             item={item}
+                            name={item?.name[lang || 'en']}
                             onPress={() => {
                                 pickerButtonOnPress(item)
                                 closeModal()

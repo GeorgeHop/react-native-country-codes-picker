@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, TouchableOpacity} from "react-native";
 
-export const CountryButton = ({item, ...rest}) => (
+export const CountryButton = ({item, name, ...rest}) => (
     <TouchableOpacity
         style={styles.countryButton}
         {...rest}
@@ -19,7 +19,7 @@ export const CountryButton = ({item, ...rest}) => (
         <Text style={{
             flex: 1
         }}>
-            {item?.name}
+            {name}
         </Text>
     </TouchableOpacity>
 );
