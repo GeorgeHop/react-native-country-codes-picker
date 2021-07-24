@@ -6,7 +6,7 @@ import {CountryButton} from "./CountryButton";
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
-export default function CountryPicker({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang}) {
+export default function CountryPicker({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang = 'en'}) {
     // ToDo need to add prop types
     const [animationDriver] = React.useState(new Animated.Value(0));
     const [searchValue, setSearchValue] = React.useState('');
@@ -111,17 +111,22 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
                     data={resultCountries || countryCodes}
                     keyExtractor={(item, index) => item + index}
                     initialNumToRender={7}
-                    renderItem={({item, index}) => (
-                        <CountryButton
-                            key={index}
-                            item={item}
-                            name={item?.name[lang || 'en']}
-                            onPress={() => {
-                                pickerButtonOnPress(item)
-                                closeModal()
-                            }}
-                        />
-                    )}
+                    renderItem={({item, index}) => {
+                        let itemName = item?.name[lang];
+                        let checkName = itemName.length ? itemName : item?.name['en'];
+
+                        return(
+                            <CountryButton
+                                key={index}
+                                item={item}
+                                name={checkName}
+                                onPress={() => {
+                                    pickerButtonOnPress(item)
+                                    closeModal()
+                                }}
+                            />
+                        )
+                    }}
                 />
             )}
         </Animated.View>

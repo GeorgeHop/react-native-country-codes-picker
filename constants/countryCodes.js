@@ -2,7 +2,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Afghanistan",
-            "ru":"",
+            "ru":"Афганистан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -15,7 +15,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Albania",
-            "ru":"",
+            "ru":"Албания",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -28,7 +28,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Algeria",
-            "ru":"",
+            "ru":"Алжир",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -40,8 +40,8 @@ export const countryCodes = [
     },
     {
         "name":{
-            "en":"AmericanSamoa",
-            "ru":"",
+            "en":"American Samoa",
+            "ru":"Американское Самоа",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -54,7 +54,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Andorra",
-            "ru":"",
+            "ru":"Андорра",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -67,7 +67,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Angola",
-            "ru":"",
+            "ru":"Ангола",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -80,7 +80,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Anguilla",
-            "ru":"",
+            "ru":"Ангилья",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -93,7 +93,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Antarctica",
-            "ru":"",
+            "ru":"Антарктида",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -106,7 +106,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Antigua and Barbuda",
-            "ru":"",
+            "ru":"Антигуа и Барбуда",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -119,7 +119,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Argentina",
-            "ru":"",
+            "ru":"Аргентина",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -132,7 +132,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Armenia",
-            "ru":"",
+            "ru":"Армения",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -145,7 +145,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Aruba",
-            "ru":"",
+            "ru":"Аруба",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -158,7 +158,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Australia",
-            "ru":"",
+            "ru":"Австралия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -171,7 +171,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Austria",
-            "ru":"",
+            "ru":"Австрия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -184,7 +184,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Azerbaijan",
-            "ru":"",
+            "ru":"Азербайджан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -197,7 +197,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Bahamas",
-            "ru":"",
+            "ru":"Багамские Острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -210,7 +210,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Bahrain",
-            "ru":"",
+            "ru":"Бахрейн",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -223,7 +223,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Bangladesh",
-            "ru":"",
+            "ru":"Бангладеш",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -236,7 +236,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Barbados",
-            "ru":"",
+            "ru":"Барбадос",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -249,7 +249,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Belarus",
-            "ru":"",
+            "ru":"Белоруссия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -262,7 +262,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Belgium",
-            "ru":"",
+            "ru":"Бельгия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -275,7 +275,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Belize",
-            "ru":"",
+            "ru":"Белиз",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -288,7 +288,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Benin",
-            "ru":"",
+            "ru":"Бенин",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -301,7 +301,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Bermuda",
-            "ru":"",
+            "ru":"Бермуды",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -314,7 +314,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Bhutan",
-            "ru":"",
+            "ru":"Бутан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -326,8 +326,8 @@ export const countryCodes = [
     },
     {
         "name":{
-            "en":"Bolivia, Plurinational State of",
-            "ru":"",
+            "en":"Bolivia",
+            "ru":"Боливия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -340,7 +340,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Bosnia and Herzegovina",
-            "ru":"",
+            "ru":"Босния и Герцеговина",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -353,7 +353,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Botswana",
-            "ru":"",
+            "ru":"Ботсвана",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -366,7 +366,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Brazil",
-            "ru":"",
+            "ru":"Бразилия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -379,7 +379,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"British Indian Ocean Territory",
-            "ru":"",
+            "ru":"Британская территория Индийского океана",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -392,7 +392,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Brunei Darussalam",
-            "ru":"",
+            "ru":"Бруней-Даруссалам",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -405,7 +405,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Bulgaria",
-            "ru":"",
+            "ru":"Болгария",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -418,7 +418,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Burkina Faso",
-            "ru":"",
+            "ru":"Буркина-Фасо",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -431,7 +431,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Burundi",
-            "ru":"",
+            "ru":"Бурунди",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -444,7 +444,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cambodia",
-            "ru":"",
+            "ru":"Камбоджа",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -457,7 +457,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cameroon",
-            "ru":"",
+            "ru":"Камерун",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -470,7 +470,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Canada",
-            "ru":"",
+            "ru":"Канада",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -483,7 +483,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cape Verde",
-            "ru":"",
+            "ru":"Кабо-Верде",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -496,7 +496,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cayman Islands",
-            "ru":"",
+            "ru":"Каймановы острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -509,7 +509,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Central African Republic",
-            "ru":"",
+            "ru":"Центрально-Африканская Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -522,7 +522,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Chad",
-            "ru":"",
+            "ru":"Чад",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -535,7 +535,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Chile",
-            "ru":"",
+            "ru":"Чили",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -548,7 +548,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"China",
-            "ru":"",
+            "ru":"Китай",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -561,7 +561,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Christmas Island",
-            "ru":"",
+            "ru":"Остров Рождества",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -574,7 +574,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cocos (Keeling) Islands",
-            "ru":"",
+            "ru":"Кокосовые (Килинг) острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -587,7 +587,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Colombia",
-            "ru":"",
+            "ru":"Колумбия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -600,7 +600,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Comoros",
-            "ru":"",
+            "ru":"Коморские острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -613,7 +613,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Congo",
-            "ru":"",
+            "ru":"Конго",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -626,7 +626,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Congo, The Democratic Republic of the",
-            "ru":"",
+            "ru":"Конго, Демократическая Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -639,7 +639,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cook Islands",
-            "ru":"",
+            "ru":"Острова Кука",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -652,7 +652,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Costa Rica",
-            "ru":"",
+            "ru":"Коста-Рика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -665,7 +665,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cote d'Ivoire",
-            "ru":"",
+            "ru":"Кот-д'Ивуар",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -678,7 +678,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Croatia",
-            "ru":"",
+            "ru":"Хорватия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -691,7 +691,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cuba",
-            "ru":"",
+            "ru":"Куба",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -704,7 +704,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Cyprus",
-            "ru":"",
+            "ru":"Кипр",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -717,7 +717,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Czech Republic",
-            "ru":"",
+            "ru":"Чехия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -730,7 +730,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Denmark",
-            "ru":"",
+            "ru":"Дания",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -743,7 +743,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Djibouti",
-            "ru":"",
+            "ru":"Джибути",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -756,7 +756,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Dominica",
-            "ru":"",
+            "ru":"Доминика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -769,7 +769,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Dominican Republic",
-            "ru":"",
+            "ru":"Доминиканская Респблика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -782,7 +782,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Ecuador",
-            "ru":"",
+            "ru":"Эквадор",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -795,7 +795,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Egypt",
-            "ru":"",
+            "ru":"Египет",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -808,7 +808,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"El Salvador",
-            "ru":"",
+            "ru":"Сальвадор",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -821,7 +821,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Equatorial Guinea",
-            "ru":"",
+            "ru":"Экваториальная Гвинея",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -834,7 +834,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Eritrea",
-            "ru":"",
+            "ru":"Эритрея",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -847,7 +847,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Estonia",
-            "ru":"",
+            "ru":"Эстония",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -860,7 +860,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Ethiopia",
-            "ru":"",
+            "ru":"Эфиопия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -873,7 +873,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Falkland Islands (Malvinas)",
-            "ru":"",
+            "ru":"Фолклендские острова (Malvinas)",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -886,7 +886,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Faroe Islands",
-            "ru":"",
+            "ru":"Фарерские острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -899,7 +899,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Fiji",
-            "ru":"",
+            "ru":"Фиджи",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -912,7 +912,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Finland",
-            "ru":"",
+            "ru":"Финляндия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -925,7 +925,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"France",
-            "ru":"",
+            "ru":"Франция",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -938,7 +938,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"French Guiana",
-            "ru":"",
+            "ru":"Французская Гвиана",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -951,7 +951,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"French Polynesia",
-            "ru":"",
+            "ru":"Французская Полинезия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -964,7 +964,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Gabon",
-            "ru":"",
+            "ru":"Габон",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -977,7 +977,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Gambia",
-            "ru":"",
+            "ru":"Гамбия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -990,7 +990,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Georgia",
-            "ru":"",
+            "ru":"Грузия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1003,7 +1003,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Germany",
-            "ru":"",
+            "ru":"Германия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1016,7 +1016,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Ghana",
-            "ru":"",
+            "ru":"Гана",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1029,7 +1029,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Gibraltar",
-            "ru":"",
+            "ru":"Гибралтар",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1042,7 +1042,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Greece",
-            "ru":"",
+            "ru":"Греция",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1055,7 +1055,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Greenland",
-            "ru":"",
+            "ru":"Гренландия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1068,7 +1068,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Grenada",
-            "ru":"",
+            "ru":"Гренада",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1081,7 +1081,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Guadeloupe",
-            "ru":"",
+            "ru":"Гваделупа",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1094,7 +1094,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Guam",
-            "ru":"",
+            "ru":"Гуам",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1107,7 +1107,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Guatemala",
-            "ru":"",
+            "ru":"Гватемала",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1120,7 +1120,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Guernsey",
-            "ru":"",
+            "ru":"Гернси",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1133,7 +1133,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Guinea",
-            "ru":"",
+            "ru":"Гвинея",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1146,7 +1146,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Guinea-Bissau",
-            "ru":"",
+            "ru":"Гвинея-Бисау",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1159,7 +1159,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Guyana",
-            "ru":"",
+            "ru":"Гайана",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1172,7 +1172,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Haiti",
-            "ru":"",
+            "ru":"Гаити",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1185,7 +1185,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Holy See (Vatican City State)",
-            "ru":"",
+            "ru":"Святой Престол (Vatican City State)",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1198,7 +1198,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Honduras",
-            "ru":"",
+            "ru":"Гондурас",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1211,7 +1211,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Hong Kong",
-            "ru":"",
+            "ru":"Гонконг",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1224,7 +1224,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Hungary",
-            "ru":"",
+            "ru":"Венгрия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1237,7 +1237,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Iceland",
-            "ru":"",
+            "ru":"Исландия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1250,7 +1250,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"India",
-            "ru":"",
+            "ru":"Индия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1263,7 +1263,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Indonesia",
-            "ru":"",
+            "ru":"Индонезия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1276,7 +1276,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Iran, Islamic Republic of",
-            "ru":"",
+            "ru":"Иран, Исламская Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1289,7 +1289,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Iraq",
-            "ru":"",
+            "ru":"Ирак",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1302,7 +1302,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Ireland",
-            "ru":"",
+            "ru":"Ирландия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1315,7 +1315,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Isle of Man",
-            "ru":"",
+            "ru":"Остров Мэн",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1328,7 +1328,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Israel",
-            "ru":"",
+            "ru":"Израиль",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1341,7 +1341,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Italy",
-            "ru":"",
+            "ru":"Италия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1354,7 +1354,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Jamaica",
-            "ru":"",
+            "ru":"Ямайка",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1367,7 +1367,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Japan",
-            "ru":"",
+            "ru":"Япония",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1380,7 +1380,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Jersey",
-            "ru":"",
+            "ru":"Джерси",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1393,7 +1393,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Jordan",
-            "ru":"",
+            "ru":"Иордания",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1406,7 +1406,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Kazakhstan",
-            "ru":"",
+            "ru":"Казахстан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1419,7 +1419,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Kenya",
-            "ru":"",
+            "ru":"Кения",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1432,7 +1432,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Kiribati",
-            "ru":"",
+            "ru":"Кирибати",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1445,7 +1445,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Korea, Democratic People's Republic of",
-            "ru":"",
+            "ru":"Корея, Народно-Демократическая Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1458,7 +1458,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Korea, Republic of",
-            "ru":"",
+            "ru":"Республика Корея",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1471,7 +1471,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Kuwait",
-            "ru":"",
+            "ru":"Кувейт",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1484,7 +1484,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Kyrgyzstan",
-            "ru":"",
+            "ru":"Kyrgyzstan",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1497,7 +1497,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Lao People's Democratic Republic",
-            "ru":"",
+            "ru":"Лаосская Народно-Демократическая Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1510,7 +1510,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Latvia",
-            "ru":"",
+            "ru":"Латвия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1523,7 +1523,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Lebanon",
-            "ru":"",
+            "ru":"Ливан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1536,7 +1536,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Lesotho",
-            "ru":"",
+            "ru":"Лесото",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1549,7 +1549,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Liberia",
-            "ru":"",
+            "ru":"Либерия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1562,7 +1562,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Libyan Arab Jamahiriya",
-            "ru":"",
+            "ru":"Ливийская Арабская Джамахирия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1575,7 +1575,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Liechtenstein",
-            "ru":"",
+            "ru":"Лихтенштейн",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1588,7 +1588,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Lithuania",
-            "ru":"",
+            "ru":"Литва",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1601,7 +1601,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Luxembourg",
-            "ru":"",
+            "ru":"Люксембург",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1614,7 +1614,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Macao",
-            "ru":"",
+            "ru":"Макао",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1627,7 +1627,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Macedonia, The Former Yugoslav Republic of",
-            "ru":"",
+            "ru":"Македония, Бывшая Югославская Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1640,7 +1640,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Madagascar",
-            "ru":"",
+            "ru":"Мадагаскар",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1653,7 +1653,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Malawi",
-            "ru":"",
+            "ru":"Малави",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1666,7 +1666,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Malaysia",
-            "ru":"",
+            "ru":"Малайзия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1679,7 +1679,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Maldives",
-            "ru":"",
+            "ru":"Мальдивы",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1692,7 +1692,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Mali",
-            "ru":"",
+            "ru":"Мали",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1705,7 +1705,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Malta",
-            "ru":"",
+            "ru":"Мальта",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1718,7 +1718,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Marshall Islands",
-            "ru":"",
+            "ru":"Маршалловы острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1731,7 +1731,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Martinique",
-            "ru":"",
+            "ru":"Мартиника",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1744,7 +1744,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Mauritania",
-            "ru":"",
+            "ru":"Мавритания",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1757,7 +1757,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Mauritius",
-            "ru":"",
+            "ru":"Маврикий",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1770,7 +1770,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Mayotte",
-            "ru":"",
+            "ru":"Майотта",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1783,7 +1783,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Mexico",
-            "ru":"",
+            "ru":"Мексика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1796,7 +1796,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Micronesia, Federated States of",
-            "ru":"",
+            "ru":"Микронезия, Федеративные Штаты",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1809,7 +1809,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Moldova, Republic of",
-            "ru":"",
+            "ru":"Молдова, Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1822,7 +1822,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Monaco",
-            "ru":"",
+            "ru":"Монако",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1835,7 +1835,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Mongolia",
-            "ru":"",
+            "ru":"Монголия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1848,7 +1848,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Montenegro",
-            "ru":"",
+            "ru":"Черногория",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1861,7 +1861,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Montserrat",
-            "ru":"",
+            "ru":"Монтсеррат",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1874,7 +1874,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Morocco",
-            "ru":"",
+            "ru":"Марокко",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1887,7 +1887,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Mozambique",
-            "ru":"",
+            "ru":"Мозамбик",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1900,7 +1900,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Myanmar",
-            "ru":"",
+            "ru":"Мьянма",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1913,7 +1913,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Namibia",
-            "ru":"",
+            "ru":"Намибия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1926,7 +1926,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Nauru",
-            "ru":"",
+            "ru":"Науру",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1939,7 +1939,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Nepal",
-            "ru":"",
+            "ru":"Непал",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1952,7 +1952,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Netherlands",
-            "ru":"",
+            "ru":"Нидерланды",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1965,7 +1965,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Netherlands Antilles",
-            "ru":"",
+            "ru":"Нидерландские Антильские острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1978,7 +1978,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"New Caledonia",
-            "ru":"",
+            "ru":"Новая Каледония",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -1991,7 +1991,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"New Zealand",
-            "ru":"",
+            "ru":"Новая Зеландия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2004,7 +2004,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Nicaragua",
-            "ru":"",
+            "ru":"Никарагуа",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2017,7 +2017,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Niger",
-            "ru":"",
+            "ru":"Нигер",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2030,7 +2030,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Nigeria",
-            "ru":"",
+            "ru":"Нигерия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2043,7 +2043,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Niue",
-            "ru":"",
+            "ru":"Ниуэ",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2056,7 +2056,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Norfolk Island",
-            "ru":"",
+            "ru":"Остров Норфолк",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2069,7 +2069,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Northern Mariana Islands",
-            "ru":"",
+            "ru":"Северные Марианские острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2082,7 +2082,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Norway",
-            "ru":"",
+            "ru":"Норвегия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2095,7 +2095,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Oman",
-            "ru":"",
+            "ru":"Оман",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2108,7 +2108,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Pakistan",
-            "ru":"",
+            "ru":"Пакистан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2121,7 +2121,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Palau",
-            "ru":"",
+            "ru":"Палау",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2134,7 +2134,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Palestinian Territory, Occupied",
-            "ru":"",
+            "ru":"Палестинская Территория, Оккупированная",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2147,7 +2147,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Panama",
-            "ru":"",
+            "ru":"Панама",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2160,7 +2160,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Papua New Guinea",
-            "ru":"",
+            "ru":"Папуа - Новая Гвинея",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2173,7 +2173,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Paraguay",
-            "ru":"",
+            "ru":"Парагвай",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2186,7 +2186,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Peru",
-            "ru":"",
+            "ru":"Перу",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2199,7 +2199,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Philippines",
-            "ru":"",
+            "ru":"Филиппины",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2212,7 +2212,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Pitcairn",
-            "ru":"",
+            "ru":"Питкэрн",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2225,7 +2225,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Poland",
-            "ru":"",
+            "ru":"Польша",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2238,7 +2238,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Portugal",
-            "ru":"",
+            "ru":"Португалия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2251,7 +2251,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Puerto Rico",
-            "ru":"",
+            "ru":"Пуэрто-Рико",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2264,7 +2264,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Qatar",
-            "ru":"",
+            "ru":"Катар",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2277,7 +2277,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Romania",
-            "ru":"",
+            "ru":"Румыния",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2290,7 +2290,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Russia",
-            "ru":"",
+            "ru":"Россия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2303,7 +2303,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Rwanda",
-            "ru":"",
+            "ru":"Руанда",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2316,7 +2316,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Réunion",
-            "ru":"",
+            "ru":"Реюньон",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2329,7 +2329,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saint Barthélemy",
-            "ru":"",
+            "ru":"Святой Варфоломей",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2342,7 +2342,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saint Helena, Ascension and Tristan Da Cunha",
-            "ru":"",
+            "ru":"Святой Елены, Вознесения и Тристан-да-Кунья",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2355,7 +2355,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saint Kitts and Nevis",
-            "ru":"",
+            "ru":"Сент-Китс и Невис",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2368,7 +2368,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saint Lucia",
-            "ru":"",
+            "ru":"Санкт-Люсия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2381,7 +2381,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saint Martin",
-            "ru":"",
+            "ru":"Сен-Мартен",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2394,7 +2394,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saint Pierre and Miquelon",
-            "ru":"",
+            "ru":"Сен-Пьер и Микелон",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2407,7 +2407,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saint Vincent and the Grenadines",
-            "ru":"",
+            "ru":"Святой Винсент и Гренадины",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2420,7 +2420,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Samoa",
-            "ru":"",
+            "ru":"Самоа",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2433,7 +2433,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"San Marino",
-            "ru":"",
+            "ru":"Сан-Марино",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2446,7 +2446,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Sao Tome and Principe",
-            "ru":"",
+            "ru":"Сан-Томе и Принсипи",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2459,7 +2459,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Saudi Arabia",
-            "ru":"",
+            "ru":"Саудовская Аравия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2472,7 +2472,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Senegal",
-            "ru":"",
+            "ru":"Сенегал",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2485,7 +2485,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Serbia",
-            "ru":"",
+            "ru":"Сербия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2498,7 +2498,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Seychelles",
-            "ru":"",
+            "ru":"Сейшельские острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2511,7 +2511,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Sierra Leone",
-            "ru":"",
+            "ru":"Сьерра-Леоне",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2524,7 +2524,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Singapore",
-            "ru":"",
+            "ru":"Сингапур",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2537,7 +2537,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Slovakia",
-            "ru":"",
+            "ru":"Словакия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2550,7 +2550,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Slovenia",
-            "ru":"",
+            "ru":"Словения",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2563,7 +2563,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Solomon Islands",
-            "ru":"",
+            "ru":"Соломоновы острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2576,7 +2576,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Somalia",
-            "ru":"",
+            "ru":"Сомали",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2589,7 +2589,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"South Africa",
-            "ru":"",
+            "ru":"Южная Африка",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2602,7 +2602,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"South Georgia and the South Sandwich Islands",
-            "ru":"",
+            "ru":"Южная Георгия и Южные Сандвичевы острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2615,7 +2615,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Spain",
-            "ru":"",
+            "ru":"Испания",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2628,7 +2628,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Sri Lanka",
-            "ru":"",
+            "ru":"Шри-Ланка",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2641,7 +2641,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Sudan",
-            "ru":"",
+            "ru":"Судан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2654,7 +2654,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Suriname",
-            "ru":"",
+            "ru":"Суринам",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2667,7 +2667,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Svalbard and Jan Mayen",
-            "ru":"",
+            "ru":"Шпицберген и Ян Майен",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2680,7 +2680,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Swaziland",
-            "ru":"",
+            "ru":"Свазиленд",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2693,7 +2693,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Sweden",
-            "ru":"",
+            "ru":"Швеция",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2706,7 +2706,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Switzerland",
-            "ru":"",
+            "ru":"Швейцария",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2719,7 +2719,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Syrian Arab Republic",
-            "ru":"",
+            "ru":"Сирийская Арабская Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2732,7 +2732,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Taiwan, Province of China",
-            "ru":"",
+            "ru":"Тайвань, провинция Китая",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2745,7 +2745,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Tajikistan",
-            "ru":"",
+            "ru":"Таджикистан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2758,7 +2758,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Tanzania, United Republic of",
-            "ru":"",
+            "ru":"Танзания, Объединенная Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2771,7 +2771,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Thailand",
-            "ru":"",
+            "ru":"Таиланд",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2784,7 +2784,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Timor-Leste",
-            "ru":"",
+            "ru":"Восточный Тимор",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2797,7 +2797,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Togo",
-            "ru":"",
+            "ru":"Того",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2810,7 +2810,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Tokelau",
-            "ru":"",
+            "ru":"Токелау",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2823,7 +2823,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Tonga",
-            "ru":"",
+            "ru":"Тонга",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2836,7 +2836,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Trinidad and Tobago",
-            "ru":"",
+            "ru":"Тринидад и Тобаго",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2849,7 +2849,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Tunisia",
-            "ru":"",
+            "ru":"Тунис",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2862,7 +2862,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Turkey",
-            "ru":"",
+            "ru":"Турция",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2875,7 +2875,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Turkmenistan",
-            "ru":"",
+            "ru":"Туркменистан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2888,7 +2888,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Turks and Caicos Islands",
-            "ru":"",
+            "ru":"Острова Теркс и Кайкос",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2901,7 +2901,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Tuvalu",
-            "ru":"",
+            "ru":"Тувалу",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2914,7 +2914,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Uganda",
-            "ru":"",
+            "ru":"Уганда",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2927,7 +2927,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Ukraine",
-            "ru":"",
+            "ru":"Украина",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2940,7 +2940,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"United Arab Emirates",
-            "ru":"",
+            "ru":"Объединенные Арабские Эмираты",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2953,7 +2953,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"United Kingdom",
-            "ru":"",
+            "ru":"Объединенное Королевство",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2966,7 +2966,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"United States",
-            "ru":"",
+            "ru":"Соединенные Штаты",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2979,7 +2979,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Uruguay",
-            "ru":"",
+            "ru":"Уругвай",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -2992,7 +2992,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Uzbekistan",
-            "ru":"",
+            "ru":"Узбекистан",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3005,7 +3005,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Vanuatu",
-            "ru":"",
+            "ru":"Вануату",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3018,7 +3018,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Venezuela, Bolivarian Republic of",
-            "ru":"",
+            "ru":"Венесуэла, Боливарианская Республика",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3031,7 +3031,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Viet Nam",
-            "ru":"",
+            "ru":"Вьетнам",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3044,7 +3044,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Virgin Islands, British",
-            "ru":"",
+            "ru":"Виргинские острова, Британские",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3057,7 +3057,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Virgin Islands, U.S.",
-            "ru":"",
+            "ru":"Американские Виргинские острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3070,7 +3070,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Wallis and Futuna",
-            "ru":"",
+            "ru":"Уоллис и Футуна",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3083,7 +3083,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Yemen",
-            "ru":"",
+            "ru":"Йемен",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3096,7 +3096,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Zambia",
-            "ru":"",
+            "ru":"Замбия",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3109,7 +3109,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Zimbabwe",
-            "ru":"",
+            "ru":"Зимбабве",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3122,7 +3122,7 @@ export const countryCodes = [
     {
         "name":{
             "en":"Åland Islands",
-            "ru":"",
+            "ru":"Аландские острова",
             "pl":"",
             "ua":"",
             "cz":"",
@@ -3132,4 +3132,4 @@ export const countryCodes = [
         "code":"AX",
         "flag":"🇦🇽"
     }
-]
+];
