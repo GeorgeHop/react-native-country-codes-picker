@@ -1,6 +1,7 @@
 # react-native-country-codes-picker
 
-This lib. provide simple country picker with search functionality. Fully crossplatform and created on react-native.
+This lib. provide multi lang. country picker with search functionality. Fully crossplatform and supported on React-native and expo.
+Didn't find your country ? Just add the required countries or locales and make a PR.
 
 # Installation
 
@@ -59,14 +60,15 @@ Below are the props you can pass to the React Component.
 | Prop  | Type | Default | Example | Description |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | show  | boolean | | |  This prop using for displaying the modal. Put your show state here. |
-| pickerButtonOnPress | function | | (country) => setCode(country.dial_code) | Put your function/functions here for getting country data from picker. |
+| pickerButtonOnPress | function | | (country) => setCode(country.dial_code) | Put your function/functions here for getting country data from picker. | 
+| inputPlaceholder | string | | inputPlaceholder={'Your placeholder'} | If you need a custom placeholder for your input you may need this prop. | 
+| searchMessage | string | | searchMessage={'Some search message here'} | If you want to customize search message just use this prop. | 
+| lang | string | 'en' | lang={'pl'} | If you need to change the lang. just put one of supported lang. Or if you didn't find required lang just add them and make a PR :) | 
 
 # ToDo
 
 1. Custom styling.
 2. Picker types (modal, input). If you need input with search.
 3. Dark theme option.
-4. Multi lang. (for supporting more languages).
-5. More speed optimization.
 
 If you have something interesting ! Just write to us :)
