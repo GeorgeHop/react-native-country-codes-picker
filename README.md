@@ -3,6 +3,16 @@
 This lib. provide multi lang. country picker with search functionality. Fully crossplatform and supported on React-native and expo.
 Didn't find your country ? Just add the required countries or locales and make a PR.
 
+## Coming soon :) 
+
+1. Custom list item rendering. 
+2. Custom search input rendering.
+3. Custom styling.
+4. Picker types (modal, input). If you need input with search.
+6. Docs update/improve for the best user experience,
+
+If you have something interesting ! Just write to us :)
+
 # Installation
 
 ``
@@ -64,11 +74,3 @@ Below are the props you can pass to the React Component.
 | inputPlaceholder | string | | inputPlaceholder={'Your placeholder'} | If you need a custom placeholder for your input you may need this prop. | 
 | searchMessage | string | | searchMessage={'Some search message here'} | If you want to customize search message just use this prop. | 
 | lang | string | 'en' | lang={'pl'} | If you need to change the lang. just put one of supported lang. Or if you didn't find required lang just add them and make a PR :) | 
-
-# ToDo
-
-1. Custom styling.
-2. Picker types (modal, input). If you need input with search.
-3. Dark theme option.
-
-If you have something interesting ! Just write to us :)
