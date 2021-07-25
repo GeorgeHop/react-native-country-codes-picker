@@ -3,9 +3,9 @@ export const countryCodes = [
         "name":{
             "en":"Afghanistan",
             "ru":"Афганистан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Afganistan",
+            "ua":"Афганістан",
+            "cz":"Afghánistán",
             "by":""
         },
         "dial_code":"+93",
@@ -16,9 +16,9 @@ export const countryCodes = [
         "name":{
             "en":"Albania",
             "ru":"Албания",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Albania",
+            "ua":"Албанія",
+            "cz":"Albánie",
             "by":""
         },
         "dial_code":"+355",
@@ -29,9 +29,9 @@ export const countryCodes = [
         "name":{
             "en":"Algeria",
             "ru":"Алжир",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Algieria",
+            "ua":"Алжир",
+            "cz":"Alžírsko",
             "by":""
         },
         "dial_code":"+213",
@@ -42,9 +42,9 @@ export const countryCodes = [
         "name":{
             "en":"American Samoa",
             "ru":"Американское Самоа",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Samoa Amerykańskie",
+            "ua":"Американське Самоа",
+            "cz":"Americká Samoa",
             "by":""
         },
         "dial_code":"+1684",
@@ -55,9 +55,9 @@ export const countryCodes = [
         "name":{
             "en":"Andorra",
             "ru":"Андорра",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Andora",
+            "ua":"Андорра",
+            "cz":"Andorra",
             "by":""
         },
         "dial_code":"+376",
@@ -68,9 +68,9 @@ export const countryCodes = [
         "name":{
             "en":"Angola",
             "ru":"Ангола",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Angola",
+            "ua":"Ангола",
+            "cz":"Angola",
             "by":""
         },
         "dial_code":"+244",
@@ -81,9 +81,9 @@ export const countryCodes = [
         "name":{
             "en":"Anguilla",
             "ru":"Ангилья",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Anguilla",
+            "ua":"Ангілья",
+            "cz":"Anguilla",
             "by":""
         },
         "dial_code":"+1264",
@@ -94,9 +94,9 @@ export const countryCodes = [
         "name":{
             "en":"Antarctica",
             "ru":"Антарктида",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Antarktyda",
+            "ua":"Антарктида",
+            "cz":"Antarktida",
             "by":""
         },
         "dial_code":"+672",
@@ -107,9 +107,9 @@ export const countryCodes = [
         "name":{
             "en":"Antigua and Barbuda",
             "ru":"Антигуа и Барбуда",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Antigua i Barbuda",
+            "ua":"Антигуа та Барбуда",
+            "cz":"Antigua a Barbuda",
             "by":""
         },
         "dial_code":"+1268",
@@ -120,9 +120,9 @@ export const countryCodes = [
         "name":{
             "en":"Argentina",
             "ru":"Аргентина",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Argentyna",
+            "ua":"Аргентина",
+            "cz":"Argentina",
             "by":""
         },
         "dial_code":"+54",
@@ -133,9 +133,9 @@ export const countryCodes = [
         "name":{
             "en":"Armenia",
             "ru":"Армения",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Armenia",
+            "ua":"Вірменія",
+            "cz":"Arménie",
             "by":""
         },
         "dial_code":"+374",
@@ -146,9 +146,9 @@ export const countryCodes = [
         "name":{
             "en":"Aruba",
             "ru":"Аруба",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Aruba",
+            "ua":"Аруба",
+            "cz":"Aruba",
             "by":""
         },
         "dial_code":"+297",
@@ -159,9 +159,9 @@ export const countryCodes = [
         "name":{
             "en":"Australia",
             "ru":"Австралия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Australia",
+            "ua":"Австралія",
+            "cz":"Austrálie",
             "by":""
         },
         "dial_code":"+61",
@@ -172,9 +172,9 @@ export const countryCodes = [
         "name":{
             "en":"Austria",
             "ru":"Австрия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Austria",
+            "ua":"Австрія",
+            "cz":"Rakousko",
             "by":""
         },
         "dial_code":"+43",
@@ -185,9 +185,9 @@ export const countryCodes = [
         "name":{
             "en":"Azerbaijan",
             "ru":"Азербайджан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Azerbejdżan",
+            "ua":"Азербайджан",
+            "cz":"Ázerbajdžán",
             "by":""
         },
         "dial_code":"+994",
@@ -198,9 +198,9 @@ export const countryCodes = [
         "name":{
             "en":"Bahamas",
             "ru":"Багамские Острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Bahamy",
+            "ua":"Багамські острови",
+            "cz":"Bahamy",
             "by":""
         },
         "dial_code":"+1242",
@@ -211,9 +211,9 @@ export const countryCodes = [
         "name":{
             "en":"Bahrain",
             "ru":"Бахрейн",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Bahrajn",
+            "ua":"Бахрейн",
+            "cz":"Bahrajn",
             "by":""
         },
         "dial_code":"+973",
@@ -224,9 +224,9 @@ export const countryCodes = [
         "name":{
             "en":"Bangladesh",
             "ru":"Бангладеш",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Bangladesz",
+            "ua":"Бангладеш",
+            "cz":"Bangladéš",
             "by":""
         },
         "dial_code":"+880",
@@ -237,9 +237,9 @@ export const countryCodes = [
         "name":{
             "en":"Barbados",
             "ru":"Барбадос",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Barbados",
+            "ua":"Барбадос",
+            "cz":"Barbados",
             "by":""
         },
         "dial_code":"+1246",
@@ -250,9 +250,9 @@ export const countryCodes = [
         "name":{
             "en":"Belarus",
             "ru":"Белоруссия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Białoruś",
+            "ua":"Білорусь",
+            "cz":"Bělorusko",
             "by":""
         },
         "dial_code":"+375",
@@ -263,9 +263,9 @@ export const countryCodes = [
         "name":{
             "en":"Belgium",
             "ru":"Бельгия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Belgia",
+            "ua":"Бельгія",
+            "cz":"Belgie",
             "by":""
         },
         "dial_code":"+32",
@@ -276,9 +276,9 @@ export const countryCodes = [
         "name":{
             "en":"Belize",
             "ru":"Белиз",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Belize",
+            "ua":"Беліз",
+            "cz":"Belize",
             "by":""
         },
         "dial_code":"+501",
@@ -289,9 +289,9 @@ export const countryCodes = [
         "name":{
             "en":"Benin",
             "ru":"Бенин",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Benin",
+            "ua":"Бенін",
+            "cz":"Benin",
             "by":""
         },
         "dial_code":"+229",
@@ -302,9 +302,9 @@ export const countryCodes = [
         "name":{
             "en":"Bermuda",
             "ru":"Бермуды",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Bermudy",
+            "ua":"Бермуди",
+            "cz":"Bermudy",
             "by":""
         },
         "dial_code":"+1441",
@@ -315,9 +315,9 @@ export const countryCodes = [
         "name":{
             "en":"Bhutan",
             "ru":"Бутан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Bhutan",
+            "ua":"Бутан",
+            "cz":"Bhútán",
             "by":""
         },
         "dial_code":"+975",
@@ -328,9 +328,9 @@ export const countryCodes = [
         "name":{
             "en":"Bolivia",
             "ru":"Боливия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Boliwia",
+            "ua":"Болівія",
+            "cz":"Bolívie",
             "by":""
         },
         "dial_code":"+591",
@@ -341,9 +341,9 @@ export const countryCodes = [
         "name":{
             "en":"Bosnia and Herzegovina",
             "ru":"Босния и Герцеговина",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Bośnia i Hercegowina",
+            "ua":"Боснія і Герцеговина",
+            "cz":"Bosna a Hercegovina",
             "by":""
         },
         "dial_code":"+387",
@@ -354,9 +354,9 @@ export const countryCodes = [
         "name":{
             "en":"Botswana",
             "ru":"Ботсвана",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Botswana",
+            "ua":"Ботсвана",
+            "cz":"Botswana",
             "by":""
         },
         "dial_code":"+267",
@@ -367,9 +367,9 @@ export const countryCodes = [
         "name":{
             "en":"Brazil",
             "ru":"Бразилия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Brazylia",
+            "ua":"Бразилія",
+            "cz":"Brazílie",
             "by":""
         },
         "dial_code":"+55",
@@ -380,9 +380,9 @@ export const countryCodes = [
         "name":{
             "en":"British Indian Ocean Territory",
             "ru":"Британская территория Индийского океана",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Brytyjskie Terytorium Oceanu Indyjskiego",
+            "ua":"Британська територія в Індійському океані",
+            "cz":"Britské území v Indickém oceánu",
             "by":""
         },
         "dial_code":"+246",
@@ -393,9 +393,9 @@ export const countryCodes = [
         "name":{
             "en":"Brunei Darussalam",
             "ru":"Бруней-Даруссалам",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Brunei Darussalam",
+            "ua":"Бруней-Даруссалам",
+            "cz":"Brunej Darussalam",
             "by":""
         },
         "dial_code":"+673",
@@ -406,9 +406,9 @@ export const countryCodes = [
         "name":{
             "en":"Bulgaria",
             "ru":"Болгария",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Bułgaria",
+            "ua":"Болгарія",
+            "cz":"Bulharsko",
             "by":""
         },
         "dial_code":"+359",
@@ -419,9 +419,9 @@ export const countryCodes = [
         "name":{
             "en":"Burkina Faso",
             "ru":"Буркина-Фасо",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Burkina Faso",
+            "ua":"Буркіна-Фасо",
+            "cz":"Burkina Faso",
             "by":""
         },
         "dial_code":"+226",
@@ -432,9 +432,9 @@ export const countryCodes = [
         "name":{
             "en":"Burundi",
             "ru":"Бурунди",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Burundi",
+            "ua":"Бурунді",
+            "cz":"Burundi",
             "by":""
         },
         "dial_code":"+257",
@@ -445,9 +445,9 @@ export const countryCodes = [
         "name":{
             "en":"Cambodia",
             "ru":"Камбоджа",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kambodża",
+            "ua":"Камбоджа",
+            "cz":"Kambodža",
             "by":""
         },
         "dial_code":"+855",
@@ -458,9 +458,9 @@ export const countryCodes = [
         "name":{
             "en":"Cameroon",
             "ru":"Камерун",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kamerun",
+            "ua":"Камерун",
+            "cz":"Kamerun",
             "by":""
         },
         "dial_code":"+237",
@@ -471,9 +471,9 @@ export const countryCodes = [
         "name":{
             "en":"Canada",
             "ru":"Канада",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kanada",
+            "ua":"Канада",
+            "cz":"Kanada",
             "by":""
         },
         "dial_code":"+1",
@@ -484,9 +484,9 @@ export const countryCodes = [
         "name":{
             "en":"Cape Verde",
             "ru":"Кабо-Верде",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Zielonego Przylądka",
+            "ua":"Кабо-Верде",
+            "cz":"Kapverdy",
             "by":""
         },
         "dial_code":"+238",
@@ -497,9 +497,9 @@ export const countryCodes = [
         "name":{
             "en":"Cayman Islands",
             "ru":"Каймановы острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kajmany",
+            "ua":"Кайманові острови",
+            "cz":"Kajmanské ostrovy",
             "by":""
         },
         "dial_code":"+345",
@@ -510,9 +510,9 @@ export const countryCodes = [
         "name":{
             "en":"Central African Republic",
             "ru":"Центрально-Африканская Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Republika Środkowoafrykańska",
+            "ua":"Центральноафриканська Республіка",
+            "cz":"Středoafrická republika",
             "by":""
         },
         "dial_code":"+236",
@@ -523,9 +523,9 @@ export const countryCodes = [
         "name":{
             "en":"Chad",
             "ru":"Чад",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Czad",
+            "ua":"Чад",
+            "cz":"Čad",
             "by":""
         },
         "dial_code":"+235",
@@ -536,9 +536,9 @@ export const countryCodes = [
         "name":{
             "en":"Chile",
             "ru":"Чили",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Chile",
+            "ua":"Чилі",
+            "cz":"Chile",
             "by":""
         },
         "dial_code":"+56",
@@ -549,9 +549,9 @@ export const countryCodes = [
         "name":{
             "en":"China",
             "ru":"Китай",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Chiny",
+            "ua":"Китай",
+            "cz":"Čína",
             "by":""
         },
         "dial_code":"+86",
@@ -562,9 +562,9 @@ export const countryCodes = [
         "name":{
             "en":"Christmas Island",
             "ru":"Остров Рождества",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspa Bożego Narodzenia",
+            "ua":"Острів Різдва",
+            "cz":"Vánoční ostrov",
             "by":""
         },
         "dial_code":"+61",
@@ -575,9 +575,9 @@ export const countryCodes = [
         "name":{
             "en":"Cocos (Keeling) Islands",
             "ru":"Кокосовые (Килинг) острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Kokosowe (Keelinga)",
+            "ua":"Кокосові (Кілінг) острови",
+            "cz":"Kokosové (Keelingovy) ostrovy",
             "by":""
         },
         "dial_code":"+61",
@@ -588,9 +588,9 @@ export const countryCodes = [
         "name":{
             "en":"Colombia",
             "ru":"Колумбия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kolumbia",
+            "ua":"Колумбія",
+            "cz":"Kolumbie",
             "by":""
         },
         "dial_code":"+57",
@@ -601,9 +601,9 @@ export const countryCodes = [
         "name":{
             "en":"Comoros",
             "ru":"Коморские острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Komory",
+            "ua":"Коморські острови",
+            "cz":"Komory",
             "by":""
         },
         "dial_code":"+269",
@@ -614,9 +614,9 @@ export const countryCodes = [
         "name":{
             "en":"Congo",
             "ru":"Конго",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kongo",
+            "ua":"Конго",
+            "cz":"Kongo",
             "by":""
         },
         "dial_code":"+242",
@@ -627,9 +627,9 @@ export const countryCodes = [
         "name":{
             "en":"Congo, The Democratic Republic of the",
             "ru":"Конго, Демократическая Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kongo, Republika Demokratyczna",
+            "ua":"Конго, Демократична Республіка",
+            "cz":"Kongo, Demokratická Republika",
             "by":""
         },
         "dial_code":"+243",
@@ -640,9 +640,9 @@ export const countryCodes = [
         "name":{
             "en":"Cook Islands",
             "ru":"Острова Кука",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Cooka",
+            "ua":"Острови Кука",
+            "cz":"Cookovy ostrovy",
             "by":""
         },
         "dial_code":"+682",
@@ -653,9 +653,9 @@ export const countryCodes = [
         "name":{
             "en":"Costa Rica",
             "ru":"Коста-Рика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kostaryka",
+            "ua":"Коста-Ріка",
+            "cz":"Kostarika",
             "by":""
         },
         "dial_code":"+506",
@@ -666,9 +666,9 @@ export const countryCodes = [
         "name":{
             "en":"Cote d'Ivoire",
             "ru":"Кот-д'Ивуар",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wybrzeże Kości Słoniowej",
+            "ua":"Кот-д'Івуар",
+            "cz":"Pobřeží slonoviny",
             "by":""
         },
         "dial_code":"+225",
@@ -679,9 +679,9 @@ export const countryCodes = [
         "name":{
             "en":"Croatia",
             "ru":"Хорватия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Chorwacja",
+            "ua":"Хорватія",
+            "cz":"Chorvatsko",
             "by":""
         },
         "dial_code":"+385",
@@ -692,9 +692,9 @@ export const countryCodes = [
         "name":{
             "en":"Cuba",
             "ru":"Куба",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kuba",
+            "ua":"Куба",
+            "cz":"Kuba",
             "by":""
         },
         "dial_code":"+53",
@@ -705,9 +705,9 @@ export const countryCodes = [
         "name":{
             "en":"Cyprus",
             "ru":"Кипр",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Cypr",
+            "ua":"Кіпр",
+            "cz":"Kypr",
             "by":""
         },
         "dial_code":"+537",
@@ -718,9 +718,9 @@ export const countryCodes = [
         "name":{
             "en":"Czech Republic",
             "ru":"Чехия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Republika Czeska",
+            "ua":"Чеська Республіка",
+            "cz":"Česká republika",
             "by":""
         },
         "dial_code":"+420",
@@ -731,9 +731,9 @@ export const countryCodes = [
         "name":{
             "en":"Denmark",
             "ru":"Дания",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Dania",
+            "ua":"Данія",
+            "cz":"Dánsko",
             "by":""
         },
         "dial_code":"+45",
@@ -744,9 +744,9 @@ export const countryCodes = [
         "name":{
             "en":"Djibouti",
             "ru":"Джибути",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Dżibuti",
+            "ua":"Джибуті",
+            "cz":"Džibuti",
             "by":""
         },
         "dial_code":"+253",
@@ -757,9 +757,9 @@ export const countryCodes = [
         "name":{
             "en":"Dominica",
             "ru":"Доминика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Dominika",
+            "ua":"Домініка",
+            "cz":"Dominika",
             "by":""
         },
         "dial_code":"+1767",
@@ -770,9 +770,9 @@ export const countryCodes = [
         "name":{
             "en":"Dominican Republic",
             "ru":"Доминиканская Респблика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Republika Dominikany",
+            "ua":"Домініканська республіка",
+            "cz":"Dominikánská republika",
             "by":""
         },
         "dial_code":"+1849",
@@ -783,9 +783,9 @@ export const countryCodes = [
         "name":{
             "en":"Ecuador",
             "ru":"Эквадор",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Ekwador",
+            "ua":"Еквадор",
+            "cz":"Ekvádor",
             "by":""
         },
         "dial_code":"+593",
@@ -796,9 +796,9 @@ export const countryCodes = [
         "name":{
             "en":"Egypt",
             "ru":"Египет",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Egipt",
+            "ua":"Єгипет",
+            "cz":"Egypt",
             "by":""
         },
         "dial_code":"+20",
@@ -809,9 +809,9 @@ export const countryCodes = [
         "name":{
             "en":"El Salvador",
             "ru":"Сальвадор",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Salwador",
+            "ua":"Сальвадор",
+            "cz":"El Salvador",
             "by":""
         },
         "dial_code":"+503",
@@ -822,9 +822,9 @@ export const countryCodes = [
         "name":{
             "en":"Equatorial Guinea",
             "ru":"Экваториальная Гвинея",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gwinea Równikowa",
+            "ua":"Екваторіальна Гвінея",
+            "cz":"Rovníková Guinea",
             "by":""
         },
         "dial_code":"+240",
@@ -835,9 +835,9 @@ export const countryCodes = [
         "name":{
             "en":"Eritrea",
             "ru":"Эритрея",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Erytrea",
+            "ua":"Еритрея",
+            "cz":"Eritrea",
             "by":""
         },
         "dial_code":"+291",
@@ -848,9 +848,9 @@ export const countryCodes = [
         "name":{
             "en":"Estonia",
             "ru":"Эстония",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Estonia",
+            "ua":"Естонія",
+            "cz":"Estonsko",
             "by":""
         },
         "dial_code":"+372",
@@ -861,9 +861,9 @@ export const countryCodes = [
         "name":{
             "en":"Ethiopia",
             "ru":"Эфиопия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Etiopia",
+            "ua":"Ефіопія",
+            "cz":"Etiopie",
             "by":""
         },
         "dial_code":"+251",
@@ -874,9 +874,9 @@ export const countryCodes = [
         "name":{
             "en":"Falkland Islands (Malvinas)",
             "ru":"Фолклендские острова (Malvinas)",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Falklandy (Malwiny)",
+            "ua":"Фолклендські острови (Мальвінські острови)",
+            "cz":"Falklandské ostrovy (Malvíny)",
             "by":""
         },
         "dial_code":"+500",
@@ -887,9 +887,9 @@ export const countryCodes = [
         "name":{
             "en":"Faroe Islands",
             "ru":"Фарерские острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Owcze",
+            "ua":"Фарерські острови",
+            "cz":"Faerské ostrovy",
             "by":""
         },
         "dial_code":"+298",
@@ -900,9 +900,9 @@ export const countryCodes = [
         "name":{
             "en":"Fiji",
             "ru":"Фиджи",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Fidżi",
+            "ua":"Фіджі",
+            "cz":"Fidži",
             "by":""
         },
         "dial_code":"+679",
@@ -913,9 +913,9 @@ export const countryCodes = [
         "name":{
             "en":"Finland",
             "ru":"Финляндия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Finlandia",
+            "ua":"Фінляндія",
+            "cz":"Finsko",
             "by":""
         },
         "dial_code":"+358",
@@ -926,9 +926,9 @@ export const countryCodes = [
         "name":{
             "en":"France",
             "ru":"Франция",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Francja",
+            "ua":"Франція",
+            "cz":"Francie",
             "by":""
         },
         "dial_code":"+33",
@@ -939,9 +939,9 @@ export const countryCodes = [
         "name":{
             "en":"French Guiana",
             "ru":"Французская Гвиана",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gujana Francuska",
+            "ua":"Французька Гвіана",
+            "cz":"Francouzská Guyana",
             "by":""
         },
         "dial_code":"+594",
@@ -952,9 +952,9 @@ export const countryCodes = [
         "name":{
             "en":"French Polynesia",
             "ru":"Французская Полинезия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Polinezja Francuska",
+            "ua":"Французька Полінезія",
+            "cz":"Francouzská Polynésie",
             "by":""
         },
         "dial_code":"+689",
@@ -965,9 +965,9 @@ export const countryCodes = [
         "name":{
             "en":"Gabon",
             "ru":"Габон",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gabon",
+            "ua":"Габон",
+            "cz":"Gabon",
             "by":""
         },
         "dial_code":"+241",
@@ -978,9 +978,9 @@ export const countryCodes = [
         "name":{
             "en":"Gambia",
             "ru":"Гамбия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gambia",
+            "ua":"Гамбія",
+            "cz":"Gambie",
             "by":""
         },
         "dial_code":"+220",
@@ -991,9 +991,9 @@ export const countryCodes = [
         "name":{
             "en":"Georgia",
             "ru":"Грузия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gruzja",
+            "ua":"Грузія",
+            "cz":"Gruzie",
             "by":""
         },
         "dial_code":"+995",
@@ -1004,9 +1004,9 @@ export const countryCodes = [
         "name":{
             "en":"Germany",
             "ru":"Германия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Niemcy",
+            "ua":"Німеччина",
+            "cz":"Německo",
             "by":""
         },
         "dial_code":"+49",
@@ -1017,9 +1017,9 @@ export const countryCodes = [
         "name":{
             "en":"Ghana",
             "ru":"Гана",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Ghana",
+            "ua":"Гана",
+            "cz":"Ghana",
             "by":""
         },
         "dial_code":"+233",
@@ -1030,9 +1030,9 @@ export const countryCodes = [
         "name":{
             "en":"Gibraltar",
             "ru":"Гибралтар",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gibraltar",
+            "ua":"Гібралтар",
+            "cz":"Gibraltar",
             "by":""
         },
         "dial_code":"+350",
@@ -1043,9 +1043,9 @@ export const countryCodes = [
         "name":{
             "en":"Greece",
             "ru":"Греция",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Grecja",
+            "ua":"Греція",
+            "cz":"Řecko",
             "by":""
         },
         "dial_code":"+30",
@@ -1056,9 +1056,9 @@ export const countryCodes = [
         "name":{
             "en":"Greenland",
             "ru":"Гренландия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Grenlandia",
+            "ua":"Гренландія",
+            "cz":"Grenlandia",
             "by":""
         },
         "dial_code":"+299",
@@ -1069,9 +1069,9 @@ export const countryCodes = [
         "name":{
             "en":"Grenada",
             "ru":"Гренада",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Grenada",
+            "ua":"Гренада",
+            "cz":"Grenada",
             "by":""
         },
         "dial_code":"+1473",
@@ -1082,9 +1082,9 @@ export const countryCodes = [
         "name":{
             "en":"Guadeloupe",
             "ru":"Гваделупа",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gwadelupa",
+            "ua":"Гваделупа",
+            "cz":"Guadeloupe",
             "by":""
         },
         "dial_code":"+590",
@@ -1095,9 +1095,9 @@ export const countryCodes = [
         "name":{
             "en":"Guam",
             "ru":"Гуам",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Guam",
+            "ua":"Гуам",
+            "cz":"Guam",
             "by":""
         },
         "dial_code":"+1671",
@@ -1108,9 +1108,9 @@ export const countryCodes = [
         "name":{
             "en":"Guatemala",
             "ru":"Гватемала",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gwatemala",
+            "ua":"Гватемала",
+            "cz":"Guatemala",
             "by":""
         },
         "dial_code":"+502",
@@ -1121,9 +1121,9 @@ export const countryCodes = [
         "name":{
             "en":"Guernsey",
             "ru":"Гернси",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Guernsey",
+            "ua":"Гернсі",
+            "cz":"Guernsey",
             "by":""
         },
         "dial_code":"+44",
@@ -1134,9 +1134,9 @@ export const countryCodes = [
         "name":{
             "en":"Guinea",
             "ru":"Гвинея",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gwinea",
+            "ua":"Гвінея",
+            "cz":"Guinea",
             "by":""
         },
         "dial_code":"+224",
@@ -1147,9 +1147,9 @@ export const countryCodes = [
         "name":{
             "en":"Guinea-Bissau",
             "ru":"Гвинея-Бисау",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gwinea Bissau",
+            "ua":"Гвінея-Бісау",
+            "cz":"Guinea-Bissau",
             "by":""
         },
         "dial_code":"+245",
@@ -1160,9 +1160,9 @@ export const countryCodes = [
         "name":{
             "en":"Guyana",
             "ru":"Гайана",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Gujana",
+            "ua":"Гайана",
+            "cz":"Guyana",
             "by":""
         },
         "dial_code":"+595",
@@ -1173,9 +1173,9 @@ export const countryCodes = [
         "name":{
             "en":"Haiti",
             "ru":"Гаити",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Haiti",
+            "ua":"Гаїті",
+            "cz":"Haiti",
             "by":""
         },
         "dial_code":"+509",
@@ -1186,9 +1186,9 @@ export const countryCodes = [
         "name":{
             "en":"Holy See (Vatican City State)",
             "ru":"Святой Престол (Vatican City State)",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Stolica Apostolska (Państwo Watykańskie)",
+            "ua":"Святий Престол (Ватикан)",
+            "cz":"Svatý stolec (Vatikánský městský stát)",
             "by":""
         },
         "dial_code":"+379",
@@ -1199,9 +1199,9 @@ export const countryCodes = [
         "name":{
             "en":"Honduras",
             "ru":"Гондурас",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Honduras",
+            "ua":"Гондурас",
+            "cz":"Honduras",
             "by":""
         },
         "dial_code":"+504",
@@ -1212,9 +1212,9 @@ export const countryCodes = [
         "name":{
             "en":"Hong Kong",
             "ru":"Гонконг",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Hongkong",
+            "ua":"Гонконг",
+            "cz":"Hongkong",
             "by":""
         },
         "dial_code":"+852",
@@ -1225,9 +1225,9 @@ export const countryCodes = [
         "name":{
             "en":"Hungary",
             "ru":"Венгрия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Węgry",
+            "ua":"Угорщина",
+            "cz":"Maďarsko",
             "by":""
         },
         "dial_code":"+36",
@@ -1238,9 +1238,9 @@ export const countryCodes = [
         "name":{
             "en":"Iceland",
             "ru":"Исландия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Islandia",
+            "ua":"Ісландія",
+            "cz":"Island",
             "by":""
         },
         "dial_code":"+354",
@@ -1251,9 +1251,9 @@ export const countryCodes = [
         "name":{
             "en":"India",
             "ru":"Индия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Indie",
+            "ua":"Індія",
+            "cz":"Indie",
             "by":""
         },
         "dial_code":"+91",
@@ -1264,9 +1264,9 @@ export const countryCodes = [
         "name":{
             "en":"Indonesia",
             "ru":"Индонезия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Indonezja",
+            "ua":"Індонезія",
+            "cz":"Indonésie",
             "by":""
         },
         "dial_code":"+62",
@@ -1277,9 +1277,9 @@ export const countryCodes = [
         "name":{
             "en":"Iran, Islamic Republic of",
             "ru":"Иран, Исламская Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Iran, Republika Islamska",
+            "ua":"Іран, Ісламська Республіка",
+            "cz":"Írán, Islámská Republika",
             "by":""
         },
         "dial_code":"+98",
@@ -1290,9 +1290,9 @@ export const countryCodes = [
         "name":{
             "en":"Iraq",
             "ru":"Ирак",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Irak",
+            "ua":"Ірак",
+            "cz":"Irák",
             "by":""
         },
         "dial_code":"+964",
@@ -1303,9 +1303,9 @@ export const countryCodes = [
         "name":{
             "en":"Ireland",
             "ru":"Ирландия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Irlandia",
+            "ua":"Ірландія",
+            "cz":"Irsko",
             "by":""
         },
         "dial_code":"+353",
@@ -1316,9 +1316,9 @@ export const countryCodes = [
         "name":{
             "en":"Isle of Man",
             "ru":"Остров Мэн",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspa Man",
+            "ua":"Острів Мен",
+            "cz":"Isle of Man",
             "by":""
         },
         "dial_code":"+44",
@@ -1329,9 +1329,9 @@ export const countryCodes = [
         "name":{
             "en":"Israel",
             "ru":"Израиль",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Izrael",
+            "ua":"Ізраїль",
+            "cz":"Izrael",
             "by":""
         },
         "dial_code":"+972",
@@ -1342,9 +1342,9 @@ export const countryCodes = [
         "name":{
             "en":"Italy",
             "ru":"Италия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Włochy",
+            "ua":"Італія",
+            "cz":"Itálie",
             "by":""
         },
         "dial_code":"+39",
@@ -1355,9 +1355,9 @@ export const countryCodes = [
         "name":{
             "en":"Jamaica",
             "ru":"Ямайка",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Jamajka",
+            "ua":"Ямайка",
+            "cz":"Jamaica",
             "by":""
         },
         "dial_code":"+1876",
@@ -1368,9 +1368,9 @@ export const countryCodes = [
         "name":{
             "en":"Japan",
             "ru":"Япония",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Japonia",
+            "ua":"Японія",
+            "cz":"Japonsko",
             "by":""
         },
         "dial_code":"+81",
@@ -1381,9 +1381,9 @@ export const countryCodes = [
         "name":{
             "en":"Jersey",
             "ru":"Джерси",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Jersey",
+            "ua":"Джерсі",
+            "cz":"Trikot",
             "by":""
         },
         "dial_code":"+44",
@@ -1394,9 +1394,9 @@ export const countryCodes = [
         "name":{
             "en":"Jordan",
             "ru":"Иордания",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Jordania",
+            "ua":"Йорданія",
+            "cz":"Jordán",
             "by":""
         },
         "dial_code":"+962",
@@ -1407,9 +1407,9 @@ export const countryCodes = [
         "name":{
             "en":"Kazakhstan",
             "ru":"Казахстан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kazachstan",
+            "ua":"Казахстан",
+            "cz":"Kazachstán",
             "by":""
         },
         "dial_code":"+77",
@@ -1420,9 +1420,9 @@ export const countryCodes = [
         "name":{
             "en":"Kenya",
             "ru":"Кения",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kenia",
+            "ua":"Кенія",
+            "cz":"Keňa",
             "by":""
         },
         "dial_code":"+254",
@@ -1433,9 +1433,9 @@ export const countryCodes = [
         "name":{
             "en":"Kiribati",
             "ru":"Кирибати",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kiribati",
+            "ua":"Kiribati",
+            "cz":"Kiribati",
             "by":""
         },
         "dial_code":"+686",
@@ -1446,9 +1446,9 @@ export const countryCodes = [
         "name":{
             "en":"Korea, Democratic People's Republic of",
             "ru":"Корея, Народно-Демократическая Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Korea, Republika Ludowo-Demokratyczna",
+            "ua":"Корея, Народно-Демократична Республіка",
+            "cz":"Korea, Demokratická lidová republika",
             "by":""
         },
         "dial_code":"+850",
@@ -1459,9 +1459,9 @@ export const countryCodes = [
         "name":{
             "en":"Korea, Republic of",
             "ru":"Республика Корея",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Republika Korei",
+            "ua":"Корея, Республіка",
+            "cz":"Korea, republika",
             "by":""
         },
         "dial_code":"+82",
@@ -1472,9 +1472,9 @@ export const countryCodes = [
         "name":{
             "en":"Kuwait",
             "ru":"Кувейт",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kuwejt",
+            "ua":"Кувейт",
+            "cz":"Kuvajt",
             "by":""
         },
         "dial_code":"+965",
@@ -1485,9 +1485,9 @@ export const countryCodes = [
         "name":{
             "en":"Kyrgyzstan",
             "ru":"Kyrgyzstan",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Kirgistan",
+            "ua":"Киргизстан",
+            "cz":"Kyrgyzstán",
             "by":""
         },
         "dial_code":"+996",
@@ -1498,9 +1498,9 @@ export const countryCodes = [
         "name":{
             "en":"Lao People's Democratic Republic",
             "ru":"Лаосская Народно-Демократическая Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Laotańska Republika Ludowo-Demokratyczna",
+            "ua":"Лаоська Народно-Демократична Республіка",
+            "cz":"Laoská lidově demokratická republika",
             "by":""
         },
         "dial_code":"+856",
@@ -1511,9 +1511,9 @@ export const countryCodes = [
         "name":{
             "en":"Latvia",
             "ru":"Латвия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Łotwa",
+            "ua":"Латвія",
+            "cz":"Lotyšsko",
             "by":""
         },
         "dial_code":"+371",
@@ -1524,9 +1524,9 @@ export const countryCodes = [
         "name":{
             "en":"Lebanon",
             "ru":"Ливан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Liban",
+            "ua":"Ліван",
+            "cz":"Libanon",
             "by":""
         },
         "dial_code":"+961",
@@ -1537,9 +1537,9 @@ export const countryCodes = [
         "name":{
             "en":"Lesotho",
             "ru":"Лесото",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Lesoto",
+            "ua":"Лесото",
+            "cz":"Lesotho",
             "by":""
         },
         "dial_code":"+266",
@@ -1550,9 +1550,9 @@ export const countryCodes = [
         "name":{
             "en":"Liberia",
             "ru":"Либерия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Liberia",
+            "ua":"Ліберія",
+            "cz":"Libérie",
             "by":""
         },
         "dial_code":"+231",
@@ -1563,9 +1563,9 @@ export const countryCodes = [
         "name":{
             "en":"Libyan Arab Jamahiriya",
             "ru":"Ливийская Арабская Джамахирия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Libijska Arabska Dżamahirija",
+            "ua":"Лівійська Арабська Джамахірія",
+            "cz":"Libyjský Arab Jamahiriya",
             "by":""
         },
         "dial_code":"+218",
@@ -1576,9 +1576,9 @@ export const countryCodes = [
         "name":{
             "en":"Liechtenstein",
             "ru":"Лихтенштейн",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Liechtenstein",
+            "ua":"Ліхтенштейн",
+            "cz":"Lichtenštejnsko",
             "by":""
         },
         "dial_code":"+423",
@@ -1589,9 +1589,9 @@ export const countryCodes = [
         "name":{
             "en":"Lithuania",
             "ru":"Литва",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Litwa",
+            "ua":"Литва",
+            "cz":"Litva",
             "by":""
         },
         "dial_code":"+370",
@@ -1602,9 +1602,9 @@ export const countryCodes = [
         "name":{
             "en":"Luxembourg",
             "ru":"Люксембург",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Luksemburg",
+            "ua":"Люксембург",
+            "cz":"Lucembursko",
             "by":""
         },
         "dial_code":"+352",
@@ -1615,9 +1615,9 @@ export const countryCodes = [
         "name":{
             "en":"Macao",
             "ru":"Макао",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Makao",
+            "ua":"Макао",
+            "cz":"Macao",
             "by":""
         },
         "dial_code":"+853",
@@ -1628,9 +1628,9 @@ export const countryCodes = [
         "name":{
             "en":"Macedonia, The Former Yugoslav Republic of",
             "ru":"Македония, Бывшая Югославская Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Macedonia, Była Jugosłowiańska Republika",
+            "ua":"Македонія, колишня югославська республіка",
+            "cz":"Makedonie, Bývalá jugoslávská republika",
             "by":""
         },
         "dial_code":"+389",
@@ -1641,9 +1641,9 @@ export const countryCodes = [
         "name":{
             "en":"Madagascar",
             "ru":"Мадагаскар",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Madagaskar",
+            "ua":"Мадагаскар",
+            "cz":"Madagaskar",
             "by":""
         },
         "dial_code":"+261",
@@ -1654,9 +1654,9 @@ export const countryCodes = [
         "name":{
             "en":"Malawi",
             "ru":"Малави",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Malawi",
+            "ua":"Малаві",
+            "cz":"Malawi",
             "by":""
         },
         "dial_code":"+265",
@@ -1667,9 +1667,9 @@ export const countryCodes = [
         "name":{
             "en":"Malaysia",
             "ru":"Малайзия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Malezja",
+            "ua":"Малайзія",
+            "cz":"Malajsie",
             "by":""
         },
         "dial_code":"+60",
@@ -1680,9 +1680,9 @@ export const countryCodes = [
         "name":{
             "en":"Maldives",
             "ru":"Мальдивы",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Malediwy",
+            "ua":"Мальдіви",
+            "cz":"Maledivy",
             "by":""
         },
         "dial_code":"+960",
@@ -1693,9 +1693,9 @@ export const countryCodes = [
         "name":{
             "en":"Mali",
             "ru":"Мали",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mali",
+            "ua":"Малі",
+            "cz":"Mali",
             "by":""
         },
         "dial_code":"+223",
@@ -1706,9 +1706,9 @@ export const countryCodes = [
         "name":{
             "en":"Malta",
             "ru":"Мальта",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Malta",
+            "ua":"Мальта",
+            "cz":"Malta",
             "by":""
         },
         "dial_code":"+356",
@@ -1719,9 +1719,9 @@ export const countryCodes = [
         "name":{
             "en":"Marshall Islands",
             "ru":"Маршалловы острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Marshalla",
+            "ua":"Маршаллові острови",
+            "cz":"Marshallovy ostrovy",
             "by":""
         },
         "dial_code":"+692",
@@ -1732,9 +1732,9 @@ export const countryCodes = [
         "name":{
             "en":"Martinique",
             "ru":"Мартиника",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Martynika",
+            "ua":"Мартініка",
+            "cz":"Martinik",
             "by":""
         },
         "dial_code":"+596",
@@ -1745,9 +1745,9 @@ export const countryCodes = [
         "name":{
             "en":"Mauritania",
             "ru":"Мавритания",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mauretania",
+            "ua":"Мавританія",
+            "cz":"Mauretánie",
             "by":""
         },
         "dial_code":"+222",
@@ -1758,9 +1758,9 @@ export const countryCodes = [
         "name":{
             "en":"Mauritius",
             "ru":"Маврикий",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mauritius",
+            "ua":"Маврикій",
+            "cz":"Mauricius",
             "by":""
         },
         "dial_code":"+230",
@@ -1771,9 +1771,9 @@ export const countryCodes = [
         "name":{
             "en":"Mayotte",
             "ru":"Майотта",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Majotta",
+            "ua":"Майотта",
+            "cz":"Mayotte",
             "by":""
         },
         "dial_code":"+262",
@@ -1784,9 +1784,9 @@ export const countryCodes = [
         "name":{
             "en":"Mexico",
             "ru":"Мексика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Meksyk",
+            "ua":"Мексика",
+            "cz":"Mexiko",
             "by":""
         },
         "dial_code":"+52",
@@ -1797,9 +1797,9 @@ export const countryCodes = [
         "name":{
             "en":"Micronesia, Federated States of",
             "ru":"Микронезия, Федеративные Штаты",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mikronezja, Sfederowane Stany",
+            "ua":"Мікронезія, Федеративні Штати",
+            "cz":"Mikronésie, federativní státy",
             "by":""
         },
         "dial_code":"+691",
@@ -1810,9 +1810,9 @@ export const countryCodes = [
         "name":{
             "en":"Moldova, Republic of",
             "ru":"Молдова, Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mołdawia, Republika",
+            "ua":"Молдова, республіка",
+            "cz":"Moldavsko, republika",
             "by":""
         },
         "dial_code":"+373",
@@ -1823,9 +1823,9 @@ export const countryCodes = [
         "name":{
             "en":"Monaco",
             "ru":"Монако",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Monako",
+            "ua":"Монако",
+            "cz":"Monako",
             "by":""
         },
         "dial_code":"+377",
@@ -1836,9 +1836,9 @@ export const countryCodes = [
         "name":{
             "en":"Mongolia",
             "ru":"Монголия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mongolia",
+            "ua":"Монголія",
+            "cz":"Mongolsko",
             "by":""
         },
         "dial_code":"+976",
@@ -1849,9 +1849,9 @@ export const countryCodes = [
         "name":{
             "en":"Montenegro",
             "ru":"Черногория",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Czarnogóra",
+            "ua":"Чорногорія",
+            "cz":"Černá Hora",
             "by":""
         },
         "dial_code":"+382",
@@ -1862,9 +1862,9 @@ export const countryCodes = [
         "name":{
             "en":"Montserrat",
             "ru":"Монтсеррат",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Montserrat",
+            "ua":"Монтсеррат",
+            "cz":"Montserrat",
             "by":""
         },
         "dial_code":"+1664",
@@ -1875,9 +1875,9 @@ export const countryCodes = [
         "name":{
             "en":"Morocco",
             "ru":"Марокко",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Maroko",
+            "ua":"Марокко",
+            "cz":"Maroko",
             "by":""
         },
         "dial_code":"+212",
@@ -1888,9 +1888,9 @@ export const countryCodes = [
         "name":{
             "en":"Mozambique",
             "ru":"Мозамбик",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mozambik",
+            "ua":"Мозамбік",
+            "cz":"Mosambik",
             "by":""
         },
         "dial_code":"+258",
@@ -1901,9 +1901,9 @@ export const countryCodes = [
         "name":{
             "en":"Myanmar",
             "ru":"Мьянма",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Myanmar",
+            "ua":"М'янма",
+            "cz":"Myanmar",
             "by":""
         },
         "dial_code":"+95",
@@ -1914,9 +1914,9 @@ export const countryCodes = [
         "name":{
             "en":"Namibia",
             "ru":"Намибия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Namibia",
+            "ua":"Намібія",
+            "cz":"Namibie",
             "by":""
         },
         "dial_code":"+264",
@@ -1927,9 +1927,9 @@ export const countryCodes = [
         "name":{
             "en":"Nauru",
             "ru":"Науру",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Nauru",
+            "ua":"Науру",
+            "cz":"Nauru",
             "by":""
         },
         "dial_code":"+674",
@@ -1940,9 +1940,9 @@ export const countryCodes = [
         "name":{
             "en":"Nepal",
             "ru":"Непал",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Nepal",
+            "ua":"Непал",
+            "cz":"Nepál",
             "by":""
         },
         "dial_code":"+977",
@@ -1953,9 +1953,9 @@ export const countryCodes = [
         "name":{
             "en":"Netherlands",
             "ru":"Нидерланды",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Holandia",
+            "ua":"Нідерланди",
+            "cz":"Holandsko",
             "by":""
         },
         "dial_code":"+31",
@@ -1966,9 +1966,9 @@ export const countryCodes = [
         "name":{
             "en":"Netherlands Antilles",
             "ru":"Нидерландские Антильские острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Antyle Holenderskie",
+            "ua":"Нідерландські Антильські острови",
+            "cz":"Nizozemské Antily",
             "by":""
         },
         "dial_code":"+599",
@@ -1979,9 +1979,9 @@ export const countryCodes = [
         "name":{
             "en":"New Caledonia",
             "ru":"Новая Каледония",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Nowa Kaledonia",
+            "ua":"Нова Каледонія",
+            "cz":"Nová Kaledonie",
             "by":""
         },
         "dial_code":"+687",
@@ -1992,9 +1992,9 @@ export const countryCodes = [
         "name":{
             "en":"New Zealand",
             "ru":"Новая Зеландия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Nowa Zelandia",
+            "ua":"Нова Зеландія",
+            "cz":"Nový Zéland",
             "by":""
         },
         "dial_code":"+64",
@@ -2005,9 +2005,9 @@ export const countryCodes = [
         "name":{
             "en":"Nicaragua",
             "ru":"Никарагуа",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Nikaragua",
+            "ua":"Нікарагуа",
+            "cz":"Nikaragua",
             "by":""
         },
         "dial_code":"+505",
@@ -2018,9 +2018,9 @@ export const countryCodes = [
         "name":{
             "en":"Niger",
             "ru":"Нигер",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Niger",
+            "ua":"Нігер",
+            "cz":"Niger",
             "by":""
         },
         "dial_code":"+227",
@@ -2031,9 +2031,9 @@ export const countryCodes = [
         "name":{
             "en":"Nigeria",
             "ru":"Нигерия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Nigeria",
+            "ua":"Нігерія",
+            "cz":"Nigérie",
             "by":""
         },
         "dial_code":"+234",
@@ -2044,9 +2044,9 @@ export const countryCodes = [
         "name":{
             "en":"Niue",
             "ru":"Ниуэ",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Niue",
+            "ua":"Ніуе",
+            "cz":"Niue",
             "by":""
         },
         "dial_code":"+683",
@@ -2057,9 +2057,9 @@ export const countryCodes = [
         "name":{
             "en":"Norfolk Island",
             "ru":"Остров Норфолк",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspa Norfolk",
+            "ua":"Острів Норфолк",
+            "cz":"Ostrov Norfolk",
             "by":""
         },
         "dial_code":"+672",
@@ -2070,9 +2070,9 @@ export const countryCodes = [
         "name":{
             "en":"Northern Mariana Islands",
             "ru":"Северные Марианские острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Mariany Północne",
+            "ua":"Північні Маріанські острови",
+            "cz":"Severní Mariany",
             "by":""
         },
         "dial_code":"+1670",
@@ -2083,9 +2083,9 @@ export const countryCodes = [
         "name":{
             "en":"Norway",
             "ru":"Норвегия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Norwegia",
+            "ua":"Норвегія",
+            "cz":"Norsko",
             "by":""
         },
         "dial_code":"+47",
@@ -2096,9 +2096,9 @@ export const countryCodes = [
         "name":{
             "en":"Oman",
             "ru":"Оман",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Oman",
+            "ua":"Оман",
+            "cz":"Omán",
             "by":""
         },
         "dial_code":"+968",
@@ -2109,9 +2109,9 @@ export const countryCodes = [
         "name":{
             "en":"Pakistan",
             "ru":"Пакистан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Pakistan",
+            "ua":"Пакистан",
+            "cz":"Pákistán",
             "by":""
         },
         "dial_code":"+92",
@@ -2122,9 +2122,9 @@ export const countryCodes = [
         "name":{
             "en":"Palau",
             "ru":"Палау",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Palau",
+            "ua":"Палау",
+            "cz":"Palau",
             "by":""
         },
         "dial_code":"+680",
@@ -2135,9 +2135,9 @@ export const countryCodes = [
         "name":{
             "en":"Palestinian Territory, Occupied",
             "ru":"Палестинская Территория, Оккупированная",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Teretorium Paleństynskie, Okupowane",
+            "ua":"Палестинська територія, окупована",
+            "cz":"Palestinské území, obsazené",
             "by":""
         },
         "dial_code":"+970",
@@ -2148,9 +2148,9 @@ export const countryCodes = [
         "name":{
             "en":"Panama",
             "ru":"Панама",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Panama",
+            "ua":"Панама",
+            "cz":"Panama",
             "by":""
         },
         "dial_code":"+507",
@@ -2161,9 +2161,9 @@ export const countryCodes = [
         "name":{
             "en":"Papua New Guinea",
             "ru":"Папуа - Новая Гвинея",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Papua Nowa Gwinea",
+            "ua":"Папуа-Нова Гвінея",
+            "cz":"Papua-Nová Guinea",
             "by":""
         },
         "dial_code":"+675",
@@ -2174,9 +2174,9 @@ export const countryCodes = [
         "name":{
             "en":"Paraguay",
             "ru":"Парагвай",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Paragwaj",
+            "ua":"Парагвай",
+            "cz":"Paraguay",
             "by":""
         },
         "dial_code":"+595",
@@ -2187,9 +2187,9 @@ export const countryCodes = [
         "name":{
             "en":"Peru",
             "ru":"Перу",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Peru",
+            "ua":"Перу",
+            "cz":"Peru",
             "by":""
         },
         "dial_code":"+51",
@@ -2200,9 +2200,9 @@ export const countryCodes = [
         "name":{
             "en":"Philippines",
             "ru":"Филиппины",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Filipiny",
+            "ua":"Філіппіни",
+            "cz":"Filipíny",
             "by":""
         },
         "dial_code":"+63",
@@ -2213,9 +2213,9 @@ export const countryCodes = [
         "name":{
             "en":"Pitcairn",
             "ru":"Питкэрн",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Pitcairn",
+            "ua":"Піткерн",
+            "cz":"Pitcairn",
             "by":""
         },
         "dial_code":"+872",
@@ -2226,9 +2226,9 @@ export const countryCodes = [
         "name":{
             "en":"Poland",
             "ru":"Польша",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Polska",
+            "ua":"Польща",
+            "cz":"Polsko",
             "by":""
         },
         "dial_code":"+48",
@@ -2239,9 +2239,9 @@ export const countryCodes = [
         "name":{
             "en":"Portugal",
             "ru":"Португалия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Portugalia",
+            "ua":"Португалія",
+            "cz":"Portugalsko",
             "by":""
         },
         "dial_code":"+351",
@@ -2252,9 +2252,9 @@ export const countryCodes = [
         "name":{
             "en":"Puerto Rico",
             "ru":"Пуэрто-Рико",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Portoryko",
+            "ua":"Пуерто Ріко",
+            "cz":"Portoriko",
             "by":""
         },
         "dial_code":"+1939",
@@ -2265,9 +2265,9 @@ export const countryCodes = [
         "name":{
             "en":"Qatar",
             "ru":"Катар",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Katar",
+            "ua":"Катар",
+            "cz":"Katar",
             "by":""
         },
         "dial_code":"+974",
@@ -2278,9 +2278,9 @@ export const countryCodes = [
         "name":{
             "en":"Romania",
             "ru":"Румыния",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Rumunia",
+            "ua":"Румунія",
+            "cz":"Rumunsko",
             "by":""
         },
         "dial_code":"+40",
@@ -2291,9 +2291,9 @@ export const countryCodes = [
         "name":{
             "en":"Russia",
             "ru":"Россия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Rosja",
+            "ua":"Росія",
+            "cz":"Rusko",
             "by":""
         },
         "dial_code":"+7",
@@ -2304,9 +2304,9 @@ export const countryCodes = [
         "name":{
             "en":"Rwanda",
             "ru":"Руанда",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Rwanda",
+            "ua":"Руанда",
+            "cz":"Rwanda",
             "by":""
         },
         "dial_code":"+250",
@@ -2317,9 +2317,9 @@ export const countryCodes = [
         "name":{
             "en":"Réunion",
             "ru":"Реюньон",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Réunion",
+            "ua":"Реюньйон",
+            "cz":"Réunion",
             "by":""
         },
         "dial_code":"+262",
@@ -2330,9 +2330,9 @@ export const countryCodes = [
         "name":{
             "en":"Saint Barthélemy",
             "ru":"Святой Варфоломей",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Saint Barthelemy",
+            "ua":"Сен-Бартелемі",
+            "cz":"Svatý Bartoloměj",
             "by":""
         },
         "dial_code":"+590",
@@ -2343,9 +2343,9 @@ export const countryCodes = [
         "name":{
             "en":"Saint Helena, Ascension and Tristan Da Cunha",
             "ru":"Святой Елены, Вознесения и Тристан-да-Кунья",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Święta Helena, Wniebowstąpienie i Tristan Da Cunha",
+            "ua":"Свята Олена, Вознесіння і Трістан Да Кунья",
+            "cz":"Svatá Helena, Nanebevstoupení a Tristan Da Cunha",
             "by":""
         },
         "dial_code":"+290",
@@ -2356,9 +2356,9 @@ export const countryCodes = [
         "name":{
             "en":"Saint Kitts and Nevis",
             "ru":"Сент-Китс и Невис",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Saint Kitts i Nevis",
+            "ua":"Сент-Кітс і Невіс",
+            "cz":"Svatý Kryštof a Nevis",
             "by":""
         },
         "dial_code":"+1869",
@@ -2369,9 +2369,9 @@ export const countryCodes = [
         "name":{
             "en":"Saint Lucia",
             "ru":"Санкт-Люсия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"święta Lucia",
+            "ua":"Сент-Люсія",
+            "cz":"Svatá Lucie",
             "by":""
         },
         "dial_code":"+1758",
@@ -2382,9 +2382,9 @@ export const countryCodes = [
         "name":{
             "en":"Saint Martin",
             "ru":"Сен-Мартен",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"święty Marcin",
+            "ua":"Святий Мартін",
+            "cz":"Svatý Martin",
             "by":""
         },
         "dial_code":"+590",
@@ -2395,9 +2395,9 @@ export const countryCodes = [
         "name":{
             "en":"Saint Pierre and Miquelon",
             "ru":"Сен-Пьер и Микелон",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Saint-Pierre i Miquelon",
+            "ua":"Сен-П'єр і Мікелон",
+            "cz":"Svatý Pierre a Miquelon",
             "by":""
         },
         "dial_code":"+508",
@@ -2408,9 +2408,9 @@ export const countryCodes = [
         "name":{
             "en":"Saint Vincent and the Grenadines",
             "ru":"Святой Винсент и Гренадины",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Saint Vincent i Grenadyny",
+            "ua":"Сент-Вінсент і Гренадини",
+            "cz":"Svatý Vincenc a Grenadiny",
             "by":""
         },
         "dial_code":"+1784",
@@ -2421,9 +2421,9 @@ export const countryCodes = [
         "name":{
             "en":"Samoa",
             "ru":"Самоа",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Samoa",
+            "ua":"Самоа",
+            "cz":"Samoa",
             "by":""
         },
         "dial_code":"+685",
@@ -2434,9 +2434,9 @@ export const countryCodes = [
         "name":{
             "en":"San Marino",
             "ru":"Сан-Марино",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"San Marino",
+            "ua":"Сан-Марино",
+            "cz":"San Marino",
             "by":""
         },
         "dial_code":"+378",
@@ -2447,9 +2447,9 @@ export const countryCodes = [
         "name":{
             "en":"Sao Tome and Principe",
             "ru":"Сан-Томе и Принсипи",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Świętego Tomasza i Książęca",
+            "ua":"Сан-Томе і Принсіпі",
+            "cz":"Svatý Tomáš a Princův ostrov",
             "by":""
         },
         "dial_code":"+239",
@@ -2460,9 +2460,9 @@ export const countryCodes = [
         "name":{
             "en":"Saudi Arabia",
             "ru":"Саудовская Аравия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Arabia Saudyjska",
+            "ua":"Саудівська Аравія",
+            "cz":"Saudská arábie",
             "by":""
         },
         "dial_code":"+966",
@@ -2473,9 +2473,9 @@ export const countryCodes = [
         "name":{
             "en":"Senegal",
             "ru":"Сенегал",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Senegal",
+            "ua":"Сенегал",
+            "cz":"Senegal",
             "by":""
         },
         "dial_code":"+221",
@@ -2486,9 +2486,9 @@ export const countryCodes = [
         "name":{
             "en":"Serbia",
             "ru":"Сербия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Serbia",
+            "ua":"Сербія",
+            "cz":"Srbsko",
             "by":""
         },
         "dial_code":"+381",
@@ -2499,9 +2499,9 @@ export const countryCodes = [
         "name":{
             "en":"Seychelles",
             "ru":"Сейшельские острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Seszele",
+            "ua":"Сейшельські острови",
+            "cz":"Seychely",
             "by":""
         },
         "dial_code":"+248",
@@ -2512,9 +2512,9 @@ export const countryCodes = [
         "name":{
             "en":"Sierra Leone",
             "ru":"Сьерра-Леоне",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Sierra Leone",
+            "ua":"Сьєрра-Леоне",
+            "cz":"Sierra Leone",
             "by":""
         },
         "dial_code":"+232",
@@ -2525,9 +2525,9 @@ export const countryCodes = [
         "name":{
             "en":"Singapore",
             "ru":"Сингапур",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Singapur",
+            "ua":"Сінгапур",
+            "cz":"Singapur",
             "by":""
         },
         "dial_code":"+65",
@@ -2538,9 +2538,9 @@ export const countryCodes = [
         "name":{
             "en":"Slovakia",
             "ru":"Словакия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Słowacja",
+            "ua":"Словаччина",
+            "cz":"Slovensko",
             "by":""
         },
         "dial_code":"+421",
@@ -2551,9 +2551,9 @@ export const countryCodes = [
         "name":{
             "en":"Slovenia",
             "ru":"Словения",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Słowenia",
+            "ua":"Словенія",
+            "cz":"Slovinsko",
             "by":""
         },
         "dial_code":"+386",
@@ -2564,9 +2564,9 @@ export const countryCodes = [
         "name":{
             "en":"Solomon Islands",
             "ru":"Соломоновы острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Salomona",
+            "ua":"Соломонові острови",
+            "cz":"Solomonovy ostrovy",
             "by":""
         },
         "dial_code":"+677",
@@ -2577,9 +2577,9 @@ export const countryCodes = [
         "name":{
             "en":"Somalia",
             "ru":"Сомали",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Somali",
+            "ua":"Сомалі",
+            "cz":"Somálsko",
             "by":""
         },
         "dial_code":"+252",
@@ -2590,9 +2590,9 @@ export const countryCodes = [
         "name":{
             "en":"South Africa",
             "ru":"Южная Африка",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Afryka Południowa",
+            "ua":"Південна Африка",
+            "cz":"Jižní Afrika",
             "by":""
         },
         "dial_code":"+27",
@@ -2603,9 +2603,9 @@ export const countryCodes = [
         "name":{
             "en":"South Georgia and the South Sandwich Islands",
             "ru":"Южная Георгия и Южные Сандвичевы острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Georgia Południowa i Sandwich Południowy",
+            "ua":"Південна Джорджія та Південні Сандвічеві острови",
+            "cz":"Jižní Georgie a Jižní Sandwichovy ostrovy",
             "by":""
         },
         "dial_code":"+500",
@@ -2616,9 +2616,9 @@ export const countryCodes = [
         "name":{
             "en":"Spain",
             "ru":"Испания",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Hiszpania",
+            "ua":"Іспанія",
+            "cz":"Španělsko",
             "by":""
         },
         "dial_code":"+34",
@@ -2629,9 +2629,9 @@ export const countryCodes = [
         "name":{
             "en":"Sri Lanka",
             "ru":"Шри-Ланка",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Sri Lanka",
+            "ua":"Шрі Ланка",
+            "cz":"Srí Lanka",
             "by":""
         },
         "dial_code":"+94",
@@ -2642,9 +2642,9 @@ export const countryCodes = [
         "name":{
             "en":"Sudan",
             "ru":"Судан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Sudan",
+            "ua":"Судан",
+            "cz":"Súdán",
             "by":""
         },
         "dial_code":"+249",
@@ -2655,9 +2655,9 @@ export const countryCodes = [
         "name":{
             "en":"Suriname",
             "ru":"Суринам",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Surinam",
+            "ua":"Суринам",
+            "cz":"Surinam",
             "by":""
         },
         "dial_code":"+597",
@@ -2668,9 +2668,9 @@ export const countryCodes = [
         "name":{
             "en":"Svalbard and Jan Mayen",
             "ru":"Шпицберген и Ян Майен",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Svalbard i Jan Mayen",
+            "ua":"Шпіцберген та Ян Маєн",
+            "cz":"Špicberky a Jan Mayen",
             "by":""
         },
         "dial_code":"+47",
@@ -2681,9 +2681,9 @@ export const countryCodes = [
         "name":{
             "en":"Swaziland",
             "ru":"Свазиленд",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Suazi",
+            "ua":"Свазіленд",
+            "cz":"Svazijsko",
             "by":""
         },
         "dial_code":"+268",
@@ -2694,9 +2694,9 @@ export const countryCodes = [
         "name":{
             "en":"Sweden",
             "ru":"Швеция",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Szwecja",
+            "ua":"Швеція",
+            "cz":"Švédsko",
             "by":""
         },
         "dial_code":"+46",
@@ -2707,9 +2707,9 @@ export const countryCodes = [
         "name":{
             "en":"Switzerland",
             "ru":"Швейцария",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Szwajcaria",
+            "ua":"Швейцарія",
+            "cz":"Švýcarsko",
             "by":""
         },
         "dial_code":"+41",
@@ -2720,9 +2720,9 @@ export const countryCodes = [
         "name":{
             "en":"Syrian Arab Republic",
             "ru":"Сирийская Арабская Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Republika Syryjsko-Arabska",
+            "ua":"Сирійська Арабська Республіка",
+            "cz":"Syrská Arabská republika",
             "by":""
         },
         "dial_code":"+963",
@@ -2733,9 +2733,9 @@ export const countryCodes = [
         "name":{
             "en":"Taiwan, Province of China",
             "ru":"Тайвань, провинция Китая",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tajwan, prowincja Chin",
+            "ua":"Тайвань, провінція Китаю",
+            "cz":"Tchaj-wan, provincie Číny",
             "by":""
         },
         "dial_code":"+886",
@@ -2746,9 +2746,9 @@ export const countryCodes = [
         "name":{
             "en":"Tajikistan",
             "ru":"Таджикистан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tadżykistan",
+            "ua":"Таджикистан",
+            "cz":"Tádžikistán",
             "by":""
         },
         "dial_code":"+992",
@@ -2759,9 +2759,9 @@ export const countryCodes = [
         "name":{
             "en":"Tanzania, United Republic of",
             "ru":"Танзания, Объединенная Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tanzania, Zjednoczona Republika",
+            "ua":"Танзанія, Об'єднана республіка",
+            "cz":"Tanzanie, Velká republika",
             "by":""
         },
         "dial_code":"+255",
@@ -2772,9 +2772,9 @@ export const countryCodes = [
         "name":{
             "en":"Thailand",
             "ru":"Таиланд",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tajlandia",
+            "ua":"Таїланд",
+            "cz":"Thajsko",
             "by":""
         },
         "dial_code":"+66",
@@ -2785,9 +2785,9 @@ export const countryCodes = [
         "name":{
             "en":"Timor-Leste",
             "ru":"Восточный Тимор",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Timor Wschodni",
+            "ua":"Восточний Тимор",
+            "cz":"Východní Timor",
             "by":""
         },
         "dial_code":"+670",
@@ -2798,9 +2798,9 @@ export const countryCodes = [
         "name":{
             "en":"Togo",
             "ru":"Того",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Togo",
+            "ua":"Того",
+            "cz":"Togo",
             "by":""
         },
         "dial_code":"+228",
@@ -2811,9 +2811,9 @@ export const countryCodes = [
         "name":{
             "en":"Tokelau",
             "ru":"Токелау",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tokelau",
+            "ua":"Токелау",
+            "cz":"Tokelau",
             "by":""
         },
         "dial_code":"+690",
@@ -2824,9 +2824,9 @@ export const countryCodes = [
         "name":{
             "en":"Tonga",
             "ru":"Тонга",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tonga",
+            "ua":"Тонга",
+            "cz":"Tonga",
             "by":""
         },
         "dial_code":"+676",
@@ -2837,9 +2837,9 @@ export const countryCodes = [
         "name":{
             "en":"Trinidad and Tobago",
             "ru":"Тринидад и Тобаго",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Trynidad i Tobago",
+            "ua":"Тринідад і Тобаго",
+            "cz":"Trinidad a Tobago",
             "by":""
         },
         "dial_code":"+1868",
@@ -2850,9 +2850,9 @@ export const countryCodes = [
         "name":{
             "en":"Tunisia",
             "ru":"Тунис",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tunezja",
+            "ua":"Туніс",
+            "cz":"Tunisko",
             "by":""
         },
         "dial_code":"+216",
@@ -2863,9 +2863,9 @@ export const countryCodes = [
         "name":{
             "en":"Turkey",
             "ru":"Турция",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Turcja",
+            "ua":"Туреччина",
+            "cz":"Turecko",
             "by":""
         },
         "dial_code":"+90",
@@ -2876,9 +2876,9 @@ export const countryCodes = [
         "name":{
             "en":"Turkmenistan",
             "ru":"Туркменистан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Turkmenia",
+            "ua":"Туркменістан",
+            "cz":"Turkmenistán",
             "by":""
         },
         "dial_code":"+993",
@@ -2889,9 +2889,9 @@ export const countryCodes = [
         "name":{
             "en":"Turks and Caicos Islands",
             "ru":"Острова Теркс и Кайкос",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Turks i Caicos",
+            "ua":"Острови Теркс і Кайкос",
+            "cz":"ostrovy Turks a Cacois",
             "by":""
         },
         "dial_code":"+1649",
@@ -2902,9 +2902,9 @@ export const countryCodes = [
         "name":{
             "en":"Tuvalu",
             "ru":"Тувалу",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Tuvalu",
+            "ua":"Тувалу",
+            "cz":"Tuvalu",
             "by":""
         },
         "dial_code":"+688",
@@ -2915,9 +2915,9 @@ export const countryCodes = [
         "name":{
             "en":"Uganda",
             "ru":"Уганда",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Uganda",
+            "ua":"Уганда",
+            "cz":"Uganda",
             "by":""
         },
         "dial_code":"+256",
@@ -2928,9 +2928,9 @@ export const countryCodes = [
         "name":{
             "en":"Ukraine",
             "ru":"Украина",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Ukraina",
+            "ua":"Україна",
+            "cz":"Ukrajina",
             "by":""
         },
         "dial_code":"+380",
@@ -2941,9 +2941,9 @@ export const countryCodes = [
         "name":{
             "en":"United Arab Emirates",
             "ru":"Объединенные Арабские Эмираты",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Zjednoczone Emiraty Arabskie",
+            "ua":"Об'єднані Арабські Емірати",
+            "cz":"Spojené arabské emiráty",
             "by":""
         },
         "dial_code":"+971",
@@ -2954,9 +2954,9 @@ export const countryCodes = [
         "name":{
             "en":"United Kingdom",
             "ru":"Объединенное Королевство",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Zjednoczone Królestwo",
+            "ua":"Об'єднане Королівство",
+            "cz":"Spojené království",
             "by":""
         },
         "dial_code":"+44",
@@ -2967,9 +2967,9 @@ export const countryCodes = [
         "name":{
             "en":"United States",
             "ru":"Соединенные Штаты",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Stany Zjednoczone",
+            "ua":"Сполучені Штати",
+            "cz":"Spojené státy",
             "by":""
         },
         "dial_code":"+1",
@@ -2980,9 +2980,9 @@ export const countryCodes = [
         "name":{
             "en":"Uruguay",
             "ru":"Уругвай",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Urugwaj",
+            "ua":"Уругвай",
+            "cz":"Uruguay",
             "by":""
         },
         "dial_code":"+598",
@@ -2993,9 +2993,9 @@ export const countryCodes = [
         "name":{
             "en":"Uzbekistan",
             "ru":"Узбекистан",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Uzbekistan",
+            "ua":"Узбекистан",
+            "cz":"Uzbekistán",
             "by":""
         },
         "dial_code":"+998",
@@ -3006,9 +3006,9 @@ export const countryCodes = [
         "name":{
             "en":"Vanuatu",
             "ru":"Вануату",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Vanuatu",
+            "ua":"Вануату",
+            "cz":"Vanuatu",
             "by":""
         },
         "dial_code":"+678",
@@ -3019,9 +3019,9 @@ export const countryCodes = [
         "name":{
             "en":"Venezuela, Bolivarian Republic of",
             "ru":"Венесуэла, Боливарианская Республика",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wenezuela, Republika Boliwariańska",
+            "ua":"Венесуела, Боліваріанська Республіка",
+            "cz":"Venezuela, Bolívarovská republika",
             "by":""
         },
         "dial_code":"+58",
@@ -3032,9 +3032,9 @@ export const countryCodes = [
         "name":{
             "en":"Viet Nam",
             "ru":"Вьетнам",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wietnam",
+            "ua":"В'єтнам",
+            "cz":"Vietnam",
             "by":""
         },
         "dial_code":"+84",
@@ -3045,9 +3045,9 @@ export const countryCodes = [
         "name":{
             "en":"Virgin Islands, British",
             "ru":"Виргинские острова, Британские",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Dziewicze, Brytyjskie",
+            "ua":"Віргінські острови, Британські",
+            "cz":"Panenské ostrovy, Britové",
             "by":""
         },
         "dial_code":"+1284",
@@ -3058,9 +3058,9 @@ export const countryCodes = [
         "name":{
             "en":"Virgin Islands, U.S.",
             "ru":"Американские Виргинские острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Dziewicze Stanów Zjednoczonych",
+            "ua":"Віргінські острови, США",
+            "cz":"Panenské ostrovy, USA",
             "by":""
         },
         "dial_code":"+1340",
@@ -3071,9 +3071,9 @@ export const countryCodes = [
         "name":{
             "en":"Wallis and Futuna",
             "ru":"Уоллис и Футуна",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wallis i Futuna",
+            "ua":"Уолліс і Футуна",
+            "cz":"Wallis a Futuna",
             "by":""
         },
         "dial_code":"+681",
@@ -3084,9 +3084,9 @@ export const countryCodes = [
         "name":{
             "en":"Yemen",
             "ru":"Йемен",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Jemen",
+            "ua":"Ємен",
+            "cz":"Jemen",
             "by":""
         },
         "dial_code":"+967",
@@ -3097,9 +3097,9 @@ export const countryCodes = [
         "name":{
             "en":"Zambia",
             "ru":"Замбия",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Zambia",
+            "ua":"Замбія",
+            "cz":"Zambie",
             "by":""
         },
         "dial_code":"+260",
@@ -3110,9 +3110,9 @@ export const countryCodes = [
         "name":{
             "en":"Zimbabwe",
             "ru":"Зимбабве",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Zimbabwe",
+            "ua":"Зімбабве",
+            "cz":"Zimbabwe",
             "by":""
         },
         "dial_code":"+263",
@@ -3123,9 +3123,9 @@ export const countryCodes = [
         "name":{
             "en":"Åland Islands",
             "ru":"Аландские острова",
-            "pl":"",
-            "ua":"",
-            "cz":"",
+            "pl":"Wyspy Alandzkie",
+            "ua":"Аландські острови",
+            "cz":"Alandy",
             "by":""
         },
         "dial_code":"+358",
