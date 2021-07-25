@@ -9,7 +9,7 @@ Didn't find your country ? Just add the required countries or locales and make a
 2. Custom search input rendering.
 3. Custom styling.
 4. Picker types (modal, input). If you need input with search.
-6. Docs update/improve for the best user experience,
+6. Docs update/improve for the best user experience.
 
 If you have something interesting ! Just write to us :)
 
