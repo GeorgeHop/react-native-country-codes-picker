@@ -6,7 +6,7 @@ import {CountryButton} from "./CountryButton";
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
-export default function CountryPicker({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang = 'en', style, ...restInputProps, ...restFlatListProps}) {
+export default function CountryPicker({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang = 'en', style, ...rest}) {
     const [animationDriver] = React.useState(new Animated.Value(0));
     const [searchValue, setSearchValue] = React.useState('');
 
@@ -74,7 +74,7 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
                         value={searchValue}
                         onChangeText={(text) => setSearchValue(text)}
                         placeholder={inputPlaceholder || 'Search your country'}
-                        {...restInputProps}
+                        {...rest}
                     />
                 </Animated.View>
             </View>
@@ -114,7 +114,7 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
                             />
                         )
                     }}
-                    {...restFlatListProps}
+                    {...rest}
                 />
             )}
         </Animated.View>
