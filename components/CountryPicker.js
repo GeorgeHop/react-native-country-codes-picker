@@ -82,10 +82,10 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
             {resultCountries.length === 0 ? (
                 <View style={styles.countryMessage}>
                     <Text
-                        style={{
+                        style={[{
                             color: '#8c8c8c',
                             fontSize: 16,
-                        }}
+                        }, style?.searchMessageText]}
                     >
                         {searchMessage || 'Sorry we cant find your country :('}
                     </Text>
@@ -105,7 +105,7 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
                             <CountryButton
                                 key={index}
                                 item={item}
-                                countryButtonStyles={style?.countryButtonStyles}
+                                style={style}
                                 name={checkName}
                                 onPress={() => {
                                     pickerButtonOnPress(item)

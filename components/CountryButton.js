@@ -1,24 +1,27 @@
 import React from 'react';
 import {Text, TouchableOpacity} from "react-native";
 
-export const CountryButton = ({item, name, countryButtonStyles, ...rest}) => (
+export const CountryButton = ({item, name, style, ...rest}) => (
     <TouchableOpacity
-        style={[styles.countryButton, countryButtonStyles]}
+        style={[styles.countryButton, style?.countryButtonStyles]}
         {...rest}
     >
-        <Text style={{
-            flex: 0.2
-        }}>
+        <Text style={[
+            {
+                flex: 0.2
+            },
+            style?.flag
+        ]}>
             {item?.flag}
         </Text>
-        <Text style={{
+        <Text style={[{
             flex: 0.3,
-        }}>
+        }, style?.dialCode]}>
             {item?.dial_code}
         </Text>
-        <Text style={{
+        <Text style={[{
             flex: 1
-        }}>
+        }, style?.countryName]}>
             {name}
         </Text>
     </TouchableOpacity>
