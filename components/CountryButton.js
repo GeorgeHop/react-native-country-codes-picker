@@ -1,9 +1,9 @@
 import React from 'react';
 import {Text, TouchableOpacity} from "react-native";
 
-export const CountryButton = ({item, name, ...rest}) => (
+export const CountryButton = ({item, name, countryButtonStyles, ...rest}) => (
     <TouchableOpacity
-        style={styles.countryButton}
+        style={[styles.countryButton, countryButtonStyles]}
         {...rest}
     >
         <Text style={{

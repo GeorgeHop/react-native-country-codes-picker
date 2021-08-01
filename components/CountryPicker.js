@@ -6,8 +6,7 @@ import {CountryButton} from "./CountryButton";
 const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
-export default function CountryPicker({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang = 'en'}) {
-    // ToDo need to add prop types
+export default function CountryPicker({show, pickerButtonOnPress, inputPlaceholder, searchMessage, lang = 'en', style, ...restInputProps, ...restFlatListProps}) {
     const [animationDriver] = React.useState(new Animated.Value(0));
     const [searchValue, setSearchValue] = React.useState('');
 
@@ -49,6 +48,7 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
         <Animated.View
             style={[
                 styles.modal,
+                style?.modal,
                 {
                     transform: [
                         {
@@ -70,31 +70,17 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
                     }}
                 >
                     <TextInput
-                        style={styles.searchBar}
+                        style={[styles.searchBar, style?.textInput]}
                         value={searchValue}
                         onChangeText={(text) => setSearchValue(text)}
                         placeholder={inputPlaceholder || 'Search your country'}
+                        {...restInputProps}
                     />
                 </Animated.View>
             </View>
-            <View
-                style={{
-                    width: '100%',
-                    height: 1.5,
-                    borderRadius: 2,
-                    backgroundColor: '#eceff1',
-                    alignSelf: 'center',
-                    marginVertical: 5,
-                }}
-            />
+            <View style={styles.line}/>
             {resultCountries.length === 0 ? (
-                <View
-                    style={{
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        height: '100%',
-                    }}
-                >
+                <View style={styles.countryMessage}>
                     <Text
                         style={{
                             color: '#8c8c8c',
@@ -119,6 +105,7 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
                             <CountryButton
                                 key={index}
                                 item={item}
+                                countryButtonStyles={style?.countryButtonStyles}
                                 name={checkName}
                                 onPress={() => {
                                     pickerButtonOnPress(item)
@@ -127,6 +114,7 @@ export default function CountryPicker({show, pickerButtonOnPress, inputPlacehold
                             />
                         )
                     }}
+                    {...restFlatListProps}
                 />
             )}
         </Animated.View>
@@ -169,5 +157,18 @@ const styles = {
         borderRadius: 10,
         height: 40,
         padding: 5,
+    },
+    countryMessage: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%',
+    },
+    line: {
+        width: '100%',
+        height: 1.5,
+        borderRadius: 2,
+        backgroundColor: '#eceff1',
+        alignSelf: 'center',
+        marginVertical: 5,
     }
 };
