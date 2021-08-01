@@ -7,17 +7,16 @@ Didn't find your country ? Just add the required countries or locales and make a
 
 1. Custom list item rendering. 
 2. Custom search input rendering.
-3. Custom styling.
-4. Picker types (modal, input). If you need input with search.
-6. Docs update/improve for the best user experience.
+3. Picker types (modal, input). If you need input with search.
+4. Docs update/improve for the best user experience.
 
 If you have something interesting ! Just write to us :)
 
-# Installation
+# :grey_exclamation: Installation :grey_exclamation:
 
-``
-npm i react-native-country-codes-picker
-``
+expo: `expo install react-native-country-codes-picker`  
+npm: `npm i react-native-country-codes-picker`  
+yarn: `yarn add react-native-country-codes-picker`
 
 # Example
 
@@ -74,7 +73,60 @@ Below are the props you can pass to the React Component.
 | inputPlaceholder | string | | inputPlaceholder={'Your placeholder'} | If you need a custom placeholder for your input you may need this prop. | 
 | searchMessage | string | | searchMessage={'Some search message here'} | If you want to customize search message just use this prop. | 
 | lang | string | 'en' | lang={'pl'} | If you need to change the lang. just put one of supported lang. Or if you didn't find required lang just add them and make a PR :) | 
+| style  | Object | | style={{yoursStylesHere}} |  If you want to change styles for component you probably need this props. You can check the styling part below. |
 
-## Supported languages => en, ru, ua, cz, pl.
+:grey_exclamation: Also you can use all other FlatList and TextInput props if you need. :grey_exclamation:
 
+# Styling
+```JS
+<CountryPicker
+    show={show}
+    lang={'cz'}
+    style={{
+        // Styles for whole modal [View]
+        modal: {
+            height: 500,
+            backgroundColor: 'red'
+        },
+        // Styles for input [TextInput]
+        textInput: {
+              height: 80,
+              borderRadius: 0,
+        },
+        // Styles for country button [TouchableOpacity]
+        countryButtonStyles: {
+              height: 80
+        },
+        // Styles for search message [Text]
+        searchMessageText: {
 
+        },
+        // Flag styles [Text]
+        flag: {
+
+        },
+        // Dial code styles [Text]
+        dialCode: {
+
+        },
+        // Country name styles [Text]
+        countryName: {
+
+        }
+    }}
+    pickerButtonOnPress={(item) => {
+        setCountryCode(item.dial_code);
+        setShow(false);
+    }}
+/>
+```
+
+# :crossed_flags: Supported langs. :crossed_flags:
+
+1. cz.
+2. ua.
+3. ru.
+4. en.
+5. pl.
+
+You can add your lang. if you need !!! But after that make a PR please, it will help other people.
