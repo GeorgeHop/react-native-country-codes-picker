@@ -72,7 +72,9 @@ Below are the props you can pass to the React Component.
 | pickerButtonOnPress | function | | (country) => setCode(country.dial_code) | Put your function/functions here for getting country data from picker. | 
 | inputPlaceholder | string | | inputPlaceholder={'Your placeholder'} | If you need a custom placeholder for your input you may need this prop. | 
 | searchMessage | string | | searchMessage={'Some search message here'} | If you want to customize search message just use this prop. | 
-| lang | string | 'en' | lang={'pl'} | If you need to change the lang. just put one of supported lang. Or if you didn't find required lang just add them and make a PR :) | 
+| lang | string | 'en' | lang={'pl'} | If you need to change the lang. just put one of supported lang. Or if you didn't find required lang just add them and make a PR :) |
+| enableModalAvoiding | boolean | false | enableModalAvoiding={true} | Is modal should avoid keyboard ? On android to work required to use with androidWindowSoftInputMode with value pan, by default android will avoid keyboard by itself | 
+| androidWindowSoftInputMode | string |  | androidWindowSoftInputMode={'pan'} | Basicaly android avoid keyboard by itself, if you want to use custom avoiding you may use this prop | 
 | style  | Object | | style={{yoursStylesHere}} |  If you want to change styles for component you probably need this props. You can check the styling part below. |
 
 :grey_exclamation: Also you can use all other FlatList and TextInput props if you need. :grey_exclamation:
