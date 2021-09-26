@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import {countryCodes} from "../constants/countryCodes";
 import {CountryButton} from "./CountryButton";
-import {useKeyboardStatus} from "react-native-country-codes-picker/hooks/useKeyboardStatus";
+import {useKeyboardStatus} from "../helpers/useKeyboardStatus";
 
 const height = Dimensions.get('window').height;
 
