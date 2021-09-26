@@ -62,7 +62,7 @@ export default function CountryPicker({
             if (keyboardStatus.isOpen)
                 Animated.timing(animatedMargin, {
                     toValue: keyboardStatus.keyboardHeight,
-                    duration: 400,
+                    duration: 290,
                     easing: Easing.ease,
                     useNativeDriver: false
                 }).start();
@@ -70,12 +70,12 @@ export default function CountryPicker({
             if (!keyboardStatus.isOpen)
                 Animated.timing(animatedMargin, {
                     toValue: 0,
-                    duration: 400,
+                    duration: 290,
                     easing: Easing.ease,
                     useNativeDriver: false
                 }).start();
         }
-    },[keyboardStatus.isOpen])
+    },[keyboardStatus.isOpen]);
 
     const resultCountries = React.useMemo(() => {
         if (!isNaN(searchValue))
@@ -143,7 +143,6 @@ export default function CountryPicker({
                     </View>
                 ) : (
                     <FlatList
-                        // ToDo add showing new countries only when fat list is scrolling using onScroll
                         showsVerticalScrollIndicator={false}
                         data={resultCountries || countryCodes}
                         keyExtractor={(item, index) => item + index}
@@ -210,10 +209,13 @@ const styles = {
         shadowOpacity: 0.37,
         shadowRadius: 7.49,
 
-        elevation: 12,
+        elevation: 10,
     },
     modalInner: {
         backgroundColor: 'white',
+        width: '100%',
+        zIndex: 100,
+        elevation: 10,
     },
     searchBar: {
         flex: 1,
