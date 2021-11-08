@@ -9,6 +9,8 @@ Didn't find your country ? Just add the required countries or locales and make a
 2. Custom search input rendering.
 3. Picker types (modal, input). If you need input with search.
 4. Docs update/improve for the best user experience.
+5. TS Declarations.
+6. Animation improvements.
 
 If you have something interesting ! Just write to us :)
 
