@@ -81,7 +81,7 @@ export default function CountryPicker({
         if (!isNaN(searchValue))
             return countryCodes.filter(country => country?.dial_code.includes(searchValue))
 
-        return countryCodes.filter(country => country?.name[lang || 'en'].toLowerCase()===searchValue.toLowerCase())
+        return countryCodes.filter(country => country?.name[lang || 'en'].toLowerCase() === searchValue?.toLowerCase())
     }, [searchValue]);
 
     const modalPosition = animationDriver.interpolate({
