@@ -1,6 +1,6 @@
 {
   "name": "react-native-country-codes-picker",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "This lib. provide country iso picker with search functionality",
   "main": "index.js",
   "scripts": {
