@@ -39,7 +39,7 @@ export default function CountryPicker({
 	style,
 	enableModalAvoiding,
 	androidWindowSoftInputMode,
-	itemTemplate: ItemTemplate = 'CountryButton',
+	itemTemplate: ItemTemplate = CountryButton,
 	...rest
 }) {
 	const keyboardStatus = useKeyboardStatus();
