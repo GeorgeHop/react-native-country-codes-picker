@@ -27,7 +27,7 @@ yarn: `yarn add react-native-country-codes-picker`
 # Basic usage
 
 ```JS
-import {CountryPicker} from "react-native-country-codes-picker/components/CountryPicker";
+import {CountryPicker} from "react-native-country-codes-picker";
 
 export default function App() {
   const [show, setShow] = useState(false);
