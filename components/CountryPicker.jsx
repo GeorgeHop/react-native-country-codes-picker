@@ -8,52 +8,53 @@ import {
 	Dimensions,
 	KeyboardAvoidingView,
 	Easing,
-	Keyboard,
+	Keyboard, TouchableOpacity,
 } from 'react-native';
-import { countryCodes } from '../constants/countryCodes';
-import { CountryButton } from './CountryButton';
-import { useKeyboardStatus } from '../helpers/useKeyboardStatus';
+import {countryCodes} from '../constants/countryCodes';
+import {CountryButton} from './CountryButton';
+import {useKeyboardStatus} from '../helpers/useKeyboardStatus';
 
 const height = Dimensions.get('window').height;
 
 /**
  * Country picker component
  * @param {?boolean} show Hide or show component by using this props
+ * @param {?boolean} disableBackdrop Hide or show component by using this props
  * @param {?boolean} enableModalAvoiding Is modal should avoid keyboard ? On android to work required to use with androidWindowSoftInputMode with value pan, by default android will avoid keyboard by itself
  * @param {?string} androidWindowSoftInputMode Hide or show component by using this props
  * @param {?string} inputPlaceholder Text to showing in input
  * @param {?string} searchMessage Text to show user when no country to show
  * @param {?string} lang Current selected lang bu user
  * @param {Function} pickerButtonOnPress Function to receive selected country
+ * @param {Function} onBackdropPress Function to receive selected country
  * @param {?Object} style Styles
  * @param {?React.ReactNode} itemTemplate Country list template
  * @param rest
  */
 
 export default function CountryPicker({
-	show,
-	pickerButtonOnPress,
-	inputPlaceholder,
-	searchMessage,
-	lang = 'en',
-	style,
-	enableModalAvoiding,
-	androidWindowSoftInputMode,
-	itemTemplate: ItemTemplate = CountryButton,
-	...rest
-}) {
+										  show,
+										  pickerButtonOnPress,
+										  inputPlaceholder,
+										  searchMessage,
+										  lang = 'en',
+										  style,
+										  enableModalAvoiding,
+										  androidWindowSoftInputMode,
+										  onBackdropPress,
+										  disableBackdrop,
+										  itemTemplate: ItemTemplate = CountryButton,
+										  ...rest
+									  }) {
 	const keyboardStatus = useKeyboardStatus();
 	const animationDriver = React.useRef(new Animated.Value(0)).current;
 	const animatedMargin = React.useRef(new Animated.Value(0)).current;
 	const [searchValue, setSearchValue] = React.useState('');
+	const [visible, setVisible] = React.useState(show);
 
 	React.useEffect(() => {
 		if (show) {
-			Animated.timing(animationDriver, {
-				toValue: 1,
-				duration: 400,
-				useNativeDriver: true,
-			}).start();
+			openModal();
 		} else {
 			closeModal();
 		}
@@ -103,28 +104,64 @@ export default function CountryPicker({
 		extrapolate: 'clamp',
 	});
 
+	const modalBackdropFade = animationDriver.interpolate({
+		inputRange: [0, 0.5, 1],
+		outputRange: [0, 0.5, 1],
+		extrapolate: 'clamp'
+	});
+
+	const openModal = () => {
+		setVisible(true);
+		Animated.timing(animationDriver, {
+			toValue: 1,
+			duration: 400,
+			useNativeDriver: false,
+		}).start();
+	};
+
 	const closeModal = () => {
 		Animated.timing(animationDriver, {
 			toValue: 0,
 			duration: 400,
-			useNativeDriver: true,
-		}).start();
+			useNativeDriver: false,
+		}).start(() => setVisible(false));
 	};
 
+	if (!visible)
+		return null;
+
 	return (
-		<Animated.View
-			style={[
-				styles.container,
-				{
-					transform: [
+		<>
+			{!disableBackdrop && (
+				<Animated.View
+					onStartShouldSetResponder={onBackdropPress}
+					style={[
 						{
-							translateY: modalPosition,
+							flex: 1,
+							opacity: modalBackdropFade,
+							backgroundColor: 'rgba(116,116,116,0.45)',
+							position: 'absolute',
+							width: '100%',
+							height: '100%',
+							justifyContent: 'flex-end'
 						},
-					],
-				},
-			]}
-		>
-			<View style={[styles.modal, style?.modal]}>
+						style?.backdrop
+					]}
+				/>
+			)}
+			<Animated.View
+				style={[
+					styles.modal,
+					style?.modal,
+					{
+						transform: [
+							{
+								translateY: modalPosition,
+							},
+						],
+					},
+				]}
+			>
 				<View
 					style={{
 						flexDirection: 'row',
@@ -139,9 +176,9 @@ export default function CountryPicker({
 						{...rest}
 					/>
 				</View>
-				<View style={styles.line} />
+				<View style={[styles.line, style?.line]}/>
 				{resultCountries.length === 0 ? (
-					<View style={styles.countryMessage}>
+					<View style={[styles.countryMessage, style?.countryMessageContainer]}>
 						<Text
 							style={[
 								{
@@ -161,8 +198,11 @@ export default function CountryPicker({
 						keyExtractor={(item, index) => item + index}
 						initialNumToRender={10}
 						maxToRenderPerBatch={10}
+						style={[{
+							height: 250
+						}, style?.itemsList]}
 						keyboardShouldPersistTaps={'handled'}
-						renderItem={({ item, index }) => {
+						renderItem={({item, index}) => {
 							let itemName = item?.name[lang];
 							let checkName = itemName.length ? itemName : item?.name['en'];
 
@@ -174,8 +214,7 @@ export default function CountryPicker({
 									name={checkName}
 									onPress={() => {
 										Keyboard.dismiss();
-										pickerButtonOnPress(item);
-										closeModal();
+										typeof pickerButtonOnPress === 'function' && pickerButtonOnPress(item);
 									}}
 								/>
 							);
@@ -183,17 +222,17 @@ export default function CountryPicker({
 						{...rest}
 					/>
 				)}
-			</View>
-			<Animated.View
-				style={[
-					styles.modalInner,
-					style?.modalInner,
-					{
-						height: animatedMargin,
-					},
-				]}
-			/>
-		</Animated.View>
+				<Animated.View
+					style={[
+						styles.modalInner,
+						style?.modalInner,
+						{
+							height: animatedMargin,
+						},
+					]}
+				/>
+			</Animated.View>
+		</>
 	);
 }
 
@@ -209,7 +248,6 @@ const styles = {
 	},
 	modal: {
 		backgroundColor: 'white',
-		height: '50%',
 		width: '100%',
 		borderTopRightRadius: 15,
 		borderTopLeftRadius: 15,
@@ -219,6 +257,9 @@ const styles = {
 			width: 0,
 			height: 6,
 		},
+		position: 'absolute',
+		bottom: 0,
+		zIndex: 10,
 		shadowOpacity: 0.37,
 		shadowRadius: 7.49,
 
@@ -227,8 +268,6 @@ const styles = {
 	modalInner: {
 		backgroundColor: 'white',
 		width: '100%',
-		zIndex: 100,
-		elevation: 10,
 	},
 	searchBar: {
 		flex: 1,
