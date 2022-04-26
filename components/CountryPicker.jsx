@@ -24,7 +24,9 @@ const height = Dimensions.get('window').height;
  * @param {?string} androidWindowSoftInputMode Hide or show component by using this props
  * @param {?string} inputPlaceholder Text to showing in input
  * @param {?string} searchMessage Text to show user when no country to show
- * @param {?string} lang Current selected lang bu user
+ * @param {?string} lang Current selected lang by user
+ * @param {?string} initialState Here you should define initial dial code
+ * @param {?array} excludedCountries Array of countries which should be excluded from picker
  * @param {Function} pickerButtonOnPress Function to receive selected country
  * @param {Function} onBackdropPress Function to receive selected country
  * @param {?Object} style Styles
@@ -43,13 +45,21 @@ export default function CountryPicker({
 										  androidWindowSoftInputMode,
 										  onBackdropPress,
 										  disableBackdrop,
+										  excludedCountries = [],
+	                                      initialState,
 										  itemTemplate: ItemTemplate = CountryButton,
 										  ...rest
 									  }) {
+	const codes = countryCodes?.map(country => {
+		if (excludedCountries?.find(short => country?.code === short?.toUpperCase()))
+			return;
+
+		return country;
+	});
 	const keyboardStatus = useKeyboardStatus();
 	const animationDriver = React.useRef(new Animated.Value(0)).current;
 	const animatedMargin = React.useRef(new Animated.Value(0)).current;
-	const [searchValue, setSearchValue] = React.useState('');
+	const [searchValue, setSearchValue] = React.useState(initialState || '');
 	const [visible, setVisible] = React.useState(show);
 
 	React.useEffect(() => {
@@ -89,11 +99,11 @@ export default function CountryPicker({
 
 	const resultCountries = React.useMemo(() => {
 		if (!isNaN(searchValue))
-			return countryCodes.filter((country) =>
+			return codes.filter((country) =>
 				country?.dial_code.includes(searchValue)
 			);
 
-		return countryCodes.filter((country) =>
+		return codes.filter((country) =>
 			country?.name[lang || 'en'].includes(searchValue)
 		);
 	}, [searchValue]);
@@ -194,7 +204,7 @@ export default function CountryPicker({
 				) : (
 					<FlatList
 						showsVerticalScrollIndicator={false}
-						data={resultCountries || countryCodes}
+						data={resultCountries || codes}
 						keyExtractor={(item, index) => item + index}
 						initialNumToRender={10}
 						maxToRenderPerBatch={10}
