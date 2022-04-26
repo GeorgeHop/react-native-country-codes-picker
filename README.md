@@ -154,5 +154,6 @@ Below are the props you can pass to the React Component.
 4. en.
 5. pl.
 6. pt.
+7. es.
 
 You can add your lang. if you need !!! But after that make a PR please, it will help other people.
