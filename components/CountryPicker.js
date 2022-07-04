@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useMemo, useRef, useState} from 'react';
 import {
 	FlatList,
 	TextInput,
@@ -10,9 +10,9 @@ import {
 	Easing,
 	Keyboard, TouchableOpacity,
 } from 'react-native';
-import {countryCodes} from '../constants/countryCodes';
-import {CountryButton} from './CountryButton';
-import {useKeyboardStatus} from '../helpers/useKeyboardStatus';
+import { countryCodes } from '../constants/countryCodes';
+import { CountryButton } from './CountryButton';
+import { useKeyboardStatus } from '../helpers/useKeyboardStatus';
 
 const height = Dimensions.get('window').height;
 
@@ -35,34 +35,36 @@ const height = Dimensions.get('window').height;
  */
 
 export default function CountryPicker({
-										  show,
-										  pickerButtonOnPress,
-										  inputPlaceholder,
-										  searchMessage,
-										  lang = 'en',
-										  style,
-										  enableModalAvoiding,
-										  androidWindowSoftInputMode,
-										  onBackdropPress,
-										  disableBackdrop,
-										  excludedCountries = [],
-	                                      initialState,
-										  itemTemplate: ItemTemplate = CountryButton,
-										  ...rest
-									  }) {
+	show,
+	onSelectedItem,
+	pickerButtonOnPress,
+	inputPlaceholder,
+	searchMessage,
+	lang = 'en',
+	style,
+	enableModalAvoiding,
+	androidWindowSoftInputMode,
+	onBackdropPress,
+	disableBackdrop,
+	excludedCountries = [],
+	initialState,
+	itemTemplate: ItemTemplate = CountryButton,
+	...rest
+}) {
 	const codes = countryCodes?.map(country => {
 		if (excludedCountries?.find(short => country?.code === short?.toUpperCase()))
 			return;
 
 		return country;
 	});
-	const keyboardStatus = useKeyboardStatus();
-	const animationDriver = React.useRef(new Animated.Value(0)).current;
-	const animatedMargin = React.useRef(new Animated.Value(0)).current;
-	const [searchValue, setSearchValue] = React.useState(initialState || '');
-	const [visible, setVisible] = React.useState(show);
 
-	React.useEffect(() => {
+	const keyboardStatus = useKeyboardStatus();
+	const animationDriver = useRef(new Animated.Value(0)).current;
+	const animatedMargin = useRef(new Animated.Value(0)).current;
+	const [searchValue, setSearchValue] = useState(initialState || '');
+	const [visible, setVisible] = useState(show);
+
+	useEffect(() => {
 		if (show) {
 			openModal();
 		} else {
@@ -70,7 +72,12 @@ export default function CountryPicker({
 		}
 	}, [show]);
 
-	React.useEffect(() => {
+	useEffect(() => {
+		const countrySelected = codes.find(item => item.code === initialState)
+		onSelectedItem(countrySelected)
+	}, [codes])
+
+	useEffect(() => {
 		if (
 			enableModalAvoiding &&
 			!!(
@@ -97,10 +104,10 @@ export default function CountryPicker({
 		}
 	}, [keyboardStatus.isOpen]);
 
-	const resultCountries = React.useMemo(() => {
+	const resultCountries = useMemo(() => {
 		if (!isNaN(searchValue))
 			return codes.filter((country) =>
-				country?.dial_code.includes(searchValue)
+				country?.code.includes(searchValue)
 			);
 
 		return codes.filter((country) =>
@@ -186,7 +193,7 @@ export default function CountryPicker({
 						{...rest}
 					/>
 				</View>
-				<View style={[styles.line, style?.line]}/>
+				<View style={[styles.line, style?.line]} />
 				{resultCountries.length === 0 ? (
 					<View style={[styles.countryMessage, style?.countryMessageContainer]}>
 						<Text
@@ -212,7 +219,7 @@ export default function CountryPicker({
 							height: 250
 						}, style?.itemsList]}
 						keyboardShouldPersistTaps={'handled'}
-						renderItem={({item, index}) => {
+						renderItem={({ item, index }) => {
 							let itemName = item?.name[lang];
 							let checkName = itemName.length ? itemName : item?.name['en'];
 

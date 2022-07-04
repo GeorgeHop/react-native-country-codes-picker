@@ -1,1 +1,1 @@
-export default from "./components/CountryPicker";
+export {default} from "./components/CountryPicker";
