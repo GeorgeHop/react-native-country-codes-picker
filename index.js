@@ -1,1 +1,2 @@
-export default from "./components/CountryPicker";
+import CountryPicker from './components/CountryPicker';
+export default CountryPicker;
