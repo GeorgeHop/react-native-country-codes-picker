@@ -103,8 +103,10 @@ export default function CountryPicker({
 				country?.dial_code.includes(searchValue)
 			);
 
+		const lowerCaseSearchValue = searchValue.toLowerCase();
+
 		return codes.filter((country) =>
-			country?.name[lang || 'en'].includes(searchValue)
+			country?.name[lang || 'en'].toLowerCase().includes(lowerCaseSearchValue)
 		);
 	}, [searchValue]);
 
