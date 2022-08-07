@@ -6,9 +6,9 @@ import {
 	Text,
 	Animated,
 	Dimensions,
-	KeyboardAvoidingView,
 	Easing,
-	Keyboard, TouchableOpacity,
+	Platform,
+	Keyboard
 } from 'react-native';
 import {countryCodes} from '../constants/countryCodes';
 import {CountryButton} from './CountryButton';
@@ -35,21 +35,21 @@ const height = Dimensions.get('window').height;
  */
 
 export default function CountryPicker({
-										  show,
-										  pickerButtonOnPress,
-										  inputPlaceholder,
-										  searchMessage,
-										  lang = 'en',
-										  style,
-										  enableModalAvoiding,
-										  androidWindowSoftInputMode,
-										  onBackdropPress,
-										  disableBackdrop,
-										  excludedCountries = [],
-	                                      initialState,
-										  itemTemplate: ItemTemplate = CountryButton,
-										  ...rest
-									  }) {
+	show,
+	pickerButtonOnPress,
+	inputPlaceholder,
+	searchMessage,
+	lang = 'en',
+	style,
+	enableModalAvoiding,
+	androidWindowSoftInputMode,
+	onBackdropPress,
+	disableBackdrop,
+	excludedCountries = [],
+	initialState,
+	itemTemplate: ItemTemplate = CountryButton,
+	...rest
+}) {
 	const codes = countryCodes?.map(country => {
 		if (excludedCountries?.find(short => country?.code === short?.toUpperCase()))
 			return;
@@ -103,8 +103,10 @@ export default function CountryPicker({
 				country?.dial_code.includes(searchValue)
 			);
 
+		const lowerCaseSearchValue = searchValue.toLowerCase();
+
 		return codes.filter((country) =>
-			country?.name[lang || 'en'].includes(searchValue)
+			country?.name[lang || 'en'].toLowerCase().includes(lowerCaseSearchValue)
 		);
 	}, [searchValue]);
 
@@ -259,6 +261,7 @@ const styles = {
 	modal: {
 		backgroundColor: 'white',
 		width: '100%',
+		maxWidth: Platform.OS === "web" ? 600 : undefined,
 		borderTopRightRadius: 15,
 		borderTopLeftRadius: 15,
 		padding: 10,
