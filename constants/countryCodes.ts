@@ -1,4 +1,6 @@
-export const countryCodes = [
+import {CountryItem} from "../types/Types";
+
+export const countryCodes: CountryItem[] = [
 	{
 		'name': {
 			'en': 'Afghanistan',

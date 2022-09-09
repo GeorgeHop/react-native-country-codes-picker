@@ -1,7 +1,9 @@
 import React from 'react';
-import {Text, TouchableOpacity} from "react-native";
+import {Text, TouchableOpacity, ViewStyle} from "react-native";
+import {ItemTemplateProps} from "../types/Types";
 
-export const CountryButton = ({item, name, style, ...rest}) => (
+
+export const CountryButton = ({item, name, style, ...rest}: ItemTemplateProps) => (
     <TouchableOpacity
         style={[styles.countryButton, style?.countryButtonStyles]}
         {...rest}
@@ -27,9 +29,10 @@ export const CountryButton = ({item, name, style, ...rest}) => (
     </TouchableOpacity>
 );
 
-const styles = {
+type StyleKeys = 'countryButton';
+
+const styles: {[key in StyleKeys]: ViewStyle} = {
     countryButton: {
-        borderBottom: 3,
         paddingVertical: 10,
         backgroundColor: '#f5f5f5',
         width: '100%',
