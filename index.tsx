@@ -80,13 +80,15 @@ export default function CountryPicker({
     const animationDriver = React.useRef(new Animated.Value(0)).current;
     const animatedMargin = React.useRef(new Animated.Value(0)).current;
     const [searchValue, setSearchValue] = React.useState<string>(initialState || '');
-    const [showModal, setShowModal] = React.useState<boolean>(show);
+    const [showModal, setShowModal] = React.useState<boolean>(false);
 
     React.useEffect(() => {
-        if (!show) {
+        if (show) {
+            setShowModal(true);
+        } else {
             closeModal();
         }
-    },[show]);
+    }, [show]);
 
     React.useEffect(() => {
         if (
@@ -100,7 +102,7 @@ export default function CountryPicker({
             if (keyboardStatus.isOpen)
                 Animated.timing(animatedMargin, {
                     toValue: keyboardStatus.keyboardHeight,
-                    duration: 290,
+                    duration: 190,
                     easing: Easing.ease,
                     useNativeDriver: false,
                 }).start();
@@ -108,7 +110,7 @@ export default function CountryPicker({
             if (!keyboardStatus.isOpen)
                 Animated.timing(animatedMargin, {
                     toValue: 0,
-                    duration: 290,
+                    duration: 190,
                     easing: Easing.ease,
                     useNativeDriver: false,
                 }).start();
@@ -190,7 +192,12 @@ export default function CountryPicker({
             visible={showModal}
             onShow={openModal}
         >
-            <>
+            <View
+                style={{
+                    flex: 1,
+                    justifyContent: 'flex-end'
+                }}
+            >
                 {!disableBackdrop && (
                     <Animated.View
                         onStartShouldSetResponder={onStartShouldSetResponder}
@@ -198,7 +205,7 @@ export default function CountryPicker({
                             {
                                 flex: 1,
                                 opacity: modalBackdropFade,
-                                backgroundColor: 'rgba(116,116,116,0.45)',
+                                backgroundColor: 'rgba(0,0,0,0.45)',
                                 position: 'absolute',
                                 width: '100%',
                                 height: '100%',
@@ -275,7 +282,7 @@ export default function CountryPicker({
                         ]}
                     />
                 </Animated.View>
-            </>
+            </View>
         </Modal>
     )
 }
@@ -305,7 +312,6 @@ const styles: { [key in StyleKeys]: ViewStyle } = {
             width: 0,
             height: 6,
         },
-        position: 'absolute',
         bottom: 0,
         zIndex: 10,
         shadowOpacity: 0.37,
@@ -327,7 +333,7 @@ const styles: { [key in StyleKeys]: ViewStyle } = {
     countryMessage: {
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100%',
+        height: 250,
     },
     line: {
         width: '100%',
