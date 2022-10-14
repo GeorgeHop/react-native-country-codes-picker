@@ -9,7 +9,7 @@ import {
     Easing,
     Platform,
     Keyboard,
-    ViewStyle
+    ViewStyle, Modal
 } from 'react-native';
 import {CountryItem, ItemTemplateProps, Style} from "./types/Types";
 import {countryCodes} from "./constants/countryCodes";
@@ -38,20 +38,23 @@ const height = Dimensions.get('window').height;
  */
 
 interface Props {
-    show: boolean,
-    pickerButtonOnPress: (item: CountryItem) => any,
-    lang: string,
+    excludedCountries?: [key: string],
 
+    style?: Style,
+
+    show: boolean,
+    enableModalAvoiding?: boolean,
+    disableBackdrop?: boolean,
+
+    onBackdropPress?: (...args: any) => any,
+    pickerButtonOnPress: (item: CountryItem) => any,
+    itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
+
+    lang: string,
     inputPlaceholder?: string,
     searchMessage?: string,
-    style?: Style,
-    enableModalAvoiding?: boolean,
     androidWindowSoftInputMode?: string,
-    onBackdropPress?: (...args: any) => any,
-    disableBackdrop?: boolean,
-    excludedCountries?: [key: string],
     initialState?: string,
-    itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
 }
 
 export default function CountryPicker({
@@ -77,15 +80,13 @@ export default function CountryPicker({
     const animationDriver = React.useRef(new Animated.Value(0)).current;
     const animatedMargin = React.useRef(new Animated.Value(0)).current;
     const [searchValue, setSearchValue] = React.useState<string>(initialState || '');
-    const [visible, setVisible] = React.useState<boolean>(show);
+    const [showModal, setShowModal] = React.useState<boolean>(show);
 
     React.useEffect(() => {
-        if (show) {
-            openModal();
-        } else {
+        if (!show) {
             closeModal();
         }
-    }, [show]);
+    },[show]);
 
     React.useEffect(() => {
         if (
@@ -144,7 +145,6 @@ export default function CountryPicker({
     });
 
     const openModal = () => {
-        setVisible(true);
         Animated.timing(animationDriver, {
             toValue: 1,
             duration: 400,
@@ -157,7 +157,7 @@ export default function CountryPicker({
             toValue: 0,
             duration: 400,
             useNativeDriver: false,
-        }).start(() => setVisible(false));
+        }).start(() => setShowModal(false));
     };
 
     const renderItem = ({item, index}: { item: CountryItem, index: number }) => {
@@ -183,97 +183,101 @@ export default function CountryPicker({
         return false;
     };
 
-    if (!visible)
-        return null;
-
     return (
-        <>
-            {!disableBackdrop && (
-                <Animated.View
-                    onStartShouldSetResponder={onStartShouldSetResponder}
-                    style={[
-                        {
-                            flex: 1,
-                            opacity: modalBackdropFade,
-                            backgroundColor: 'rgba(116,116,116,0.45)',
-                            position: 'absolute',
-                            width: '100%',
-                            height: '100%',
-                            justifyContent: 'flex-end'
-                        },
-                        style?.backdrop
-                    ]}
-                />
-            )}
-            <Animated.View
-                style={[
-                    styles.modal,
-                    style?.modal,
-                    {
-                        transform: [
+        <Modal
+            animationType="fade"
+            transparent={true}
+            visible={showModal}
+            onShow={openModal}
+        >
+            <>
+                {!disableBackdrop && (
+                    <Animated.View
+                        onStartShouldSetResponder={onStartShouldSetResponder}
+                        style={[
                             {
-                                translateY: modalPosition,
+                                flex: 1,
+                                opacity: modalBackdropFade,
+                                backgroundColor: 'rgba(116,116,116,0.45)',
+                                position: 'absolute',
+                                width: '100%',
+                                height: '100%',
+                                justifyContent: 'flex-end'
                             },
-                        ],
-                    },
-                ]}
-            >
-                <View
-                    style={{
-                        flexDirection: 'row',
-                        alignItems: 'center',
-                    }}
-                >
-                    <TextInput
-                        style={[styles.searchBar, style?.textInput]}
-                        value={searchValue}
-                        onChangeText={setSearchValue}
-                        placeholder={inputPlaceholder || 'Search your country'}
-                        {...rest}
-                    />
-                </View>
-                <View style={[styles.line, style?.line]}/>
-                {resultCountries.length === 0 ? (
-                    <View style={[styles.countryMessage, style?.countryMessageContainer]}>
-                        <Text
-                            style={[
-                                {
-                                    color: '#8c8c8c',
-                                    fontSize: 16,
-                                },
-                                style?.searchMessageText,
-                            ]}
-                        >
-                            {searchMessage || 'Sorry we cant find your country :('}
-                        </Text>
-                    </View>
-                ) : (
-                    <FlatList
-                        showsVerticalScrollIndicator={false}
-                        data={(resultCountries || codes)}
-                        keyExtractor={(item, index) => '' + item + index}
-                        initialNumToRender={10}
-                        maxToRenderPerBatch={10}
-                        style={[{
-                            height: 250
-                        }, style?.itemsList]}
-                        keyboardShouldPersistTaps={'handled'}
-                        renderItem={renderItem}
-                        {...rest}
+                            style?.backdrop
+                        ]}
                     />
                 )}
                 <Animated.View
                     style={[
-                        styles.modalInner,
-                        style?.modalInner,
+                        styles.modal,
+                        style?.modal,
                         {
-                            height: animatedMargin,
+                            transform: [
+                                {
+                                    translateY: modalPosition,
+                                },
+                            ],
                         },
                     ]}
-                />
-            </Animated.View>
-        </>
-    );
+                >
+                    <View
+                        style={{
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                        }}
+                    >
+                        <TextInput
+                            style={[styles.searchBar, style?.textInput]}
+                            value={searchValue}
+                            onChangeText={setSearchValue}
+                            placeholder={inputPlaceholder || 'Search your country'}
+                            {...rest}
+                        />
+                    </View>
+                    <View style={[styles.line, style?.line]}/>
+                    {resultCountries.length === 0 ? (
+                        <View style={[styles.countryMessage, style?.countryMessageContainer]}>
+                            <Text
+                                style={[
+                                    {
+                                        color: '#8c8c8c',
+                                        fontSize: 16,
+                                    },
+                                    style?.searchMessageText,
+                                ]}
+                            >
+                                {searchMessage || 'Sorry we cant find your country :('}
+                            </Text>
+                        </View>
+                    ) : (
+                        <FlatList
+                            showsVerticalScrollIndicator={false}
+                            data={(resultCountries || codes)}
+                            keyExtractor={(item, index) => '' + item + index}
+                            initialNumToRender={10}
+                            maxToRenderPerBatch={10}
+                            style={[{
+                                height: 250
+                            }, style?.itemsList]}
+                            keyboardShouldPersistTaps={'handled'}
+                            renderItem={renderItem}
+                            {...rest}
+                        />
+                    )}
+                    <Animated.View
+                        style={[
+                            styles.modalInner,
+                            style?.modalInner,
+                            {
+                                height: animatedMargin,
+                            },
+                        ]}
+                    />
+                </Animated.View>
+            </>
+        </Modal>
+    )
 }
 
 
