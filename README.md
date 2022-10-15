@@ -20,7 +20,7 @@ yarn: `yarn add react-native-country-codes-picker`
 
 # Example
 
-![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/47904385/112475469-223a5080-8d71-11eb-92c0-43583056e30c.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/47904385/195978433-29982bec-b5cc-4d2a-ba01-4eb686005567.gif)
 
 # Basic usage
 
