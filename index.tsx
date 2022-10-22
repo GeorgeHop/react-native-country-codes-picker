@@ -12,9 +12,9 @@ import {
     ViewStyle, Modal
 } from 'react-native';
 import {CountryItem, ItemTemplateProps, Style} from "./types/Types";
-import {countryCodes} from "./constants/countryCodes";
 import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
 import {CountryButton} from "./components/CountryButton";
+import {countriesRemover} from "./helpers/countriesRemover";
 
 
 const height = Dimensions.get('window').height;
@@ -38,7 +38,7 @@ const height = Dimensions.get('window').height;
  */
 
 interface Props {
-    excludedCountries?: [key: string],
+    excludedCountries?: string[],
 
     style?: Style,
 
@@ -57,25 +57,23 @@ interface Props {
     initialState?: string,
 }
 
-export default function CountryPicker({
-                                          show,
-                                          pickerButtonOnPress,
-                                          inputPlaceholder,
-                                          searchMessage,
-                                          lang = 'en',
-                                          style,
-                                          enableModalAvoiding,
-                                          androidWindowSoftInputMode,
-                                          onBackdropPress,
-                                          disableBackdrop,
-                                          excludedCountries,
-                                          initialState,
-                                          itemTemplate: ItemTemplate = CountryButton,
-                                          ...rest
-                                      }: Props) {
-    const codes = countryCodes?.filter(country => {
-        return !(excludedCountries?.find(short => country?.code === short?.toUpperCase()));
-    });
+export const CountryPicker = ({
+                                  show,
+                                  pickerButtonOnPress,
+                                  inputPlaceholder,
+                                  searchMessage,
+                                  lang = 'en',
+                                  style,
+                                  enableModalAvoiding,
+                                  androidWindowSoftInputMode,
+                                  onBackdropPress,
+                                  disableBackdrop,
+                                  excludedCountries,
+                                  initialState,
+                                  itemTemplate: ItemTemplate = CountryButton,
+                                  ...rest
+                              }: Props) => {
+    const codes = countriesRemover(excludedCountries);
     const keyboardStatus = useKeyboardStatus();
     const animationDriver = React.useRef(new Animated.Value(0)).current;
     const animatedMargin = React.useRef(new Animated.Value(0)).current;
@@ -118,17 +116,10 @@ export default function CountryPicker({
     }, [keyboardStatus.isOpen]);
 
     const resultCountries = React.useMemo(() => {
-        if (!searchValue)
-            return codes.filter((country) => {
-                if (country?.dial_code.includes(searchValue)) {
-                    return country;
-                }
-            });
-
-        const lowerCaseSearchValue = searchValue.toLowerCase();
+        const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.name[lang || 'en'].toLowerCase().includes(lowerCaseSearchValue)) {
+            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
                 return country;
             }
         });
@@ -285,7 +276,72 @@ export default function CountryPicker({
             </View>
         </Modal>
     )
+};
+
+interface CountryListProps {
+    lang: string,
+    searchValue?: string,
+    excludedCountries?: string[],
+
+    itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
+    pickerButtonOnPress: (item: CountryItem) => any,
+
+    style?: Style,
 }
+
+export const CountryList = ({
+                                lang = 'en',
+                                searchValue = '',
+                                excludedCountries,
+                                style,
+                                pickerButtonOnPress,
+                                itemTemplate: ItemTemplate = CountryButton,
+                                ...rest
+                            }: CountryListProps) => {
+    const codes = countriesRemover(excludedCountries);
+
+    const resultCountries = React.useMemo(() => {
+        const lowerSearchValue = searchValue.toLowerCase();
+
+        return codes.filter((country) => {
+            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
+                return country;
+            }
+        });
+    }, [searchValue]);
+
+    const renderItem = ({item, index}: { item: CountryItem, index: number }) => {
+        let itemName = item?.name[lang];
+        let checkName = itemName.length ? itemName : item?.name['en'];
+
+        return (
+            <ItemTemplate
+                key={index}
+                item={item}
+                style={style}
+                name={checkName}
+                onPress={() => {
+                    Keyboard.dismiss();
+                    typeof pickerButtonOnPress === 'function' && pickerButtonOnPress(item);
+                }}
+            />
+        );
+    };
+
+    return (
+        <FlatList
+            showsVerticalScrollIndicator={false}
+            data={(resultCountries || codes)}
+            keyExtractor={(item, index) => '' + item + index}
+            initialNumToRender={10}
+            maxToRenderPerBatch={10}
+            style={[style?.itemsList]}
+            keyboardShouldPersistTaps={'handled'}
+            renderItem={renderItem}
+            {...rest}
+        />
+    )
+};
 
 
 type StyleKeys = 'container' | 'modal' | 'modalInner' | 'searchBar' | 'countryMessage' | 'line';
