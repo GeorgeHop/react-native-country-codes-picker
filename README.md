@@ -1,6 +1,6 @@
 # react-native-country-codes-picker
 
-:zap: :zap: :zap: This lib. provide multi lang. country picker with search functionality. Fully crossplatform and supported on React-native and expo.
+:zap: :zap: :zap: This lib. provide multi lang. country picker or country list with search functionality. Fully crossplatform and supported on React-native and expo.
 Didn't find your country ? Just add the required countries or locales and make a PR. :zap: :zap: :zap:
 
 ## Coming soon :muscle: :pray:
@@ -24,8 +24,10 @@ yarn: `yarn add react-native-country-codes-picker`
 
 # Basic usage
 
+### Modal
+
 ```JS
-import CountryPicker from "react-native-country-codes-picker";
+import {CountryPicker} from "react-native-country-codes-picker";
 
 export default function App() {
   const [show, setShow] = useState(false);
@@ -59,6 +61,44 @@ export default function App() {
           setShow(false);
         }}
       />
+    </View>
+  );
+}
+```
+
+### List
+
+```js
+import {CountryList} from "react-native-country-codes-picker";
+
+export default function App() {
+  const [countryCode, setCountryCode] = useState('');
+
+  return (
+    <View style={styles.container}>
+      <View        
+        style={{
+            width: '80%',
+            height: 60,
+            backgroundColor: 'black',
+            padding: 10,
+        }}
+      >
+        <Text style={{
+            color: 'white',
+            fontSize: 20
+        }}>
+            {countryCode}
+        </Text>
+      </TouchableOpacity>
+
+      // All props the same as for picker
+       <CountryList
+          lang={'pl'}
+          pickerButtonOnPress={(item) => {
+              setCountryCode(item.dial_code);
+          }}
+       />
     </View>
   );
 }
