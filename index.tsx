@@ -335,7 +335,7 @@ export const CountryList = ({
             keyExtractor={(item, index) => '' + item + index}
             initialNumToRender={10}
             maxToRenderPerBatch={10}
-            style={[style?.itemsList]}
+            style={[{width: '100%'}, style?.itemsList]}
             keyboardShouldPersistTaps={'handled'}
             renderItem={renderItem}
             {...rest}
