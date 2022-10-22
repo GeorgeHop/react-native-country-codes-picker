@@ -149,12 +149,26 @@ Below are the props you can pass to the React Component.
 
 # :crossed_flags: Supported langs. :crossed_flags:
 
-1. cz.
-2. ua.
-3. ru.
-4. en.
-5. pl.
-6. pt.
-7. es.
+```JS 
+  "name": {
+    "en": "English",
+    "ru": "Russian",
+    "pl": "Polish",
+    "ua": "Ukrainian",
+    "cz": "Czech",
+    "by": "Belarusian",
+    "pt": "Portuguese",
+    "es": "Espanol",
+    "ro": "Romanian",
+    "bg": "Bulgarian",
+    "de": "German",
+    "fr": "French",
+    "nl": "Dutch",
+    "it": "Italian",
+    "cn": "Chinese",
+    "ee": "Estonian",
+    "jp": "Japanese"
+  },
+```
 
 You can add your lang. if you need !!! But after that make a PR please, it will help other people.
