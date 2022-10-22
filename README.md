@@ -20,7 +20,7 @@ yarn: `yarn add react-native-country-codes-picker`
 
 # Example
 
-![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/47904385/112475469-223a5080-8d71-11eb-92c0-43583056e30c.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/47904385/195978433-29982bec-b5cc-4d2a-ba01-4eb686005567.gif)
 
 # Basic usage
 
@@ -149,12 +149,26 @@ Below are the props you can pass to the React Component.
 
 # :crossed_flags: Supported langs. :crossed_flags:
 
-1. cz.
-2. ua.
-3. ru.
-4. en.
-5. pl.
-6. pt.
-7. es.
+```JS 
+  "name": {
+    "en": "English",
+    "ru": "Russian",
+    "pl": "Polish",
+    "ua": "Ukrainian",
+    "cz": "Czech",
+    "by": "Belarusian",
+    "pt": "Portuguese",
+    "es": "Espanol",
+    "ro": "Romanian",
+    "bg": "Bulgarian",
+    "de": "German",
+    "fr": "French",
+    "nl": "Dutch",
+    "it": "Italian",
+    "cn": "Chinese",
+    "ee": "Estonian",
+    "jp": "Japanese"
+  },
+```
 
 You can add your lang. if you need !!! But after that make a PR please, it will help other people.
