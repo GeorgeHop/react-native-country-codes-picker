@@ -119,7 +119,7 @@ export const CountryPicker = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
+            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(lowerSearchValue)) {
                 return country;
             }
         });
@@ -304,7 +304,7 @@ export const CountryList = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
+            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(lowerSearchValue)) {
                 return country;
             }
         });
