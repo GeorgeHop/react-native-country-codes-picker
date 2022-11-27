@@ -32,6 +32,7 @@ const height = Dimensions.get('window').height;
  * @param {?array} excludedCountries Array of countries which should be excluded from picker
  * @param {Function} pickerButtonOnPress Function to receive selected country
  * @param {Function} onBackdropPress Function to receive selected country
+ * @param {Function} onRequestClose Function to receive selected country
  * @param {?Object} style Styles
  * @param {?React.ReactNode} itemTemplate Country list template
  * @param rest
@@ -49,6 +50,7 @@ interface Props {
     onBackdropPress?: (...args: any) => any,
     pickerButtonOnPress: (item: CountryItem) => any,
     itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
+    onRequestClose?: (...args: any) => any,
 
     lang: string,
     inputPlaceholder?: string,
@@ -70,6 +72,7 @@ export const CountryPicker = ({
                                   disableBackdrop,
                                   excludedCountries,
                                   initialState,
+                                  onRequestClose,
                                   itemTemplate: ItemTemplate = CountryButton,
                                   ...rest
                               }: Props) => {
@@ -182,6 +185,7 @@ export const CountryPicker = ({
             transparent={true}
             visible={showModal}
             onShow={openModal}
+            onRequestClose={onRequestClose}
         >
             <View
                 style={{
