@@ -122,15 +122,15 @@ export const CountryPicker = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(lowerSearchValue)) {
+            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
                 return country;
             }
         });
     }, [searchValue]);
 
     const modalPosition = animationDriver.interpolate({
-        inputRange: [0, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 1],
-        outputRange: [height, 105, 75, 50, 30, 15, 5, 0],
+        inputRange: [0, 1],
+        outputRange: [height, 0],
         extrapolate: 'clamp',
     });
 
@@ -144,7 +144,7 @@ export const CountryPicker = ({
         Animated.timing(animationDriver, {
             toValue: 1,
             duration: 400,
-            useNativeDriver: false,
+            useNativeDriver: true,
         }).start();
     };
 
@@ -152,7 +152,7 @@ export const CountryPicker = ({
         Animated.timing(animationDriver, {
             toValue: 0,
             duration: 400,
-            useNativeDriver: false,
+            useNativeDriver: true,
         }).start(() => setShowModal(false));
     };
 
@@ -259,24 +259,22 @@ export const CountryPicker = ({
                             keyExtractor={(item, index) => '' + item + index}
                             initialNumToRender={10}
                             maxToRenderPerBatch={10}
-                            style={[{
-                                height: 250
-                            }, style?.itemsList]}
+                            style={[style?.itemsList]}
                             keyboardShouldPersistTaps={'handled'}
                             renderItem={renderItem}
                             {...rest}
                         />
                     )}
-                    <Animated.View
-                        style={[
-                            styles.modalInner,
-                            style?.modalInner,
-                            {
-                                height: animatedMargin,
-                            },
-                        ]}
-                    />
                 </Animated.View>
+                <Animated.View
+                    style={[
+                        styles.modalInner,
+                        style?.modalInner,
+                        {
+                            height: animatedMargin,
+                        },
+                    ]}
+                />
             </View>
         </Modal>
     )
@@ -308,7 +306,7 @@ export const CountryList = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(lowerSearchValue)) {
+            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
                 return country;
             }
         });
@@ -339,7 +337,7 @@ export const CountryList = ({
             keyExtractor={(item, index) => '' + item + index}
             initialNumToRender={10}
             maxToRenderPerBatch={10}
-            style={[{width: '100%'}, style?.itemsList]}
+            style={[style?.itemsList]}
             keyboardShouldPersistTaps={'handled'}
             renderItem={renderItem}
             {...rest}
@@ -367,6 +365,7 @@ const styles: { [key in StyleKeys]: ViewStyle } = {
         borderTopRightRadius: 15,
         borderTopLeftRadius: 15,
         padding: 10,
+
         shadowColor: '#000',
         shadowOffset: {
             width: 0,
@@ -380,6 +379,7 @@ const styles: { [key in StyleKeys]: ViewStyle } = {
         elevation: 10,
     },
     modalInner: {
+        zIndex: 99,
         backgroundColor: 'white',
         width: '100%',
     },
