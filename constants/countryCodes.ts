@@ -18,6 +18,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Afghanistan",
 			"it": "Afghanistan",
 			"cn": "阿富汗",
+			"zh": "阿富汗",
 			"ee": "Afganistan",
 			"jp": "アフガニスタン"
 		},
@@ -42,6 +43,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Albanië",
 			"it": "Albania",
 			"cn": "阿尔巴尼亚",
+			"zh": "阿爾巴尼亞",
 			"ee": "Albaania",
 			"jp": "アルバニア"
 		},
@@ -66,6 +68,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Algerije",
 			"it": "Algeria",
 			"cn": "阿尔及利亚",
+			"zh": "阿爾及利亞",
 			"ee": "Alžeeria",
 			"jp": "アルジェリア"
 		},
@@ -90,6 +93,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Amerikaans Samoa",
 			"it": "Samoa americane",
 			"cn": "美属萨摩亚",
+			"zh": "美屬薩摩亞",
 			"ee": "Ameerika Samoa",
 			"jp": "アメリカ領サモア"
 		},
@@ -114,6 +118,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Andorra",
 			"it": "Andorra",
 			"cn": "安道尔",
+			"zh": "安道爾",
 			"ee": "Andorra",
 			"jp": "アンドラ"
 		},
@@ -138,6 +143,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Angola",
 			"it": "Angola",
 			"cn": "安哥拉",
+			"zh": "安哥拉",
 			"ee": "Angola",
 			"jp": "アンゴラ"
 		},
@@ -162,6 +168,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Anguilla",
 			"it": "Anguilla",
 			"cn": "安圭拉岛",
+			"zh": "安圭拉島",
 			"ee": "Anguilla",
 			"jp": "アンギラ"
 		},
@@ -186,6 +193,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Antarctica",
 			"it": "Antartide",
 			"cn": "南极洲",
+			"zh": "南極洲",
 			"ee": "Antarktika",
 			"jp": "南極大陸"
 		},
@@ -210,6 +218,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Antigua en Barbuda",
 			"it": "Antigua e Barbuda",
 			"cn": "安提瓜和巴布达",
+			"zh": "安提瓜和巴布達",
 			"ee": "Antigua ja Barbuda",
 			"jp": "アンティグアバーブーダ"
 		},
@@ -234,6 +243,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Argentinië",
 			"it": "Argentina",
 			"cn": "阿根廷",
+			"zh": "阿根廷",
 			"ee": "Argentina",
 			"jp": "アルゼンチン"
 		},
@@ -258,6 +268,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Armenië",
 			"it": "Armenia",
 			"cn": "亚美尼亚",
+			"zh": "亞美尼亞",
 			"ee": "Armeenia",
 			"jp": "アルメニア"
 		},
@@ -282,6 +293,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Aruba",
 			"it": "Aruba",
 			"cn": "阿鲁巴岛",
+			"zh": "阿魯巴島",
 			"ee": "Aruba",
 			"jp": "アルバ"
 		},
@@ -306,6 +318,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Australië",
 			"it": "Australia",
 			"cn": "澳大利亚",
+			"zh": "澳大利亞",
 			"ee": "Austraalia",
 			"jp": "オーストラリア"
 		},
@@ -330,6 +343,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Oostenrijk",
 			"it": "Austria",
 			"cn": "奥地利",
+			"zh": "奧地利",
 			"ee": "Austria",
 			"jp": "オーストリア"
 		},
@@ -354,6 +368,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Azerbeidzjan",
 			"it": "Azerbaigian",
 			"cn": "阿塞拜疆",
+			"zh": "阿塞拜疆",
 			"ee": "Aserbaidžaan",
 			"jp": "アゼルバイジャン"
 		},
@@ -378,6 +393,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bahamas",
 			"it": "Bahamas",
 			"cn": "巴哈马",
+			"zh": "巴哈馬",
 			"ee": "Bahama",
 			"jp": "バハマ"
 		},
@@ -402,6 +418,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bahrein",
 			"it": "Bahrein",
 			"cn": "巴林",
+			"zh": "巴林",
 			"ee": "Bahrein",
 			"jp": "バーレーン"
 		},
@@ -426,6 +443,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bangladesh",
 			"it": "Bangladesh",
 			"cn": "孟加拉国",
+			"zh": "孟加拉國",
 			"ee": "Bangladesh",
 			"jp": "バングラデシュ"
 		},
@@ -450,6 +468,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Barbados",
 			"it": "Barbados",
 			"cn": "巴巴多斯",
+			"zh": "巴巴多斯",
 			"ee": "Barbados",
 			"jp": "バルバドス"
 		},
@@ -474,6 +493,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Wit-Rusland",
 			"it": "Bielorussia",
 			"cn": "白俄罗斯",
+			"zh": "白俄羅斯",
 			"ee": "Valgevene",
 			"jp": "ベラルーシ"
 		},
@@ -498,6 +518,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Belgie",
 			"it": "Belgio",
 			"cn": "比利时",
+			"zh": "比利時",
 			"ee": "Belgia",
 			"jp": "ベルギー"
 		},
@@ -522,6 +543,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Belize",
 			"it": "Belize",
 			"cn": "伯利兹",
+			"zh": "伯利茲",
 			"ee": "Belize",
 			"jp": "ベリーズ"
 		},
@@ -546,6 +568,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Benin",
 			"it": "Benin",
 			"cn": "贝宁",
+			"zh": "貝寧",
 			"ee": "Benin",
 			"jp": "ベナン"
 		},
@@ -570,6 +593,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bermuda",
 			"it": "Bermuda",
 			"cn": "百慕大",
+			"zh": "百慕大",
 			"ee": "Bermuda",
 			"jp": "バミューダ"
 		},
@@ -594,6 +618,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bhutan",
 			"it": "Bhutan",
 			"cn": "不丹",
+			"zh": "不丹",
 			"ee": "Bhutan",
 			"jp": "ブータン"
 		},
@@ -618,6 +643,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bolivia",
 			"it": "Bolivia",
 			"cn": "玻利维亚",
+			"zh": "玻利維亞",
 			"ee": "Boliivia",
 			"jp": "ボリビア"
 		},
@@ -642,6 +668,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bosnië-Herzegovina",
 			"it": "Bosnia Erzegovina",
 			"cn": "波斯尼亚和黑塞哥维那（简称：波黑",
+			"zh": "波斯尼亞和黑塞哥維那（簡稱：波黑",
 			"ee": "Bosnia ja Hertsegoviina",
 			"jp": "ボスニア・ヘルツェゴビナ"
 		},
@@ -666,6 +693,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Botswana",
 			"it": "Botswana",
 			"cn": "博茨瓦纳",
+			"zh": "博茨瓦納",
 			"ee": "Botswana",
 			"jp": "ボツワナ"
 		},
@@ -690,6 +718,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Brazilië",
 			"it": "Brasile",
 			"cn": "巴西",
+			"zh": "巴西",
 			"ee": "Brasiilia",
 			"jp": "ブラジル"
 		},
@@ -714,6 +743,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Brits-Indisch oceaan gebied",
 			"it": "Territorio britannico dell'Oceano Indiano",
 			"cn": "英属印度洋领地",
+			"zh": "英屬印度洋領地",
 			"ee": "Briti India ookeani territoorium",
 			"jp": "イギリス領インド洋地域"
 		},
@@ -738,6 +768,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Brunei Darussalam",
 			"it": "Brunei Darussalam",
 			"cn": "文莱达鲁萨兰国",
+			"zh": "文萊達魯薩蘭國",
 			"ee": "Brunei Darussalam",
 			"jp": "ブルネイダルサラーム"
 		},
@@ -762,6 +793,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bulgarije",
 			"it": "Bulgaria",
 			"cn": "保加利亚",
+			"zh": "保加利亞",
 			"ee": "Bulgaaria",
 			"jp": "ブルガリア"
 		},
@@ -786,6 +818,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Burkina Faso",
 			"it": "Burkina Faso",
 			"cn": "布基纳法索",
+			"zh": "布基納法索",
 			"ee": "Burkina Faso",
 			"jp": "ブルキナファソ"
 		},
@@ -810,6 +843,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Burundi",
 			"it": "Burundi",
 			"cn": "布隆迪",
+			"zh": "布隆迪",
 			"ee": "Burundi",
 			"jp": "ブルンジ"
 		},
@@ -834,6 +868,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Cambodja",
 			"it": "Cambogia",
 			"cn": "柬埔寨",
+			"zh": "柬埔寨",
 			"ee": "Kambodža",
 			"jp": "カンボジア"
 		},
@@ -858,6 +893,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kameroen",
 			"it": "Camerun",
 			"cn": "喀麦隆",
+			"zh": "喀麥隆",
 			"ee": "Kamerun",
 			"jp": "カメルーン"
 		},
@@ -882,6 +918,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Canada",
 			"it": "Canada",
 			"cn": "加拿大",
+			"zh": "加拿大",
 			"ee": "Kanada",
 			"jp": "カナダ"
 		},
@@ -906,6 +943,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kaapverdië",
 			"it": "capo Verde",
 			"cn": "佛得角",
+			"zh": "佛得角",
 			"ee": "Roheneemesaared",
 			"jp": "カーボベルデ"
 		},
@@ -930,6 +968,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kaaiman Eilanden",
 			"it": "Isole Cayman",
 			"cn": "开曼群岛",
+			"zh": "開曼群島",
 			"ee": "Kaimani saared",
 			"jp": "ケイマン諸島"
 		},
@@ -954,6 +993,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Centraal Afrikaanse Republiek",
 			"it": "Repubblica Centrafricana",
 			"cn": "中非共和国",
+			"zh": "中非共和國",
 			"ee": "Kesk-Aafrika Vabariik",
 			"jp": "中央アフリカ共和国"
 		},
@@ -978,6 +1018,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tsjaad",
 			"it": "Chad",
 			"cn": "乍得",
+			"zh": "乍得",
 			"ee": "Tšaad",
 			"jp": "チャド"
 		},
@@ -1002,6 +1043,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Chili",
 			"it": "Chile",
 			"cn": "智利",
+			"zh": "智利",
 			"ee": "Tšiili",
 			"jp": "チリ"
 		},
@@ -1026,6 +1068,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "China",
 			"it": "Cina",
 			"cn": "中国",
+			"zh": "中國",
 			"ee": "Hiina",
 			"jp": "中国"
 		},
@@ -1050,6 +1093,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kersteiland",
 			"it": "Isola di Natale",
 			"cn": "圣诞岛",
+			"zh": "聖誕島",
 			"ee": "Jõulusaar",
 			"jp": "クリスマス島"
 		},
@@ -1074,6 +1118,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Cocos (Keeling) eilanden",
 			"it": "Isole Cocos (Keeling)",
 			"cn": "科科斯（基林）群岛",
+			"zh": "科科斯（基林）群島",
 			"ee": "Kookossaared (Keelingi) saared",
 			"jp": "ココス（キーリング）諸島"
 		},
@@ -1098,6 +1143,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Colombia",
 			"it": "Colombia",
 			"cn": "哥伦比亚",
+			"zh": "哥倫比亞",
 			"ee": "Kolumbia",
 			"jp": "コロンビア"
 		},
@@ -1122,6 +1168,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Comoren",
 			"it": "Comore",
 			"cn": "科摩罗",
+			"zh": "科摩羅",
 			"ee": "Komoorid",
 			"jp": "コモロ"
 		},
@@ -1146,6 +1193,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Congo",
 			"it": "Congo",
 			"cn": "刚果",
+			"zh": "剛果",
 			"ee": "Kongo",
 			"jp": "コンゴ"
 		},
@@ -1170,6 +1218,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Congo, Democratische Republiek Congo",
 			"it": "Congo, Repubblica Democratica del Congo",
 			"cn": "刚果民主共和国",
+			"zh": "剛果民主共和國",
 			"ee": "Kongo, Kongo Demokraatlik Vabariik",
 			"jp": "コンゴ、コンゴ民主共和国"
 		},
@@ -1194,6 +1243,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Cook Eilanden",
 			"it": "Isole Cook",
 			"cn": "库克群岛",
+			"zh": "庫克群島",
 			"ee": "Cooki saared",
 			"jp": "クック諸島"
 		},
@@ -1218,6 +1268,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Costa Rica",
 			"it": "Costa Rica",
 			"cn": "哥斯达黎加",
+			"zh": "哥斯達黎加",
 			"ee": "Costa Rica",
 			"jp": "コスタリカ"
 		},
@@ -1242,6 +1293,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Ivoorkust",
 			"it": "Costa d'Avorio",
 			"cn": "科特迪瓦",
+			"zh": "科特迪瓦",
 			"ee": "Elevandiluurannik",
 			"jp": "コートジボワール"
 		},
@@ -1266,6 +1318,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kroatië",
 			"it": "Croazia",
 			"cn": "克罗地亚",
+			"zh": "克羅地亞",
 			"ee": "Horvaatia",
 			"jp": "クロアチア"
 		},
@@ -1290,6 +1343,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Cuba",
 			"it": "Cuba",
 			"cn": "古巴",
+			"zh": "古巴",
 			"ee": "Kuuba",
 			"jp": "キューバ"
 		},
@@ -1314,6 +1368,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Cyprus",
 			"it": "Cipro",
 			"cn": "塞浦路斯",
+			"zh": "塞浦路斯",
 			"ee": "Küpros",
 			"jp": "キプロス"
 		},
@@ -1338,6 +1393,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tsjechië",
 			"it": "Repubblica Ceca",
 			"cn": "捷克共和国",
+			"zh": "捷克共和國",
 			"ee": "Tšehhi Vabariik",
 			"jp": "チェコ共和国"
 		},
@@ -1362,6 +1418,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Denemarken",
 			"it": "Danimarca",
 			"cn": "丹麦",
+			"zh": "丹麥",
 			"ee": "Taani",
 			"jp": "デンマーク"
 		},
@@ -1386,6 +1443,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Djibouti",
 			"it": "Gibuti",
 			"cn": "吉布地",
+			"zh": "吉布地",
 			"ee": "Djibouti",
 			"jp": "ジブチ"
 		},
@@ -1410,6 +1468,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Dominica",
 			"it": "Dominica",
 			"cn": "多米尼加",
+			"zh": "多米尼加",
 			"ee": "Dominica",
 			"jp": "ドミニカ"
 		},
@@ -1434,6 +1493,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Dominicaanse Republiek",
 			"it": "Repubblica Dominicana",
 			"cn": "多明尼加共和国",
+			"zh": "多明尼加共和國",
 			"ee": "Dominikaani Vabariik",
 			"jp": "ドミニカ共和国"
 		},
@@ -1458,6 +1518,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Ecuador",
 			"it": "Ecuador",
 			"cn": "厄瓜多尔",
+			"zh": "厄瓜多爾",
 			"ee": "Ecuador",
 			"jp": "エクアドル"
 		},
@@ -1482,6 +1543,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Egypte",
 			"it": "Egitto",
 			"cn": "埃及",
+			"zh": "埃及",
 			"ee": "Egiptus",
 			"jp": "エジプト"
 		},
@@ -1506,6 +1568,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "El Salvador",
 			"it": "El Salvador",
 			"cn": "萨尔瓦多",
+			"zh": "薩爾瓦多",
 			"ee": "El Salvador",
 			"jp": "エルサルバドル"
 		},
@@ -1530,6 +1593,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Equatoriaal-Guinea",
 			"it": "Guinea Equatoriale",
 			"cn": "赤道几内亚",
+			"zh": "赤道幾內亞",
 			"ee": "Ekvatoriaalne Guinea",
 			"jp": "赤道ギニア"
 		},
@@ -1554,6 +1618,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Eritrea",
 			"it": "Eritrea",
 			"cn": "厄立特里亚",
+			"zh": "厄立特里亞",
 			"ee": "Eritrea",
 			"jp": "エリトリア"
 		},
@@ -1578,6 +1643,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Estland",
 			"it": "Estonia",
 			"cn": "爱沙尼亚",
+			"zh": "愛沙尼亞",
 			"ee": "Eesti",
 			"jp": "エストニア"
 		},
@@ -1602,6 +1668,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Ethiopië",
 			"it": "Etiopia",
 			"cn": "埃塞俄比亚",
+			"zh": "埃塞俄比亞",
 			"ee": "Etioopia",
 			"jp": "エチオピア"
 		},
@@ -1626,6 +1693,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Falklandeilanden (Malvinas)",
 			"it": "Isole Falkland (Malvinas)",
 			"cn": "福克兰群岛（马尔维纳斯）",
+			"zh": "福克蘭群島（馬爾維納斯）",
 			"ee": "Falklandi saared (Malvinas)",
 			"jp": "フォークランド諸島（マルビナス）"
 		},
@@ -1650,6 +1718,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Faeröer",
 			"it": "Isole Faroe",
 			"cn": "法罗群岛",
+			"zh": "法羅群島",
 			"ee": "Fääri saared",
 			"jp": "フェロー諸島"
 		},
@@ -1674,6 +1743,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Fiji",
 			"it": "Figi",
 			"cn": "斐济",
+			"zh": "斐濟",
 			"ee": "Fidži",
 			"jp": "フィジー"
 		},
@@ -1698,6 +1768,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Finland",
 			"it": "Finlandia",
 			"cn": "芬兰",
+			"zh": "芬蘭",
 			"ee": "Soome",
 			"jp": "フィンランド"
 		},
@@ -1722,6 +1793,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Frankrijk",
 			"it": "Francia",
 			"cn": "法国",
+			"zh": "法國",
 			"ee": "Prantsusmaa",
 			"jp": "フランス"
 		},
@@ -1746,6 +1818,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Frans Guyana",
 			"it": "Guiana francese",
 			"cn": "法属圭亚那",
+			"zh": "法屬圭亞那",
 			"ee": "Prantsuse Guajaana",
 			"jp": "フランス領ギアナ"
 		},
@@ -1770,6 +1843,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Frans-Polynesië",
 			"it": "Polinesia francese",
 			"cn": "法属波利尼西亚",
+			"zh": "法屬波利尼西亞",
 			"ee": "Prantsuse Polüneesia",
 			"jp": "フランス領ポリネシア"
 		},
@@ -1794,6 +1868,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Gabon",
 			"it": "Gabon",
 			"cn": "加蓬",
+			"zh": "加蓬",
 			"ee": "Gabon",
 			"jp": "ガボン"
 		},
@@ -1818,6 +1893,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Gambia",
 			"it": "Gambia",
 			"cn": "冈比亚",
+			"zh": "岡比亞",
 			"ee": "Gambia",
 			"jp": "ガンビア"
 		},
@@ -1842,6 +1918,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Georgië",
 			"it": "Georgia",
 			"cn": "乔治亚州",
+			"zh": "喬治亞州",
 			"ee": "Gruusia",
 			"jp": "ジョージア"
 		},
@@ -1866,6 +1943,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Duitsland",
 			"it": "Germania",
 			"cn": "德国",
+			"zh": "德國",
 			"ee": "Saksamaa",
 			"jp": "ドイツ"
 		},
@@ -1890,6 +1968,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Ghana",
 			"it": "Ghana",
 			"cn": "加纳",
+			"zh": "加納",
 			"ee": "Ghana",
 			"jp": "ガーナ"
 		},
@@ -1914,6 +1993,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Gibraltar",
 			"it": "Gibilterra",
 			"cn": "直布罗陀",
+			"zh": "直布羅陀",
 			"ee": "Gibraltar",
 			"jp": "ジブラルタル"
 		},
@@ -1938,6 +2018,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Griekenland",
 			"it": "Grecia",
 			"cn": "希腊",
+			"zh": "希臘",
 			"ee": "Kreeka",
 			"jp": "ギリシャ"
 		},
@@ -1962,6 +2043,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Groenland",
 			"it": "Groenlandia",
 			"cn": "格陵兰",
+			"zh": "格陵蘭",
 			"ee": "Gröönimaa",
 			"jp": "グリーンランド"
 		},
@@ -1986,6 +2068,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Grenada",
 			"it": "Grenada",
 			"cn": "格林纳达",
+			"zh": "格林納達",
 			"ee": "Grenada",
 			"jp": "グレナダ"
 		},
@@ -2010,6 +2093,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Guadeloupe",
 			"it": "Guadalupa",
 			"cn": "瓜德罗普岛",
+			"zh": "瓜德羅普島",
 			"ee": "Guadeloupe",
 			"jp": "グアドループ"
 		},
@@ -2034,6 +2118,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Guam",
 			"it": "Guam",
 			"cn": "关岛",
+			"zh": "關島",
 			"ee": "Guam",
 			"jp": "グアム"
 		},
@@ -2058,6 +2143,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Guatemala",
 			"it": "Guatemala",
 			"cn": "危地马拉",
+			"zh": "危地馬拉",
 			"ee": "Guatemala",
 			"jp": "グアテマラ"
 		},
@@ -2082,6 +2168,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Guernsey",
 			"it": "Guernsey",
 			"cn": "根西岛",
+			"zh": "根西島",
 			"ee": "Guernsey",
 			"jp": "ガーンジー"
 		},
@@ -2106,6 +2193,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Guinea",
 			"it": "Guinea",
 			"cn": "几内亚",
+			"zh": "幾內亞",
 			"ee": "Guinea",
 			"jp": "ギニア"
 		},
@@ -2130,6 +2218,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Guinee-Bissau",
 			"it": "Guinea-Bissau",
 			"cn": "几内亚比绍",
+			"zh": "幾內亞比紹",
 			"ee": "Guinea-Bissau",
 			"jp": "ギニアビサウ"
 		},
@@ -2154,6 +2243,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Guyana",
 			"it": "Guyana",
 			"cn": "圭亚那",
+			"zh": "圭亞那",
 			"ee": "Guajaana",
 			"jp": "ガイアナ"
 		},
@@ -2178,6 +2268,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Haïti",
 			"it": "Haiti",
 			"cn": "海地",
+			"zh": "海地",
 			"ee": "Haiti",
 			"jp": "ハイチ"
 		},
@@ -2202,6 +2293,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Heilige Stoel (Vaticaanstad)",
 			"it": "Santa Sede (Stato della Città del Vaticano)",
 			"cn": "罗马教廷（梵蒂冈城国）",
+			"zh": "羅馬教廷（梵蒂岡城國）",
 			"ee": "Püha Tool (Vatikani linnriik)",
 			"jp": "ホーリーシー（バチカン市国）"
 		},
@@ -2226,6 +2318,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Honduras",
 			"it": "Honduras",
 			"cn": "洪都拉斯",
+			"zh": "洪都拉斯",
 			"ee": "Honduras",
 			"jp": "ホンジュラス"
 		},
@@ -2250,6 +2343,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Hong Kong",
 			"it": "Hong Kong",
 			"cn": "香港",
+			"zh": "香港",
 			"ee": "Hongkong",
 			"jp": "香港"
 		},
@@ -2274,6 +2368,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Hongarije",
 			"it": "Ungheria",
 			"cn": "匈牙利",
+			"zh": "匈牙利",
 			"ee": "Ungari",
 			"jp": "ハンガリー"
 		},
@@ -2298,6 +2393,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "IJsland",
 			"it": "Islanda",
 			"cn": "冰岛",
+			"zh": "冰島",
 			"ee": "Island",
 			"jp": "アイスランド"
 		},
@@ -2322,6 +2418,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "India",
 			"it": "India",
 			"cn": "印度",
+			"zh": "印度",
 			"ee": "India",
 			"jp": "インド"
 		},
@@ -2346,6 +2443,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Indonesië",
 			"it": "Indonesia",
 			"cn": "印度尼西亚",
+			"zh": "印度尼西亞",
 			"ee": "Indoneesia",
 			"jp": "インドネシア"
 		},
@@ -2370,6 +2468,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Iran, Islamitische Republiek",
 			"it": "Iran (Repubblica Islamica del",
 			"cn": "伊朗伊斯兰共和国",
+			"zh": "伊朗伊斯蘭共和國",
 			"ee": "Iraan, Iraagi Islamivabariik",
 			"jp": "イラン、イスラム共和国"
 		},
@@ -2394,6 +2493,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Irak",
 			"it": "Iraq",
 			"cn": "伊拉克",
+			"zh": "伊拉克",
 			"ee": "Iraak",
 			"jp": "イラク"
 		},
@@ -2418,6 +2518,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Ierland",
 			"it": "Irlanda",
 			"cn": "爱尔兰",
+			"zh": "愛爾蘭",
 			"ee": "Iirimaa",
 			"jp": "アイルランド"
 		},
@@ -2442,6 +2543,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Isle of Man",
 			"it": "Isola di Man",
 			"cn": "马恩岛",
+			"zh": "馬恩島",
 			"ee": "Mani saar",
 			"jp": "マン島"
 		},
@@ -2466,6 +2568,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Israël",
 			"it": "Israele",
 			"cn": "以色列",
+			"zh": "以色列",
 			"ee": "Iisrael",
 			"jp": "イスラエル"
 		},
@@ -2490,6 +2593,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Italië",
 			"it": "Italia",
 			"cn": "意大利",
+			"zh": "意大利",
 			"ee": "Itaalia",
 			"jp": "イタリア"
 		},
@@ -2514,6 +2618,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Jamaica",
 			"it": "Giamaica",
 			"cn": "的牙买加",
+			"zh": "的牙買加",
 			"ee": "Jamaica",
 			"jp": "ジャマイカ"
 		},
@@ -2538,6 +2643,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Japan",
 			"it": "Giappone",
 			"cn": "日本",
+			"zh": "日本",
 			"ee": "Jaapan",
 			"jp": "日本"
 		},
@@ -2562,6 +2668,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Jersey",
 			"it": "Jersey",
 			"cn": "球衣",
+			"zh": "球衣",
 			"ee": "Jersey",
 			"jp": "ジャージー"
 		},
@@ -2586,6 +2693,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Jordanië",
 			"it": "Giordania",
 			"cn": "约旦",
+			"zh": "約旦",
 			"ee": "Jordaania",
 			"jp": "ヨルダン"
 		},
@@ -2610,6 +2718,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kazachstan",
 			"it": "Kazakistan",
 			"cn": "哈萨克斯坦",
+			"zh": "哈薩克斯坦",
 			"ee": "Kasahstan",
 			"jp": "カザフスタン"
 		},
@@ -2634,6 +2743,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kenia",
 			"it": "Kenya",
 			"cn": "肯尼亚",
+			"zh": "肯尼亞",
 			"ee": "Keenia",
 			"jp": "ケニア"
 		},
@@ -2658,6 +2768,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kiribati",
 			"it": "Kiribati",
 			"cn": "基里巴斯",
+			"zh": "基里巴斯",
 			"ee": "Kiribati",
 			"jp": "キリバス"
 		},
@@ -2682,6 +2793,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Korea, Democratische Volksrepubliek",
 			"it": "Corea, Repubblica Popolare Democratica di",
 			"cn": "韩国，朝鲜民主主义人民共和国",
+			"zh": "韓國，朝鮮民主主義人民共和國",
 			"ee": "Korea, Korea Rahvademokraatlik Vabariik",
 			"jp": "韓国、朝鮮民主主義人民共和国"
 		},
@@ -2706,6 +2818,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Korea, republiek van",
 			"it": "Corea, Repubblica di",
 			"cn": "韩国",
+			"zh": "韓國",
 			"ee": "Korea Vabariik",
 			"jp": "大韓民国"
 		},
@@ -2730,6 +2843,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Koeweit",
 			"it": "Kuwait",
 			"cn": "科威特",
+			"zh": "科威特",
 			"ee": "Kuveit",
 			"jp": "クウェート"
 		},
@@ -2754,6 +2868,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Kirgizië",
 			"it": "Kirghizistan",
 			"cn": "吉尔吉斯斯坦",
+			"zh": "吉爾吉斯斯坦",
 			"ee": "Kõrgõzstan",
 			"jp": "キルギスタン"
 		},
@@ -2778,6 +2893,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Lao Democratische Volksrepubliek",
 			"it": "Repubblica Democratica Popolare del Laos",
 			"cn": "老挝人民民主共和国",
+			"zh": "老撾人民民主共和國",
 			"ee": "Laose Demokraatlik Rahvavabariik",
 			"jp": "ラオス人民民主共和国"
 		},
@@ -2802,6 +2918,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Letland",
 			"it": "Lettonia",
 			"cn": "拉脱维亚",
+			"zh": "拉脫維亞",
 			"ee": "Läti",
 			"jp": "ラトビア"
 		},
@@ -2826,6 +2943,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Libanon",
 			"it": "Libano",
 			"cn": "黎巴嫩的",
+			"zh": "黎巴嫩的",
 			"ee": "Liibanon",
 			"jp": "レバノン"
 		},
@@ -2850,6 +2968,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Lesotho",
 			"it": "Lesotho",
 			"cn": "莱索托",
+			"zh": "萊索托",
 			"ee": "Lesotho",
 			"jp": "レソト"
 		},
@@ -2874,6 +2993,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Liberia",
 			"it": "Liberia",
 			"cn": "利比里亚",
+			"zh": "利比里亞",
 			"ee": "Libeeria",
 			"jp": "リベリア"
 		},
@@ -2898,6 +3018,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Libië",
 			"it": "Giamahiria araba libica",
 			"cn": "阿拉伯利比亚民众国",
+			"zh": "阿拉伯利比亞民眾國",
 			"ee": "Liibüa Araabia Jamahiriya",
 			"jp": "リビアアラブジャマヒリヤ"
 		},
@@ -2922,6 +3043,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Liechtenstein",
 			"it": "Liechtenstein",
 			"cn": "列支敦士登",
+			"zh": "列支敦士登",
 			"ee": "Liechtenstein",
 			"jp": "リヒテンシュタイン"
 		},
@@ -2946,6 +3068,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Litouwen",
 			"it": "Lituania",
 			"cn": "立陶宛",
+			"zh": "立陶宛",
 			"ee": "Leedu",
 			"jp": "リトアニア"
 		},
@@ -2970,6 +3093,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Luxemburg",
 			"it": "Lussemburgo",
 			"cn": "卢森堡",
+			"zh": "盧森堡",
 			"ee": "Luksemburg",
 			"jp": "ルクセンブルク"
 		},
@@ -2994,6 +3118,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Macao",
 			"it": "Macao",
 			"cn": "澳门",
+			"zh": "澳門",
 			"ee": "Aomen",
 			"jp": "マカオ"
 		},
@@ -3018,6 +3143,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Macedonië, de voormalige Joegoslavische Republiek",
 			"it": "Macedonia, ex Repubblica iugoslava di",
 			"cn": "前南斯拉夫共和国马其顿",
+			"zh": "前南斯拉夫共和國馬其頓",
 			"ee": "Makedoonia, endine Jugoslaavia Makedoonia Vabariik",
 			"jp": "マケドニア、旧ユーゴスラビア共和国"
 		},
@@ -3042,6 +3168,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Madagascar",
 			"it": "Madagascar",
 			"cn": "马达加斯加",
+			"zh": "馬達加斯加",
 			"ee": "Madagaskar",
 			"jp": "マダガスカル"
 		},
@@ -3066,6 +3193,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Malawi",
 			"it": "Malawi",
 			"cn": "马拉维",
+			"zh": "馬拉維",
 			"ee": "Malawi",
 			"jp": "マラウイ"
 		},
@@ -3090,6 +3218,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Maleisië",
 			"it": "Malaysia",
 			"cn": "马来西亚",
+			"zh": "馬來西亞",
 			"ee": "Malaisia",
 			"jp": "マレーシア"
 		},
@@ -3114,6 +3243,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Maldiven",
 			"it": "Maldive",
 			"cn": "马尔代夫",
+			"zh": "馬爾代夫",
 			"ee": "Maldiivid",
 			"jp": "モルディブ"
 		},
@@ -3138,6 +3268,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Mali",
 			"it": "Mali",
 			"cn": "马里",
+			"zh": "馬里",
 			"ee": "Mali",
 			"jp": "マリ"
 		},
@@ -3162,6 +3293,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Malta",
 			"it": "Malta",
 			"cn": "马耳他",
+			"zh": "馬耳他",
 			"ee": "Malta",
 			"jp": "マルタ"
 		},
@@ -3186,6 +3318,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Marshall eilanden",
 			"it": "Isole Marshall",
 			"cn": "马绍尔群岛",
+			"zh": "馬紹爾群島",
 			"ee": "Marshalli saared",
 			"jp": "マーシャル諸島"
 		},
@@ -3210,6 +3343,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Martinique",
 			"it": "Martinica",
 			"cn": "马提尼克岛",
+			"zh": "馬提尼克島",
 			"ee": "Martinique",
 			"jp": "マルティニーク"
 		},
@@ -3234,6 +3368,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Mauritanië",
 			"it": "Mauritania",
 			"cn": "毛里塔尼亚",
+			"zh": "毛里塔尼亞",
 			"ee": "Mauritaania",
 			"jp": "モーリタニア"
 		},
@@ -3258,6 +3393,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Mauritius",
 			"it": "Maurizio",
 			"cn": "毛里求斯",
+			"zh": "毛里求斯",
 			"ee": "Mauritius",
 			"jp": "モーリシャス"
 		},
@@ -3282,6 +3418,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Mayotte",
 			"it": "Mayotte",
 			"cn": "马约特岛",
+			"zh": "馬約特島",
 			"ee": "Mayotte",
 			"jp": "マヨット"
 		},
@@ -3306,6 +3443,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Mexico",
 			"it": "Messico",
 			"cn": "墨西哥",
+			"zh": "墨西哥",
 			"ee": "Mehhiko",
 			"jp": "メキシコ"
 		},
@@ -3330,6 +3468,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Micronesië, Federale Staten van",
 			"it": "Micronesia, Stati federati di",
 			"cn": "密克罗尼西亚联邦",
+			"zh": "密克羅尼西亞聯邦",
 			"ee": "Mikroneesia, Makedoonia Liiduriigid",
 			"jp": "ミクロネシア連邦"
 		},
@@ -3354,6 +3493,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Moldavië, Republiek",
 			"it": "Moldova, Repubblica di",
 			"cn": "摩尔多瓦共和国",
+			"zh": "摩爾多瓦共和國",
 			"ee": "Moldova Vabariik",
 			"jp": "モルドバ共和国"
 		},
@@ -3378,6 +3518,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Monaco",
 			"it": "Monaco",
 			"cn": "摩纳哥",
+			"zh": "摩納哥",
 			"ee": "Monaco",
 			"jp": "モナコ"
 		},
@@ -3402,6 +3543,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Mongolië",
 			"it": "Mongolia",
 			"cn": "蒙古",
+			"zh": "蒙古",
 			"ee": "Mongoolia",
 			"jp": "モンゴル"
 		},
@@ -3426,6 +3568,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Montenegro",
 			"it": "Montenegro",
 			"cn": "黑山共和国",
+			"zh": "黑山共和國",
 			"ee": "Montenegro",
 			"jp": "モンテネグロ"
 		},
@@ -3450,6 +3593,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Montserrat",
 			"it": "Montserrat",
 			"cn": "蒙特塞拉特",
+			"zh": "蒙特塞拉特",
 			"ee": "Montserrat",
 			"jp": "モントセラト"
 		},
@@ -3474,6 +3618,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Marokko",
 			"it": "Marocco",
 			"cn": "摩洛哥",
+			"zh": "摩洛哥",
 			"ee": "Maroko",
 			"jp": "モロッコ"
 		},
@@ -3498,6 +3643,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Mozambique",
 			"it": "Mozambico",
 			"cn": "莫桑比克",
+			"zh": "莫桑比克",
 			"ee": "Mosambiik",
 			"jp": "モザンビーク"
 		},
@@ -3522,6 +3668,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Myanmar",
 			"it": "Myanmar",
 			"cn": "缅甸",
+			"zh": "緬甸",
 			"ee": "Myanmar",
 			"jp": "ミャンマー"
 		},
@@ -3546,6 +3693,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Namibië",
 			"it": "Namibia",
 			"cn": "纳米比亚",
+			"zh": "納米比亞",
 			"ee": "Namiibia",
 			"jp": "ナミビア"
 		},
@@ -3570,6 +3718,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nauru",
 			"it": "Nauru",
 			"cn": "瑙鲁",
+			"zh": "瑙魯",
 			"ee": "Nauru",
 			"jp": "ナウル"
 		},
@@ -3594,6 +3743,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nepal",
 			"it": "Nepal",
 			"cn": "尼尼泊尔",
+			"zh": "尼尼泊爾",
 			"ee": "Nepal",
 			"jp": "ネパール"
 		},
@@ -3618,6 +3768,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nederland",
 			"it": "Olanda",
 			"cn": "荷兰",
+			"zh": "荷蘭",
 			"ee": "Holland",
 			"jp": "オランダ"
 		},
@@ -3642,6 +3793,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nederlandse Antillen",
 			"it": "Antille Olandesi",
 			"cn": "荷属安的列斯",
+			"zh": "荷屬安的列斯",
 			"ee": "Hollandi Antillid",
 			"jp": "オランダ領アンティル"
 		},
@@ -3666,6 +3818,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nieuw-Caledonië",
 			"it": "Nuova Caledonia",
 			"cn": "新喀里多尼亚",
+			"zh": "新喀里多尼亞",
 			"ee": "Uus-Kaledoonia",
 			"jp": "ニューカレドニア"
 		},
@@ -3690,6 +3843,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nieuw-Zeeland",
 			"it": "Nuova Zelanda",
 			"cn": "新西兰",
+			"zh": "新西蘭",
 			"ee": "Uus-Meremaa",
 			"jp": "ニュージーランド"
 		},
@@ -3714,6 +3868,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nicaragua",
 			"it": "Nicaragua",
 			"cn": "尼加拉瓜",
+			"zh": "尼加拉瓜",
 			"ee": "Nicaragua",
 			"jp": "ニカラグア"
 		},
@@ -3738,6 +3893,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Niger",
 			"it": "Niger",
 			"cn": "尼日尔",
+			"zh": "尼日爾",
 			"ee": "Niger",
 			"jp": "ニジェール"
 		},
@@ -3762,6 +3918,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Nigeria",
 			"it": "Nigeria",
 			"cn": "奈及利亚",
+			"zh": "奈及利亞",
 			"ee": "Nigeeria",
 			"jp": "ナイジェリア"
 		},
@@ -3786,6 +3943,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Niue",
 			"it": "Niue",
 			"cn": "纽埃",
+			"zh": "紐埃",
 			"ee": "Niue",
 			"jp": "ニウエ"
 		},
@@ -3810,6 +3968,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Norfolkeiland",
 			"it": "Isola Norfolk",
 			"cn": "诺福克岛",
+			"zh": "諾福克島",
 			"ee": "Norfolki saar",
 			"jp": "ノーフォーク島"
 		},
@@ -3834,6 +3993,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "noordelijke Mariana eilanden",
 			"it": "Isole Marianne settentrionali",
 			"cn": "北马里亚纳群岛",
+			"zh": "北馬里亞納群島",
 			"ee": "Põhja-Mariaanid",
 			"jp": "北マリアナ諸島"
 		},
@@ -3858,6 +4018,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Noorwegen",
 			"it": "Norvegia",
 			"cn": "挪威",
+			"zh": "挪威",
 			"ee": "Norra",
 			"jp": "ノルウェー"
 		},
@@ -3882,6 +4043,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Oman",
 			"it": "Oman",
 			"cn": "阿曼",
+			"zh": "阿曼",
 			"ee": "Omaan",
 			"jp": "オマーン"
 		},
@@ -3906,6 +4068,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Pakistan",
 			"it": "Pakistan",
 			"cn": "巴基斯坦",
+			"zh": "巴基斯坦",
 			"ee": "Pakistan",
 			"jp": "パキスタン"
 		},
@@ -3930,6 +4093,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Palau",
 			"it": "Palau",
 			"cn": "u琉",
+			"zh": "u琉",
 			"ee": "Palau",
 			"jp": "パラオ"
 		},
@@ -3954,6 +4118,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Palestijns gebied, bezet",
 			"it": "Territori palestinesi occupati",
 			"cn": "被占领的巴勒斯坦领土",
+			"zh": "被占領的巴勒斯坦領土",
 			"ee": "Palestiina territoorium, okupeeritud",
 			"jp": "パレスチナ自治区、占領下"
 		},
@@ -3978,6 +4143,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Panama",
 			"it": "Panama",
 			"cn": "巴拿马",
+			"zh": "巴拿馬",
 			"ee": "Panama",
 			"jp": "パナマ"
 		},
@@ -4002,6 +4168,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Papoea-Nieuw-Guinea",
 			"it": "Papua Nuova Guinea",
 			"cn": "巴布亚新几内亚",
+			"zh": "巴布亞新幾內亞",
 			"ee": "Paapua Uus-Guinea",
 			"jp": "パプアニューギニア"
 		},
@@ -4026,6 +4193,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Paraguay",
 			"it": "Paraguay",
 			"cn": "巴拉圭",
+			"zh": "巴拉圭",
 			"ee": "Paraguay",
 			"jp": "パラグアイ"
 		},
@@ -4050,6 +4218,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Peru",
 			"it": "Perù",
 			"cn": "秘鲁",
+			"zh": "秘魯",
 			"ee": "Peruu",
 			"jp": "ペルー"
 		},
@@ -4074,6 +4243,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Filippijnen",
 			"it": "Filippine",
 			"cn": "菲律宾",
+			"zh": "菲律賓",
 			"ee": "Filipiinid",
 			"jp": "フィリピン"
 		},
@@ -4098,6 +4268,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Pitcairn",
 			"it": "Pitcairn",
 			"cn": "皮特凯恩",
+			"zh": "皮特凱恩",
 			"ee": "Pitcairn",
 			"jp": "ピトケアン"
 		},
@@ -4122,6 +4293,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Polen",
 			"it": "Polonia",
 			"cn": "波兰",
+			"zh": "波蘭",
 			"ee": "Poola",
 			"jp": "ポーランド"
 		},
@@ -4146,6 +4318,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Portugal",
 			"it": "Portogallo",
 			"cn": "葡萄牙",
+			"zh": "葡萄牙",
 			"ee": "Portugal",
 			"jp": "ポルトガル"
 		},
@@ -4170,6 +4343,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Puerto Rico",
 			"it": "Porto Rico",
 			"cn": "波多黎各",
+			"zh": "波多黎各",
 			"ee": "Puerto Rico",
 			"jp": "プエルトリコ"
 		},
@@ -4194,6 +4368,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Qatar",
 			"it": "Qatar",
 			"cn": "卡塔尔",
+			"zh": "卡塔爾",
 			"ee": "Katar",
 			"jp": "カタール"
 		},
@@ -4218,6 +4393,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Roemenië",
 			"it": "Romania",
 			"cn": "罗马尼亚",
+			"zh": "羅馬尼亞",
 			"ee": "Rumeenia",
 			"jp": "ルーマニア"
 		},
@@ -4242,6 +4418,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Russische Federatie",
 			"it": "Federazione Russa",
 			"cn": "俄罗斯联邦",
+			"zh": "俄羅斯聯邦",
 			"ee": "Venemaa Föderatsioon",
 			"jp": "ロシア連邦"
 		},
@@ -4266,6 +4443,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Rwanda",
 			"it": "Ruanda",
 			"cn": "卢旺达",
+			"zh": "盧旺達",
 			"ee": "Rwanda",
 			"jp": "ルワンダ"
 		},
@@ -4290,6 +4468,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Bijeenkomst",
 			"it": "Riunione",
 			"cn": "团圆",
+			"zh": "團圓",
 			"ee": "Taaskohtumine",
 			"jp": "再会"
 		},
@@ -4314,6 +4493,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Sint-Bartholomeus",
 			"it": "Saint Barthelemy",
 			"cn": "圣巴托洛缪岛",
+			"zh": "聖巴托洛繆島",
 			"ee": "Püha Barthelemy",
 			"jp": "サンバルテルミー"
 		},
@@ -4338,6 +4518,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Sint-Helena",
 			"it": "Sant'Elena",
 			"cn": "圣海伦娜",
+			"zh": "聖海倫娜",
 			"ee": "Püha Helena",
 			"jp": "セントヘレナ"
 		},
@@ -4362,6 +4543,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Saint Kitts en Nevis",
 			"it": "Saint Kitts e Nevis",
 			"cn": "圣基茨和尼维斯",
+			"zh": "聖基茨和尼維斯",
 			"ee": "Saint Kitts ja Nevis",
 			"jp": "セントクリストファーネイビス"
 		},
@@ -4386,6 +4568,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Saint Lucia",
 			"it": "Santa Lucia",
 			"cn": "圣卢西亚",
+			"zh": "聖盧西亞",
 			"ee": "Saint Lucia",
 			"jp": "セントルシア"
 		},
@@ -4410,6 +4593,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Sint-Maarten",
 			"it": "Saint Martin",
 			"cn": "圣马丁",
+			"zh": "聖馬丁",
 			"ee": "Püha Martin",
 			"jp": "サンマルタン"
 		},
@@ -4434,6 +4618,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Saint Pierre en Miquelon",
 			"it": "Saint Pierre e Miquelon",
 			"cn": "圣皮埃尔和密克隆群岛",
+			"zh": "聖皮埃爾和密克隆群島",
 			"ee": "Saint Pierre ja Miquelon",
 			"jp": "サンピエール島とミクロン島"
 		},
@@ -4458,6 +4643,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Saint Vincent en de Grenadines",
 			"it": "Saint Vincent e Grenadine",
 			"cn": "圣文森特和格林纳丁斯",
+			"zh": "聖文森特和格林納丁斯",
 			"ee": "Saint Vincent ja Grenadiinid",
 			"jp": "セントビンセントおよびグレナディーン諸島"
 		},
@@ -4482,6 +4668,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Samoa",
 			"it": "Samoa",
 			"cn": "萨摩亚",
+			"zh": "薩摩亞",
 			"ee": "Samoa",
 			"jp": "サモア"
 		},
@@ -4506,6 +4693,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "San Marino",
 			"it": "San Marino",
 			"cn": "圣马力诺",
+			"zh": "聖馬力諾",
 			"ee": "San Marino",
 			"jp": "サンマリノ"
 		},
@@ -4530,6 +4718,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Sao Tomé en Principe",
 			"it": "Sao Tome e Principe",
 			"cn": "圣多美和普林西比",
+			"zh": "聖多美和普林西比",
 			"ee": "Sao Tome ja Principe",
 			"jp": "サントメ・プリンシペ"
 		},
@@ -4554,6 +4743,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Saoedi-Arabië",
 			"it": "Arabia Saudita",
 			"cn": "沙特阿拉伯",
+			"zh": "沙特阿拉伯",
 			"ee": "Saudi Araabia",
 			"jp": "サウジアラビア"
 		},
@@ -4578,6 +4768,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Senegal",
 			"it": "Senegal",
 			"cn": "塞内加尔",
+			"zh": "塞內加爾",
 			"ee": "Senegal",
 			"jp": "セネガル"
 		},
@@ -4602,6 +4793,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Servië",
 			"it": "Serbia",
 			"cn": "塞尔维亚",
+			"zh": "塞爾維亞",
 			"ee": "Serbia",
 			"jp": "セルビア"
 		},
@@ -4626,6 +4818,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Seychellen",
 			"it": "Seychelles",
 			"cn": "塞舌尔",
+			"zh": "塞舌爾",
 			"ee": "Seišellid",
 			"jp": "セイシェル"
 		},
@@ -4650,6 +4843,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Sierra Leone",
 			"it": "Sierra Leone",
 			"cn": "塞拉利昂",
+			"zh": "塞拉利昂",
 			"ee": "Sierra Leone",
 			"jp": "シエラレオネ"
 		},
@@ -4674,6 +4868,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Singapore",
 			"it": "Singapore",
 			"cn": "新加坡",
+			"zh": "新加坡",
 			"ee": "Singapur",
 			"jp": "シンガポール"
 		},
@@ -4698,6 +4893,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Slowakije",
 			"it": "Slovacchia",
 			"cn": "斯洛伐克",
+			"zh": "斯洛伐克",
 			"ee": "Slovakkia",
 			"jp": "スロバキア"
 		},
@@ -4722,6 +4918,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Slovenië",
 			"it": "Slovenia",
 			"cn": "斯洛文尼亚",
+			"zh": "斯洛文尼亞",
 			"ee": "Sloveenia",
 			"jp": "スロベニア"
 		},
@@ -4746,6 +4943,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Solomon eilanden",
 			"it": "Isole Salomone",
 			"cn": "所罗门群岛",
+			"zh": "所羅門群島",
 			"ee": "Saalomoni Saared",
 			"jp": "ソロモン諸島"
 		},
@@ -4770,6 +4968,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Somalië",
 			"it": "Somalia",
 			"cn": "索马里",
+			"zh": "索馬里",
 			"ee": "Somaalia",
 			"jp": "ソマリア"
 		},
@@ -4794,6 +4993,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Zuid-Afrika",
 			"it": "Sud Africa",
 			"cn": "南非",
+			"zh": "南非",
 			"ee": "Lõuna-Aafrika",
 			"jp": "南アフリカ"
 		},
@@ -4818,6 +5018,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Zuid-Georgië en de Zuidelijke Sandwicheilanden",
 			"it": "Georgia del Sud e isole Sandwich meridionali",
 			"cn": "南乔治亚岛和南桑威奇群岛",
+			"zh": "南喬治亞島和南桑威奇群島",
 			"ee": "Lõuna-Georgia ja Lõuna-Sandwichi saared",
 			"jp": "サウスジョージア島とサウスサンドイッチ諸島"
 		},
@@ -4842,6 +5043,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Spanje",
 			"it": "Spagna",
 			"cn": "西班牙",
+			"zh": "西班牙",
 			"ee": "Hispaania",
 			"jp": "スペイン"
 		},
@@ -4866,6 +5068,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Sri Lanka",
 			"it": "Sri Lanka",
 			"cn": "斯里兰卡",
+			"zh": "斯里蘭卡",
 			"ee": "Sri Lanka",
 			"jp": "スリランカ"
 		},
@@ -4890,6 +5093,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Soedan",
 			"it": "Sudan",
 			"cn": "苏丹",
+			"zh": "蘇丹",
 			"ee": "Sudaan",
 			"jp": "スーダン"
 		},
@@ -4914,6 +5118,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Suriname",
 			"it": "Suriname",
 			"cn": "苏里南",
+			"zh": "蘇裡南",
 			"ee": "Suriname",
 			"jp": "スリナム"
 		},
@@ -4938,6 +5143,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Svalbard en Jan Mayen",
 			"it": "Svalbard e Jan Mayen",
 			"cn": "斯瓦尔巴和扬·马延",
+			"zh": "斯瓦爾巴和揚·馬延",
 			"ee": "Svalbard ja Jan Mayen",
 			"jp": "スバールバル諸島およびヤンマイエン"
 		},
@@ -4962,6 +5168,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Swaziland",
 			"it": "Swaziland",
 			"cn": "斯威士兰",
+			"zh": "斯威士蘭",
 			"ee": "Svaasimaa",
 			"jp": "スワジランド"
 		},
@@ -4986,6 +5193,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Zweden",
 			"it": "Svezia",
 			"cn": "瑞典",
+			"zh": "瑞典",
 			"ee": "Rootsi",
 			"jp": "スウェーデン"
 		},
@@ -5010,6 +5218,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Zwitserland",
 			"it": "Svizzera",
 			"cn": "瑞士",
+			"zh": "瑞士",
 			"ee": "Šveits",
 			"jp": "スイス"
 		},
@@ -5034,6 +5243,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Syrische Arabische Republiek",
 			"it": "Repubblica Araba Siriana",
 			"cn": "阿拉伯叙利亚共和国",
+			"zh": "阿拉伯敘利亞共和國",
 			"ee": "Süüria Araabia Vabariik",
 			"jp": "シリアアラブ共和国"
 		},
@@ -5058,6 +5268,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Taiwan, provincie China",
 			"it": "Taiwan, provincia della Cina",
 			"cn": "中国台湾省",
+			"zh": "中國台灣省",
 			"ee": "Taiwan, Hiina provints",
 			"jp": "台湾、中国省"
 		},
@@ -5082,6 +5293,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tadzjikistan",
 			"it": "Tagikistan",
 			"cn": "塔吉克斯坦",
+			"zh": "塔吉克斯坦",
 			"ee": "Tadžikistan",
 			"jp": "タジキスタン"
 		},
@@ -5106,6 +5318,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tanzania, Verenigde Republiek",
 			"it": "Tanzania, Repubblica Unita di",
 			"cn": "坦桑尼亚联合共和国",
+			"zh": "坦桑尼亞聯合共和國",
 			"ee": "Tansaania, Tšehhi Vabariik",
 			"jp": "タンザニア、連合共和国"
 		},
@@ -5130,6 +5343,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Thailand",
 			"it": "Tailandia",
 			"cn": "泰国",
+			"zh": "泰國",
 			"ee": "Tai",
 			"jp": "タイ"
 		},
@@ -5154,6 +5368,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Oost-Timor",
 			"it": "Timor-Leste",
 			"cn": "东帝汶",
+			"zh": "東帝汶",
 			"ee": "Ida-Timor",
 			"jp": "東ティモール"
 		},
@@ -5178,6 +5393,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Gaan",
 			"it": "Andare",
 			"cn": "多哥",
+			"zh": "多哥",
 			"ee": "Minema",
 			"jp": "トーゴ"
 		},
@@ -5202,6 +5418,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tokelau",
 			"it": "Tokelau",
 			"cn": "托克劳",
+			"zh": "托克勞",
 			"ee": "Tokelau",
 			"jp": "トケラウ"
 		},
@@ -5226,6 +5443,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tonga",
 			"it": "Tonga",
 			"cn": "汤加",
+			"zh": "湯加",
 			"ee": "Tonga",
 			"jp": "トンガ"
 		},
@@ -5250,6 +5468,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Trinidad en Tobago",
 			"it": "Trinidad e Tobago",
 			"cn": "特立尼达和多巴哥",
+			"zh": "特立尼達和多巴哥",
 			"ee": "Trinidad ja Tobago",
 			"jp": "トリニダード・トバゴ"
 		},
@@ -5274,6 +5493,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tunesië",
 			"it": "Tunisia",
 			"cn": "突尼斯",
+			"zh": "突尼斯",
 			"ee": "Tuneesia",
 			"jp": "チュニジア"
 		},
@@ -5298,6 +5518,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "kalkoen",
 			"it": "tacchino",
 			"cn": "火鸡",
+			"zh": "火雞",
 			"ee": "Türgi",
 			"jp": "七面鳥"
 		},
@@ -5322,6 +5543,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Turkmenistan",
 			"it": "Turkmenistan",
 			"cn": "土库曼斯坦",
+			"zh": "土庫曼斯坦",
 			"ee": "Türkmenistan",
 			"jp": "トルクメニスタン"
 		},
@@ -5346,6 +5568,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Turks- en Caicoseilanden",
 			"it": "Isole Turks e Caicos",
 			"cn": "特克斯和凯科斯群岛",
+			"zh": "特克斯和凱科斯群島",
 			"ee": "Turksi ja Caicose saared",
 			"jp": "タークス・カイコス諸島"
 		},
@@ -5370,6 +5593,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Tuvalu",
 			"it": "Tuvalu",
 			"cn": "图瓦卢",
+			"zh": "圖瓦盧",
 			"ee": "Tuvalu",
 			"jp": "ツバル"
 		},
@@ -5394,6 +5618,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Oeganda",
 			"it": "Uganda",
 			"cn": "乌干达",
+			"zh": "烏干達",
 			"ee": "Uganda",
 			"jp": "ウガンダ"
 		},
@@ -5418,6 +5643,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Oekraïne",
 			"it": "Ucraina",
 			"cn": "乌克兰",
+			"zh": "烏克蘭",
 			"ee": "Ukraina",
 			"jp": "ウクライナ"
 		},
@@ -5442,6 +5668,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Verenigde Arabische Emiraten",
 			"it": "Emirati Arabi Uniti",
 			"cn": "阿拉伯联合酋长国",
+			"zh": "阿拉伯聯合酋長國",
 			"ee": "Araabia Ühendemiraadid",
 			"jp": "アラブ首長国連邦"
 		},
@@ -5466,6 +5693,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Verenigd Koningkrijk",
 			"it": "Regno Unito",
 			"cn": "英国",
+			"zh": "英國",
 			"ee": "Ühendkuningriik",
 			"jp": "イギリス"
 		},
@@ -5490,6 +5718,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Verenigde Staten",
 			"it": "stati Uniti",
 			"cn": "美国",
+			"zh": "美國",
 			"ee": "Ühendriigid",
 			"jp": "アメリカ"
 		},
@@ -5514,6 +5743,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Uruguay",
 			"it": "Uruguay",
 			"cn": "乌拉圭",
+			"zh": "烏拉圭",
 			"ee": "Uruguay",
 			"jp": "ウルグアイ"
 		},
@@ -5538,6 +5768,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Oezbekistan",
 			"it": "Uzbekistan",
 			"cn": "乌兹别克斯坦",
+			"zh": "烏茲別克斯坦",
 			"ee": "Usbekistan",
 			"jp": "ウズベキスタン"
 		},
@@ -5562,6 +5793,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Vanuatu",
 			"it": "Vanuatu",
 			"cn": "瓦努阿图",
+			"zh": "瓦努阿圖",
 			"ee": "Vanuatu",
 			"jp": "バヌアツ"
 		},
@@ -5586,6 +5818,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Venezuela",
 			"it": "Venezuela",
 			"cn": "委内瑞拉",
+			"zh": "委內瑞拉",
 			"ee": "Venezuela",
 			"jp": "ベネズエラ"
 		},
@@ -5610,6 +5843,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Vietnam",
 			"it": "Viet Nam",
 			"cn": "越南",
+			"zh": "越南",
 			"ee": "Vietnam",
 			"jp": "ベトナム"
 		},
@@ -5634,6 +5868,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Britse Maagdeneilanden",
 			"it": "Isole Vergini britanniche",
 			"cn": "英属维尔京群岛",
+			"zh": "英屬維爾京群島",
 			"ee": "Neitsisaared, Suurbritannia",
 			"jp": "英領バージン諸島"
 		},
@@ -5658,6 +5893,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Maagdeneilanden, U.s.",
 			"it": "Isole Vergini, Stati Uniti",
 			"cn": "美国维尔京群岛",
+			"zh": "美國維爾京群島",
 			"ee": "Neitsisaared, USA",
 			"jp": "アメリカ領バージン諸島"
 		},
@@ -5682,6 +5918,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Wallis en Futuna",
 			"it": "Wallis e Futuna",
 			"cn": "瓦利斯和富图纳群岛",
+			"zh": "瓦利斯和富圖納群島",
 			"ee": "Wallis ja Futuna",
 			"jp": "ウォリス・フツナ"
 		},
@@ -5706,6 +5943,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Jemen",
 			"it": "Yemen",
 			"cn": "也门",
+			"zh": "也門",
 			"ee": "Jeemen",
 			"jp": "イエメン"
 		},
@@ -5730,6 +5968,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Zambia",
 			"it": "Zambia",
 			"cn": "赞比亚",
+			"zh": "讚比亞",
 			"ee": "Sambia",
 			"jp": "ザンビア"
 		},
@@ -5754,6 +5993,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Zimbabwe",
 			"it": "Zimbabwe",
 			"cn": "津巴布韦",
+			"zh": "津巴布韋",
 			"ee": "Zimbabwe",
 			"jp": "ジンバブエ"
 		},
@@ -5778,6 +6018,7 @@ export const countryCodes: CountryItem[] = [
 			"nl": "Aland-eilanden",
 			"it": "Isole Aland",
 			"cn": "奥兰群岛",
+			"zh": "奧蘭群島",
 			"ee": "Alandi saared",
 			"jp": "オーランド諸島"
 		},
