@@ -66,6 +66,68 @@ export default function App() {
 }
 ```
 
+### Modal with list header
+```JS
+import {CountryPicker} from "react-native-country-codes-picker";
+
+function ListHeaderComponent({countries, locale}) {
+    return (
+        <View
+            style={{
+                paddingBottom: 20,
+            }}
+        >
+            <Text>
+                Popular countries
+            </Text>
+            {countries?.map((country, index) => {
+                return (
+                    <CountryButton key={index} item={country} name={country?.name?.[locale || 'en']}/>
+                )
+            })}
+        </View>
+    )
+}
+
+export default function App() {
+  const [show, setShow] = useState(false);
+  const [countryCode, setCountryCode] = useState('');
+
+  return (
+    <View style={styles.container}>
+      <TouchableOpacity
+        onPress={() => setShow(true)}
+        style={{
+            width: '80%',
+            height: 60,
+            backgroundColor: 'black',
+            padding: 10,
+        }}
+      >
+        <Text style={{
+            color: 'white',
+            fontSize: 20
+        }}>
+            {countryCode}
+        </Text>
+      </TouchableOpacity>
+
+      // For showing picker just put show state to show prop
+      <CountryPicker
+        show={show}
+        // when picker button press you will get the country object with dial code
+        pickerButtonOnPress={(item) => {
+          setCountryCode(item.dial_code);
+          setShow(false);
+        }}
+        ListHeaderComponent={ListHeaderComponent}
+        popularCountries={['en', 'ua', 'pl']}
+      />
+    </View>
+  );
+}
+```
+
 ### List
 
 ```js
@@ -123,6 +185,9 @@ Below are the props you can pass to the React Component.
 | onBackdropPress                      | function    |     null    | onBackdropPress={() => setShow(false)}  | If you want to close modal when user taps on the modal background. |
 | initialState  | string    |         | initialState={'+380'}  | Sometimes you need to pre-select country for example by user current location so you may use this prop. |
 | excludedCountries  | array    |         | excludedCountries={['RU', 'BY']}  | In this prop you can define list of countries which you want to remove by adding their codes. |
+| showOnly  | array    |         | showOnly={['UA', 'EN']}  | This prop allow you to configure which countries you want to show. |
+| popularCountries  | array    |         | popularCountries={['UA', 'EN']}  | This prop allow you to send popular countries array to yout ListHeaderComponent. |
+| ListHeaderComponent  | JSX.Element    |         | ListHeaderComponent={ListHeaderComponent}  | This prop allow you to create header component to show popular countries on top of list! Check example section with ListHeaderComponent  |
 
 :grey_exclamation: Also you can use all other FlatList and TextInput props if you need. :grey_exclamation:
 
