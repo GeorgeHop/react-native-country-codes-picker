@@ -40,6 +40,8 @@ const height = Dimensions.get('window').height;
 
 interface Props {
     excludedCountries?: string[],
+    showOnly?: string[],
+    popularCountries?: string[],
 
     style?: Style,
 
@@ -50,6 +52,7 @@ interface Props {
     onBackdropPress?: (...args: any) => any,
     pickerButtonOnPress: (item: CountryItem) => any,
     itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
+    ListHeaderComponent?: () => JSX.Element,
     onRequestClose?: (...args: any) => any,
 
     lang: string,
@@ -61,6 +64,7 @@ interface Props {
 
 export const CountryPicker = ({
                                   show,
+                                  popularCountries,
                                   pickerButtonOnPress,
                                   inputPlaceholder,
                                   searchMessage,
@@ -73,10 +77,13 @@ export const CountryPicker = ({
                                   excludedCountries,
                                   initialState,
                                   onRequestClose,
+                                  showOnly,
+                                  ListHeaderComponent,
                                   itemTemplate: ItemTemplate = CountryButton,
                                   ...rest
                               }: Props) => {
-    const codes = countriesRemover(excludedCountries);
+    // ToDo refactor exclude and showOnly props to objects
+    let filteredCodes = countriesRemover(excludedCountries);
     const keyboardStatus = useKeyboardStatus();
     const animationDriver = React.useRef(new Animated.Value(0)).current;
     const animatedMargin = React.useRef(new Animated.Value(0)).current;
@@ -117,6 +124,24 @@ export const CountryPicker = ({
                 }).start();
         }
     }, [keyboardStatus.isOpen]);
+
+    const preparedPopularCountries = React.useMemo(() => {
+        return filteredCodes?.filter(country => {
+            return (popularCountries?.find(short => country?.code === short?.toUpperCase()));
+        });
+    }, [popularCountries]);
+
+    const codes = React.useMemo(() => {
+        let newCodes = filteredCodes;
+
+        if (showOnly?.length) {
+            newCodes = filteredCodes?.filter(country => {
+                return (showOnly?.find(short => country?.code === short?.toUpperCase()));
+            });
+        }
+
+        return newCodes
+    }, [showOnly, excludedCountries]);
 
     const resultCountries = React.useMemo(() => {
         const lowerSearchValue = searchValue.toLowerCase();
@@ -262,6 +287,8 @@ export const CountryPicker = ({
                             style={[style?.itemsList]}
                             keyboardShouldPersistTaps={'handled'}
                             renderItem={renderItem}
+                            ListHeaderComponent={(popularCountries && ListHeaderComponent) &&
+                                <ListHeaderComponent countries={preparedPopularCountries} lang={lang}/>}
                             {...rest}
                         />
                     )}
@@ -284,7 +311,10 @@ interface CountryListProps {
     lang: string,
     searchValue?: string,
     excludedCountries?: string[],
+    popularCountries?: string[],
+    showOnly?: string[],
 
+    ListHeaderComponent?: () => JSX.Element,
     itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
     pickerButtonOnPress: (item: CountryItem) => any,
 
@@ -292,15 +322,37 @@ interface CountryListProps {
 }
 
 export const CountryList = ({
+                                showOnly,
+                                popularCountries,
                                 lang = 'en',
                                 searchValue = '',
                                 excludedCountries,
                                 style,
                                 pickerButtonOnPress,
+                                ListHeaderComponent,
                                 itemTemplate: ItemTemplate = CountryButton,
                                 ...rest
                             }: CountryListProps) => {
-    const codes = countriesRemover(excludedCountries);
+    // ToDo refactor exclude and showOnly props to objects
+    let filteredCodes = countriesRemover(excludedCountries);
+
+    const preparedPopularCountries = React.useMemo(() => {
+        return filteredCodes?.filter(country => {
+            return (popularCountries?.find(short => country?.code === short?.toUpperCase()));
+        });
+    }, [popularCountries]);
+
+    const codes = React.useMemo(() => {
+        let newCodes = filteredCodes;
+
+        if (showOnly?.length) {
+            newCodes = filteredCodes?.filter(country => {
+                return (showOnly?.find(short => country?.code === short?.toUpperCase()));
+            });
+        }
+
+        return newCodes
+    }, [showOnly, excludedCountries]);
 
     const resultCountries = React.useMemo(() => {
         const lowerSearchValue = searchValue.toLowerCase();
@@ -340,6 +392,8 @@ export const CountryList = ({
             style={[style?.itemsList]}
             keyboardShouldPersistTaps={'handled'}
             renderItem={renderItem}
+            ListHeaderComponent={(popularCountries && ListHeaderComponent) &&
+                <ListHeaderComponent countries={preparedPopularCountries} lang={lang}/>}
             {...rest}
         />
     )
