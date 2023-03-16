@@ -11,7 +11,7 @@ import {
     Keyboard,
     ViewStyle, Modal
 } from 'react-native';
-import {CountryItem, ItemTemplateProps, Style} from "./types/Types";
+import {CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps} from "./types/Types";
 import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
 import {CountryButton} from "./components/CountryButton";
 import {countriesRemover} from "./helpers/countriesRemover";
@@ -52,7 +52,7 @@ interface Props {
     onBackdropPress?: (...args: any) => any,
     pickerButtonOnPress: (item: CountryItem) => any,
     itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
-    ListHeaderComponent?: () => JSX.Element,
+    ListHeaderComponent?: (props: ListHeaderComponentProps) => JSX.Element,
     onRequestClose?: (...args: any) => any,
 
     lang: string,
@@ -314,7 +314,7 @@ interface CountryListProps {
     popularCountries?: string[],
     showOnly?: string[],
 
-    ListHeaderComponent?: () => JSX.Element,
+    ListHeaderComponent?: (props: ListHeaderComponentProps) => JSX.Element,
     itemTemplate?: (props: ItemTemplateProps) => JSX.Element,
     pickerButtonOnPress: (item: CountryItem) => any,
 
