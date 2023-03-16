@@ -1427,7 +1427,7 @@ export const countryCodes: CountryItem[] = [
             "jp": "キプロス",
             "he": "קפריסין"
         },
-        "dial_code": "+537",
+        "dial_code": "+357",
         "code": "CY",
         "flag": "🇨🇾"
     },
