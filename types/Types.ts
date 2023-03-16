@@ -1,10 +1,15 @@
-import {ViewStyle} from "react-native";
+import {ViewStyle, TextStyle} from "react-native";
 
 export interface ItemTemplateProps {
     item: CountryItem,
     name: string,
     style?: Style,
     onPress?: (arg: any) => any,
+}
+
+export interface ListHeaderComponentProps {
+  countries: CountryItem[],
+  lang: string,
 }
 
 export interface CountryItem {
@@ -18,13 +23,13 @@ export interface Style {
     backdrop?: ViewStyle,
     modal?: ViewStyle,
     line?: ViewStyle,
-    searchMessageText?: ViewStyle,
+    searchMessageText?: TextStyle,
     itemsList?: ViewStyle,
     modalInner?: ViewStyle,
     countryMessageContainer?: ViewStyle,
-    textInput?: ViewStyle,
+    textInput?: TextStyle,
     countryButtonStyles?: ViewStyle,
-    flag?: ViewStyle,
-    dialCode?: ViewStyle,
-    countryName?: ViewStyle
+    flag?: TextStyle,
+    dialCode?: TextStyle,
+    countryName?: TextStyle
 }
