@@ -21,7 +21,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿富汗",
             "ee": "Afganistan",
             "jp": "アフガニスタン",
-            "he": "אפגניסטן"
+            "he": "אפגניסטן",
+            "el": "Αφγανιστάν"
         },
         "dial_code": "+93",
         "code": "AF",
@@ -47,7 +48,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿爾巴尼亞",
             "ee": "Albaania",
             "jp": "アルバニア",
-            "he": "אלבניה"
+            "he": "אלבניה",
+            "el": "Αλβανία"
         },
         "dial_code": "+355",
         "code": "AL",
@@ -73,7 +75,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿爾及利亞",
             "ee": "Alžeeria",
             "jp": "アルジェリア",
-            "he": "אלג'יריה"
+            "he": "אלג'יריה",
+            "el": "Αλγερία"
         },
         "dial_code": "+213",
         "code": "DZ",
@@ -99,7 +102,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "美屬薩摩亞",
             "ee": "Ameerika Samoa",
             "jp": "アメリカ領サモア",
-            "he": "סמואה האמריקנית"
+            "he": "סמואה האמריקנית",
+            "el": "Αμερικανική Σαμόα"
         },
         "dial_code": "+1684",
         "code": "AS",
@@ -125,7 +129,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "安道爾",
             "ee": "Andorra",
             "jp": "アンドラ",
-            "he": "אנדורה"
+            "he": "אנדורה",
+            "el": "Ανδόρρα"
         },
         "dial_code": "+376",
         "code": "AD",
@@ -151,7 +156,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "安哥拉",
             "ee": "Angola",
             "jp": "アンゴラ",
-            "he": "אנגולה"
+            "he": "אנגולה",
+            "el": "Ανγκόλα"
         },
         "dial_code": "+244",
         "code": "AO",
@@ -177,7 +183,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "安圭拉島",
             "ee": "Anguilla",
             "jp": "アンギラ",
-            "he": "אנגווילה"
+            "he": "אנגווילה",
+            "el": "Ανγκουίλα"
         },
         "dial_code": "+1264",
         "code": "AI",
@@ -203,7 +210,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "南極洲",
             "ee": "Antarktika",
             "jp": "南極大陸",
-            "he": "אנטארקטיקה"
+            "he": "אנטארקטיקה",
+            "el": "Ανταρκτική"
         },
         "dial_code": "+672",
         "code": "AQ",
@@ -229,7 +237,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "安提瓜和巴布達",
             "ee": "Antigua ja Barbuda",
             "jp": "アンティグアバーブーダ",
-            "he": "אנטיגואה וברבודה"
+            "he": "אנטיגואה וברבודה",
+            "el": "Αντίγκουα και Μπαρμπούντα"
         },
         "dial_code": "+1268",
         "code": "AG",
@@ -255,7 +264,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿根廷",
             "ee": "Argentina",
             "jp": "アルゼンチン",
-            "he": "ארגנטינה"
+            "he": "ארגנטינה",
+            "el": "Αργεντινή"
         },
         "dial_code": "+54",
         "code": "AR",
@@ -281,7 +291,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "亞美尼亞",
             "ee": "Armeenia",
             "jp": "アルメニア",
-            "he": "ארמניה"
+            "he": "ארמניה",
+            "el": "Αρμενία"
         },
         "dial_code": "+374",
         "code": "AM",
@@ -307,7 +318,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿魯巴島",
             "ee": "Aruba",
             "jp": "アルバ",
-            "he": "ארובה"
+            "he": "ארובה",
+            "el": "Αρούμπα"
         },
         "dial_code": "+297",
         "code": "AW",
@@ -333,7 +345,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "澳大利亞",
             "ee": "Austraalia",
             "jp": "オーストラリア",
-            "he": "אוסטרליה"
+            "he": "אוסטרליה",
+            "el": "Αυστραλία"
         },
         "dial_code": "+61",
         "code": "AU",
@@ -359,7 +372,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "奧地利",
             "ee": "Austria",
             "jp": "オーストリア",
-            "he": "אוסטריה"
+            "he": "אוסטריה",
+            "el": "Αυστρία"
         },
         "dial_code": "+43",
         "code": "AT",
@@ -385,7 +399,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿塞拜疆",
             "ee": "Aserbaidžaan",
             "jp": "アゼルバイジャン",
-            "he": "אזרבייג'ן"
+            "he": "אזרבייג'ן",
+            "el": "Αζερμπαϊτζάν"
         },
         "dial_code": "+994",
         "code": "AZ",
@@ -411,7 +426,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴哈馬",
             "ee": "Bahama",
             "jp": "バハマ",
-            "he": "איי בהאמה"
+            "he": "איי בהאמה",
+            "el": "Μπαχάμες"
         },
         "dial_code": "+1242",
         "code": "BS",
@@ -437,7 +453,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴林",
             "ee": "Bahrein",
             "jp": "バーレーン",
-            "he": "בחריין"
+            "he": "בחריין",
+            "el": "Μπαχρέιν"
         },
         "dial_code": "+973",
         "code": "BH",
@@ -463,7 +480,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "孟加拉國",
             "ee": "Bangladesh",
             "jp": "バングラデシュ",
-            "he": "בנגלדש"
+            "he": "בנגלדש",
+            "el": "Μπανγκλαντές"
         },
         "dial_code": "+880",
         "code": "BD",
@@ -489,7 +507,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴巴多斯",
             "ee": "Barbados",
             "jp": "バルバドス",
-            "he": "ברבדוס"
+            "he": "ברבדוס",
+            "el": "Μπαρμπάντος"
         },
         "dial_code": "+1246",
         "code": "BB",
@@ -515,7 +534,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "白俄羅斯",
             "ee": "Valgevene",
             "jp": "ベラルーシ",
-            "he": "בלארוס"
+            "he": "בלארוס",
+            "el": "Λευκορωσία"
         },
         "dial_code": "+375",
         "code": "BY",
@@ -541,7 +561,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "比利時",
             "ee": "Belgia",
             "jp": "ベルギー",
-            "he": "בלגיה"
+            "he": "בלגיה",
+            "el": "Βέλγιο"
         },
         "dial_code": "+32",
         "code": "BE",
@@ -567,7 +588,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "伯利茲",
             "ee": "Belize",
             "jp": "ベリーズ",
-            "he": "בליז"
+            "he": "בליז",
+            "el": "Μπελίζ"
         },
         "dial_code": "+501",
         "code": "BZ",
@@ -593,7 +615,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "貝寧",
             "ee": "Benin",
             "jp": "ベナン",
-            "he": "בנין"
+            "he": "בנין",
+            "el": "Μπενίν"
         },
         "dial_code": "+229",
         "code": "BJ",
@@ -619,7 +642,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "百慕大",
             "ee": "Bermuda",
             "jp": "バミューダ",
-            "he": "ברמודה"
+            "he": "ברמודה",
+            "el": "Βερμούδες"
         },
         "dial_code": "+1441",
         "code": "BM",
@@ -645,7 +669,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "不丹",
             "ee": "Bhutan",
             "jp": "ブータン",
-            "he": "בהוטן"
+            "he": "בהוטן",
+            "el": "Μπουτάν"
         },
         "dial_code": "+975",
         "code": "BT",
@@ -671,7 +696,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "玻利維亞",
             "ee": "Boliivia",
             "jp": "ボリビア",
-            "he": "בוליביה"
+            "he": "בוליביה",
+            "el": "Βολιβία"
         },
         "dial_code": "+591",
         "code": "BO",
@@ -697,7 +723,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "波斯尼亞和黑塞哥維那（簡稱：波黑",
             "ee": "Bosnia ja Hertsegoviina",
             "jp": "ボスニア・ヘルツェゴビナ",
-            "he": "בוסניה והרצגובינה"
+            "he": "בוסניה והרצגובינה",
+            "el": "Βοσνία και Ερζεγοβίνη"
         },
         "dial_code": "+387",
         "code": "BA",
@@ -723,7 +750,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "博茨瓦納",
             "ee": "Botswana",
             "jp": "ボツワナ",
-            "he": "בוצואנה"
+            "he": "בוצואנה",
+            "el": "Μποτσουάνα"
         },
         "dial_code": "+267",
         "code": "BW",
@@ -749,7 +777,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴西",
             "ee": "Brasiilia",
             "jp": "ブラジル",
-            "he": "ברזיל"
+            "he": "ברזיל",
+            "el": "Βραζιλία"
         },
         "dial_code": "+55",
         "code": "BR",
@@ -775,7 +804,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "英屬印度洋領地",
             "ee": "Briti India ookeani territoorium",
             "jp": "イギリス領インド洋地域",
-            "he": "טריטוריית האוקיינוס ​​ההודי הבריטי"
+            "he": "טריטוריית האוקיינוס ​​ההודי הבריטי",
+            "el": "Βρετανικά Εδάφη Ινδικού Ωκεανού"
         },
         "dial_code": "+246",
         "code": "IO",
@@ -801,7 +831,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "文萊達魯薩蘭國",
             "ee": "Brunei Darussalam",
             "jp": "ブルネイダルサラーム",
-            "he": "ברוניי דארוסלאם"
+            "he": "ברוניי דארוסלאם",
+            "el": "Μπρουνέι"
         },
         "dial_code": "+673",
         "code": "BN",
@@ -827,7 +858,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "保加利亞",
             "ee": "Bulgaaria",
             "jp": "ブルガリア",
-            "he": "בולגריה"
+            "he": "בולגריה",
+            "el": "Βουλγαρία"
         },
         "dial_code": "+359",
         "code": "BG",
@@ -853,7 +885,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "布基納法索",
             "ee": "Burkina Faso",
             "jp": "ブルキナファソ",
-            "he": "בורקינה פאסו"
+            "he": "בורקינה פאסו",
+            "el": "Μπουρκίνα Φάσο"
         },
         "dial_code": "+226",
         "code": "BF",
@@ -879,7 +912,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "布隆迪",
             "ee": "Burundi",
             "jp": "ブルンジ",
-            "he": "בורונדי"
+            "he": "בורונדי",
+            "el": "Μπουρούντι"
         },
         "dial_code": "+257",
         "code": "BI",
@@ -905,7 +939,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "柬埔寨",
             "ee": "Kambodža",
             "jp": "カンボジア",
-            "he": "קמבודיה"
+            "he": "קמבודיה",
+            "el": "Καμπότζη"
         },
         "dial_code": "+855",
         "code": "KH",
@@ -931,7 +966,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "喀麥隆",
             "ee": "Kamerun",
             "jp": "カメルーン",
-            "he": "קמרון"
+            "he": "קמרון",
+            "el": "Καμερούν"
         },
         "dial_code": "+237",
         "code": "CM",
@@ -957,7 +993,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "加拿大",
             "ee": "Kanada",
             "jp": "カナダ",
-            "he": "קנדה"
+            "he": "קנדה",
+            "el": "Καναδάς"
         },
         "dial_code": "+1",
         "code": "CA",
@@ -983,7 +1020,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "佛得角",
             "ee": "Roheneemesaared",
             "jp": "カーボベルデ",
-            "he": "קייפ ורדה"
+            "he": "קייפ ורדה",
+            "el": "Πράσινο Ακρωτήριο"
         },
         "dial_code": "+238",
         "code": "CV",
@@ -1009,7 +1047,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "開曼群島",
             "ee": "Kaimani saared",
             "jp": "ケイマン諸島",
-            "he": "איי קיימן"
+            "he": "איי קיימן",
+            "el": "Νήσοι Κέιμαν"
         },
         "dial_code": "+345",
         "code": "KY",
@@ -1035,7 +1074,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "中非共和國",
             "ee": "Kesk-Aafrika Vabariik",
             "jp": "中央アフリカ共和国",
-            "he": "הרפובליקה המרכז - אפריקאית"
+            "he": "הרפובליקה המרכז - אפריקאית",
+            "el": "Κεντροαφρικανική Δημοκρατία"
         },
         "dial_code": "+236",
         "code": "CF",
@@ -1061,7 +1101,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "乍得",
             "ee": "Tšaad",
             "jp": "チャド",
-            "he": "צ'אד"
+            "he": "צ'אד",
+            "el": "Τσαντ"
         },
         "dial_code": "+235",
         "code": "TD",
@@ -1087,7 +1128,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "智利",
             "ee": "Tšiili",
             "jp": "チリ",
-            "he": "צ'ילה"
+            "he": "צ'ילה",
+            "el": "Χιλή"
         },
         "dial_code": "+56",
         "code": "CL",
@@ -1113,7 +1155,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "中國",
             "ee": "Hiina",
             "jp": "中国",
-            "he": "חרסינה"
+            "he": "חרסינה",
+            "el": "Κίνα"
         },
         "dial_code": "+86",
         "code": "CN",
@@ -1139,7 +1182,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖誕島",
             "ee": "Jõulusaar",
             "jp": "クリスマス島",
-            "he": "אי חג המולד"
+            "he": "אי חג המולד",
+            "el": "Νήσος των Χριστουγέννων"
         },
         "dial_code": "+61",
         "code": "CX",
@@ -1165,7 +1209,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "科科斯（基林）群島",
             "ee": "Kookossaared (Keelingi) saared",
             "jp": "ココス（キーリング）諸島",
-            "he": "איי קוקוס (קילינג)."
+            "he": "איי קוקוס (קילינג).",
+            "el": "Νησιά Κόκος"
         },
         "dial_code": "+61",
         "code": "CC",
@@ -1191,7 +1236,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "哥倫比亞",
             "ee": "Kolumbia",
             "jp": "コロンビア",
-            "he": "קולומביה"
+            "he": "קולומביה",
+            "el": "Κολομβία"
         },
         "dial_code": "+57",
         "code": "CO",
@@ -1217,7 +1263,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "科摩羅",
             "ee": "Komoorid",
             "jp": "コモロ",
-            "he": "קומורו"
+            "he": "קומורו",
+            "el": "Κομόρες"
         },
         "dial_code": "+269",
         "code": "KM",
@@ -1243,7 +1290,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "剛果",
             "ee": "Kongo",
             "jp": "コンゴ",
-            "he": "קונגו"
+            "he": "קונגו",
+            "el": "Δημοκρατία του Κονγκό"
         },
         "dial_code": "+242",
         "code": "CG",
@@ -1269,7 +1317,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "剛果民主共和國",
             "ee": "Kongo, Kongo Demokraatlik Vabariik",
             "jp": "コンゴ、コンゴ民主共和国",
-			"he": "קונגו"
+			"he": "קונגו",
+            "el": "Λαϊκή Δημοκρατία του Κονγκό"
         },
         "dial_code": "+243",
         "code": "CD",
@@ -1295,7 +1344,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "庫克群島",
             "ee": "Cooki saared",
             "jp": "クック諸島",
-            "he": "איי קוק"
+            "he": "איי קוק",
+            "el": "Νήσοι Κουκ"
         },
         "dial_code": "+682",
         "code": "CK",
@@ -1321,7 +1371,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "哥斯達黎加",
             "ee": "Costa Rica",
             "jp": "コスタリカ",
-            "he": "קוסטה ריקה"
+            "he": "קוסטה ריקה",
+            "el": "Κόστα Ρίκα"
         },
         "dial_code": "+506",
         "code": "CR",
@@ -1347,7 +1398,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "科特迪瓦",
             "ee": "Elevandiluurannik",
             "jp": "コートジボワール",
-            "he": "חוף השנהב"
+            "he": "חוף השנהב",
+            "el": "Ακτή Ελεφαντοστού"
         },
         "dial_code": "+225",
         "code": "CI",
@@ -1373,7 +1425,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "克羅地亞",
             "ee": "Horvaatia",
             "jp": "クロアチア",
-            "he": "קרואטיה"
+            "he": "קרואטיה",
+            "el": "Κροατία"
         },
         "dial_code": "+385",
         "code": "HR",
@@ -1399,7 +1452,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "古巴",
             "ee": "Kuuba",
             "jp": "キューバ",
-            "he": "קובה"
+            "he": "קובה",
+            "el": "Κούβα"
         },
         "dial_code": "+53",
         "code": "CU",
@@ -1425,7 +1479,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "塞浦路斯",
             "ee": "Küpros",
             "jp": "キプロス",
-            "he": "קפריסין"
+            "he": "קפריסין",
+            "el": "Κύπρος"
         },
         "dial_code": "+357",
         "code": "CY",
@@ -1451,7 +1506,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "捷克共和國",
             "ee": "Tšehhi Vabariik",
             "jp": "チェコ共和国",
-            "he": "הרפובליקה הצ'כית"
+            "he": "הרפובליקה הצ'כית",
+            "el": "Τσεχία"
         },
         "dial_code": "+420",
         "code": "CZ",
@@ -1477,7 +1533,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "丹麥",
             "ee": "Taani",
             "jp": "デンマーク",
-            "he": "דנמרק"
+            "he": "דנמרק",
+            "el": "Δανία"
         },
         "dial_code": "+45",
         "code": "DK",
@@ -1503,7 +1560,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "吉布地",
             "ee": "Djibouti",
             "jp": "ジブチ",
-            "he": "ג'יבוטי"
+            "he": "ג'יבוטי",
+            "el": "Τζιμπουτί"
         },
         "dial_code": "+253",
         "code": "DJ",
@@ -1529,7 +1587,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "多米尼加",
             "ee": "Dominica",
             "jp": "ドミニカ",
-            "he": "דומיניקה"
+            "he": "דומיניקה",
+            "el": "Δομινίκα"
         },
         "dial_code": "+1767",
         "code": "DM",
@@ -1555,7 +1614,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "多明尼加共和國",
             "ee": "Dominikaani Vabariik",
             "jp": "ドミニカ共和国",
-            "he": "הרפובליקה הדומיניקנית"
+            "he": "הרפובליקה הדומיניקנית",
+            "el": "Δομινικανή Δημοκρατία"
         },
         "dial_code": "+1849",
         "code": "DO",
@@ -1581,7 +1641,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "厄瓜多爾",
             "ee": "Ecuador",
             "jp": "エクアドル",
-            "he": "אקוודור"
+            "he": "אקוודור",
+            "el": "Ισημερινός"
         },
         "dial_code": "+593",
         "code": "EC",
@@ -1607,7 +1668,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "埃及",
             "ee": "Egiptus",
             "jp": "エジプト",
-            "he": "מצרים"
+            "he": "מצרים",
+            "el": "Αίγυπτος"
         },
         "dial_code": "+20",
         "code": "EG",
@@ -1633,7 +1695,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "薩爾瓦多",
             "ee": "El Salvador",
             "jp": "エルサルバドル",
-            "he": "אל סלבדור"
+            "he": "אל סלבדור",
+            "el": "Ελ Σαλβαδόρ"
         },
         "dial_code": "+503",
         "code": "SV",
@@ -1659,7 +1722,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "赤道幾內亞",
             "ee": "Ekvatoriaalne Guinea",
             "jp": "赤道ギニア",
-            "he": "גיניאה המשוונית"
+            "he": "גיניאה המשוונית",
+            "el": "Ισημερινή Γουινέα"
         },
         "dial_code": "+240",
         "code": "GQ",
@@ -1685,7 +1749,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "厄立特里亞",
             "ee": "Eritrea",
             "jp": "エリトリア",
-            "he": "אריתריאה"
+            "he": "אריתריאה",
+            "el": "Ερυθραία"
         },
         "dial_code": "+291",
         "code": "ER",
@@ -1711,7 +1776,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "愛沙尼亞",
             "ee": "Eesti",
             "jp": "エストニア",
-            "he": "אסטוניה"
+            "he": "אסטוניה",
+            "el": "Εσθονία"
         },
         "dial_code": "+372",
         "code": "EE",
@@ -1737,7 +1803,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "埃塞俄比亞",
             "ee": "Etioopia",
             "jp": "エチオピア",
-            "he": "אתיופיה"
+            "he": "אתיופיה",
+            "el": "Αιθιοπία"
         },
         "dial_code": "+251",
         "code": "ET",
@@ -1763,7 +1830,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "福克蘭群島（馬爾維納斯）",
             "ee": "Falklandi saared (Malvinas)",
             "jp": "フォークランド諸島（マルビナス）",
-            "he": "איי פוקלנד (מלווינאס)"
+            "he": "איי פוקלנד (מלווינאס)",
+            "el": "Νήσοι Φώκλαντ"
         },
         "dial_code": "+500",
         "code": "FK",
@@ -1789,7 +1857,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "法羅群島",
             "ee": "Fääri saared",
             "jp": "フェロー諸島",
-            "he": "איי פרו"
+            "he": "איי פרו",
+            "el": "Νήσοι Φερόες"
         },
         "dial_code": "+298",
         "code": "FO",
@@ -1815,7 +1884,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "斐濟",
             "ee": "Fidži",
             "jp": "フィジー",
-            "he": "פיג'י"
+            "he": "פיג'י",
+            "el": "Φίτζι"
         },
         "dial_code": "+679",
         "code": "FJ",
@@ -1841,7 +1911,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "芬蘭",
             "ee": "Soome",
             "jp": "フィンランド",
-            "he": "פינלנד"
+            "he": "פינלנד",
+            "el": "Φινλανδία"
         },
         "dial_code": "+358",
         "code": "FI",
@@ -1867,7 +1938,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "法國",
             "ee": "Prantsusmaa",
             "jp": "フランス",
-            "he": "צרפת"
+            "he": "צרפת",
+            "el": "Γαλλία"
         },
         "dial_code": "+33",
         "code": "FR",
@@ -1893,7 +1965,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "法屬圭亞那",
             "ee": "Prantsuse Guajaana",
             "jp": "フランス領ギアナ",
-            "he": "גיאנה הצרפתית"
+            "he": "גיאנה הצרפתית",
+            "el": "Γαλλική Γουιάνα"
         },
         "dial_code": "+594",
         "code": "GF",
@@ -1919,7 +1992,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "法屬波利尼西亞",
             "ee": "Prantsuse Polüneesia",
             "jp": "フランス領ポリネシア",
-            "he": "פולינזיה הצרפתית"
+            "he": "פולינזיה הצרפתית",
+            "el": "Γαλλική Πολυνησία"
         },
         "dial_code": "+689",
         "code": "PF",
@@ -1945,7 +2019,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "加蓬",
             "ee": "Gabon",
             "jp": "ガボン",
-            "he": "גאבון"
+            "he": "גאבון",
+            "el": "Γκαμπόν"
         },
         "dial_code": "+241",
         "code": "GA",
@@ -1971,7 +2046,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "岡比亞",
             "ee": "Gambia",
             "jp": "ガンビア",
-            "he": "גמביה"
+            "he": "גמביה",
+            "el": "Γκάμπια"
         },
         "dial_code": "+220",
         "code": "GM",
@@ -1997,7 +2073,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "喬治亞州",
             "ee": "Gruusia",
             "jp": "ジョージア",
-            "he": "גאורגיה"
+            "he": "גאורגיה",
+            "el": "Γεωργία"
         },
         "dial_code": "+995",
         "code": "GE",
@@ -2023,7 +2100,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "德國",
             "ee": "Saksamaa",
             "jp": "ドイツ",
-            "he": "גרמניה"
+            "he": "גרמניה",
+            "el": "Γερμανία"
         },
         "dial_code": "+49",
         "code": "DE",
@@ -2049,7 +2127,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "加納",
             "ee": "Ghana",
             "jp": "ガーナ",
-            "he": "גאנה"
+            "he": "גאנה",
+            "el": "Γκάνα"
         },
         "dial_code": "+233",
         "code": "GH",
@@ -2075,7 +2154,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "直布羅陀",
             "ee": "Gibraltar",
             "jp": "ジブラルタル",
-            "he": "גיברלטר"
+            "he": "גיברלטר",
+            "el": "Γιβραλτάρ"
         },
         "dial_code": "+350",
         "code": "GI",
@@ -2101,7 +2181,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "希臘",
             "ee": "Kreeka",
             "jp": "ギリシャ",
-            "he": "יוון"
+            "he": "יוון",
+            "el": "Ελλάδα"
         },
         "dial_code": "+30",
         "code": "GR",
@@ -2127,7 +2208,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "格陵蘭",
             "ee": "Gröönimaa",
             "jp": "グリーンランド",
-            "he": "גרינלנד"
+            "he": "גרינלנד",
+            "el": "Γροιλανδία"
         },
         "dial_code": "+299",
         "code": "GL",
@@ -2153,7 +2235,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "格林納達",
             "ee": "Grenada",
             "jp": "グレナダ",
-            "he": "גרנדה"
+            "he": "גרנדה",
+            "el": "Γρενάδα"
         },
         "dial_code": "+1473",
         "code": "GD",
@@ -2179,7 +2262,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "瓜德羅普島",
             "ee": "Guadeloupe",
             "jp": "グアドループ",
-            "he": "גוואדלופ"
+            "he": "גוואדלופ",
+            "el": "Γουαδελούπη"
         },
         "dial_code": "+590",
         "code": "GP",
@@ -2205,7 +2289,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "關島",
             "ee": "Guam",
             "jp": "グアム",
-            "he": "גואם"
+            "he": "גואם",
+            "el": "Γκουάμ"
         },
         "dial_code": "+1671",
         "code": "GU",
@@ -2231,7 +2316,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "危地馬拉",
             "ee": "Guatemala",
             "jp": "グアテマラ",
-            "he": "גואטמלה"
+            "he": "גואטמלה",
+            "el": "Γουατεμάλα"
         },
         "dial_code": "+502",
         "code": "GT",
@@ -2257,7 +2343,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "根西島",
             "ee": "Guernsey",
             "jp": "ガーンジー",
-            "he": "גרנזי"
+            "he": "גרנזי",
+            "el": "Γκέρνσεϊ"
         },
         "dial_code": "+44",
         "code": "GG",
@@ -2283,7 +2370,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "幾內亞",
             "ee": "Guinea",
             "jp": "ギニア",
-            "he": "גינאה"
+            "he": "גינאה",
+            "el": "Γουινέα"
         },
         "dial_code": "+224",
         "code": "GN",
@@ -2309,7 +2397,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "幾內亞比紹",
             "ee": "Guinea-Bissau",
             "jp": "ギニアビサウ",
-            "he": "גינאה-ביסאו"
+            "he": "גינאה-ביסאו",
+            "el": "Γουινέα-Μπισσάου"
         },
         "dial_code": "+245",
         "code": "GW",
@@ -2335,7 +2424,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "圭亞那",
             "ee": "Guajaana",
             "jp": "ガイアナ",
-            "he": "גיאנה"
+            "he": "גיאנה",
+            "el": "Γουιάνα"
         },
         "dial_code": "+595",
         "code": "GY",
@@ -2361,7 +2451,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "海地",
             "ee": "Haiti",
             "jp": "ハイチ",
-            "he": "האיטי"
+            "he": "האיטי",
+            "el": "Αϊτή"
         },
         "dial_code": "+509",
         "code": "HT",
@@ -2387,7 +2478,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "羅馬教廷（梵蒂岡城國）",
             "ee": "Püha Tool (Vatikani linnriik)",
             "jp": "ホーリーシー（バチカン市国）",
-            "he": "הכס הקדוש (מדינת הוותיקן)"
+            "he": "הכס הקדוש (מדינת הוותיקן)",
+            "el": "Βατικανό"
         },
         "dial_code": "+379",
         "code": "VA",
@@ -2413,7 +2505,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "洪都拉斯",
             "ee": "Honduras",
             "jp": "ホンジュラス",
-            "he": "הונדורס"
+            "he": "הונדורס",
+            "el": "Ονδούρα"
         },
         "dial_code": "+504",
         "code": "HN",
@@ -2439,7 +2532,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "香港",
             "ee": "Hongkong",
             "jp": "香港",
-            "he": "הונג קונג"
+            "he": "הונג קונג",
+            "el": "Χονγκ Κονγκ"
         },
         "dial_code": "+852",
         "code": "HK",
@@ -2465,7 +2559,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "匈牙利",
             "ee": "Ungari",
             "jp": "ハンガリー",
-            "he": "הונגריה"
+            "he": "הונגריה",
+            "el": "Ουγγαρία"
         },
         "dial_code": "+36",
         "code": "HU",
@@ -2491,7 +2586,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "冰島",
             "ee": "Island",
             "jp": "アイスランド",
-            "he": "איסלנד"
+            "he": "איסלנד",
+            "el": "Ισλανδία"
         },
         "dial_code": "+354",
         "code": "IS",
@@ -2517,7 +2613,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "印度",
             "ee": "India",
             "jp": "インド",
-            "he": "הוֹדוּ"
+            "he": "הוֹדוּ",
+            "el": "Ινδία"
         },
         "dial_code": "+91",
         "code": "IN",
@@ -2543,7 +2640,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "印度尼西亞",
             "ee": "Indoneesia",
             "jp": "インドネシア",
-            "he": "אינדונזיה"
+            "he": "אינדונזיה",
+            "el": "Ινδονησία"
         },
         "dial_code": "+62",
         "code": "ID",
@@ -2569,7 +2667,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "伊朗伊斯蘭共和國",
             "ee": "Iraan, Iraagi Islamivabariik",
             "jp": "イラン、イスラム共和国",
-			"he": "איראן"
+			"he": "איראן",
+            "el": "Ιράν"
         },
         "dial_code": "+98",
         "code": "IR",
@@ -2595,7 +2694,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "伊拉克",
             "ee": "Iraak",
             "jp": "イラク",
-            "he": "עיראק"
+            "he": "עיראק",
+            "el": "Ιράκ"
         },
         "dial_code": "+964",
         "code": "IQ",
@@ -2621,7 +2721,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "愛爾蘭",
             "ee": "Iirimaa",
             "jp": "アイルランド",
-            "he": "אירלנד"
+            "he": "אירלנד",
+            "el": "Ιρλανδία"
         },
         "dial_code": "+353",
         "code": "IE",
@@ -2647,7 +2748,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬恩島",
             "ee": "Mani saar",
             "jp": "マン島",
-            "he": "האי מאן"
+            "he": "האי מאן",
+            "el": "Νήσος Μαν"
         },
         "dial_code": "+44",
         "code": "IM",
@@ -2673,7 +2775,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "以色列",
             "ee": "Iisrael",
             "jp": "イスラエル",
-            "he": "ישראל"
+            "he": "ישראל",
+            "el": "Ισραήλ"
         },
         "dial_code": "+972",
         "code": "IL",
@@ -2699,7 +2802,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "意大利",
             "ee": "Itaalia",
             "jp": "イタリア",
-            "he": "איטליה"
+            "he": "איטליה",
+            "el": "Ιταλία"
         },
         "dial_code": "+39",
         "code": "IT",
@@ -2725,7 +2829,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "的牙買加",
             "ee": "Jamaica",
             "jp": "ジャマイカ",
-            "he": "ג'מייקה"
+            "he": "ג'מייקה",
+            "el": "Τζαμάικα"
         },
         "dial_code": "+1876",
         "code": "JM",
@@ -2751,7 +2856,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "日本",
             "ee": "Jaapan",
             "jp": "日本",
-            "he": "יפן"
+            "he": "יפן",
+            "el": "Ιαπωνία"
         },
         "dial_code": "+81",
         "code": "JP",
@@ -2777,7 +2883,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "球衣",
             "ee": "Jersey",
             "jp": "ジャージー",
-            "he": "ג'רזי"
+            "he": "ג'רזי",
+            "el": "Τζέρσεϊ"
         },
         "dial_code": "+44",
         "code": "JE",
@@ -2803,7 +2910,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "約旦",
             "ee": "Jordaania",
             "jp": "ヨルダン",
-            "he": "ירדן"
+            "he": "ירדן",
+            "el": "Ιορδανία"
         },
         "dial_code": "+962",
         "code": "JO",
@@ -2829,7 +2937,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "哈薩克斯坦",
             "ee": "Kasahstan",
             "jp": "カザフスタン",
-            "he": "קזחסטן"
+            "he": "קזחסטן",
+            "el": "Καζακστάν"
         },
         "dial_code": "+77",
         "code": "KZ",
@@ -2855,7 +2964,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "肯尼亞",
             "ee": "Keenia",
             "jp": "ケニア",
-            "he": "קניה"
+            "he": "קניה",
+            "el": "Κένυα"
         },
         "dial_code": "+254",
         "code": "KE",
@@ -2881,7 +2991,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "基里巴斯",
             "ee": "Kiribati",
             "jp": "キリバス",
-            "he": "קיריבטי"
+            "he": "קיריבטי",
+            "el": "Κιριμπάτι"
         },
         "dial_code": "+686",
         "code": "KI",
@@ -2907,7 +3018,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "韓國，朝鮮民主主義人民共和國",
             "ee": "Korea, Korea Rahvademokraatlik Vabariik",
             "jp": "韓国、朝鮮民主主義人民共和国",
-			"he": "קוריאה הצפונית"
+			"he": "קוריאה הצפונית",
+            "el": "Βόρεια Κορέα"
         },
         "dial_code": "+850",
         "code": "KP",
@@ -2933,7 +3045,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "韓國",
             "ee": "Korea Vabariik",
             "jp": "大韓民国",
-			"he": "קוריאה הדרומית"
+			"he": "קוריאה הדרומית",
+            "el": "Νότια Κορέα"
         },
         "dial_code": "+82",
         "code": "KR",
@@ -2959,7 +3072,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "科威特",
             "ee": "Kuveit",
             "jp": "クウェート",
-            "he": "כווית"
+            "he": "כווית",
+            "el": "Κουβέιτ"
         },
         "dial_code": "+965",
         "code": "KW",
@@ -2985,7 +3099,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "吉爾吉斯斯坦",
             "ee": "Kõrgõzstan",
             "jp": "キルギスタン",
-            "he": "קירגיזסטן"
+            "he": "קירגיזסטן",
+            "el": "Κιργιζία"
         },
         "dial_code": "+996",
         "code": "KG",
@@ -3011,7 +3126,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "老撾人民民主共和國",
             "ee": "Laose Demokraatlik Rahvavabariik",
             "jp": "ラオス人民民主共和国",
-            "he": "הרפובליקה הדמוקרטית העממית של לאו"
+            "he": "הרפובליקה הדמוקרטית העממית של לאו",
+            "el": "Λάος"
         },
         "dial_code": "+856",
         "code": "LA",
@@ -3037,7 +3153,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "拉脫維亞",
             "ee": "Läti",
             "jp": "ラトビア",
-            "he": "לטביה"
+            "he": "לטביה",
+            "el": "Λετονία"
         },
         "dial_code": "+371",
         "code": "LV",
@@ -3063,7 +3180,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "黎巴嫩的",
             "ee": "Liibanon",
             "jp": "レバノン",
-            "he": "לבנון"
+            "he": "לבנון",
+            "el": "Λίβανος"
         },
         "dial_code": "+961",
         "code": "LB",
@@ -3089,7 +3207,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "萊索托",
             "ee": "Lesotho",
             "jp": "レソト",
-            "he": "לסוטו"
+            "he": "לסוטו",
+            "el": "Λεσότο"
         },
         "dial_code": "+266",
         "code": "LS",
@@ -3115,7 +3234,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "利比里亞",
             "ee": "Libeeria",
             "jp": "リベリア",
-            "he": "ליבריה"
+            "he": "ליבריה",
+            "el": "Λιβερία"
         },
         "dial_code": "+231",
         "code": "LR",
@@ -3141,7 +3261,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿拉伯利比亞民眾國",
             "ee": "Liibüa Araabia Jamahiriya",
             "jp": "リビアアラブジャマヒリヤ",
-            "he": "ג'מהיריה הערבית הלובית"
+            "he": "ג'מהיריה הערבית הלובית",
+            "el": "Λιβύη"
         },
         "dial_code": "+218",
         "code": "LY",
@@ -3167,7 +3288,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "列支敦士登",
             "ee": "Liechtenstein",
             "jp": "リヒテンシュタイン",
-            "he": "ליכטנשטיין"
+            "he": "ליכטנשטיין",
+            "el": "Λίχτενσταϊν"
         },
         "dial_code": "+423",
         "code": "LI",
@@ -3193,7 +3315,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "立陶宛",
             "ee": "Leedu",
             "jp": "リトアニア",
-            "he": "ליטא"
+            "he": "ליטא",
+            "el": "Λιθουανία"
         },
         "dial_code": "+370",
         "code": "LT",
@@ -3219,7 +3342,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "盧森堡",
             "ee": "Luksemburg",
             "jp": "ルクセンブルク",
-            "he": "לוקסמבורג"
+            "he": "לוקסמבורג",
+            "el": "Λουξεμβούργο"
         },
         "dial_code": "+352",
         "code": "LU",
@@ -3245,7 +3369,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "澳門",
             "ee": "Aomen",
             "jp": "マカオ",
-            "he": "מקאו"
+            "he": "מקאו",
+            "el": "Μακάου"
         },
         "dial_code": "+853",
         "code": "MO",
@@ -3271,7 +3396,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "前南斯拉夫共和國馬其頓",
             "ee": "Makedoonia, endine Jugoslaavia Makedoonia Vabariik",
             "jp": "マケドニア、旧ユーゴスラビア共和国",
-			"he": "מקדוניה"
+			"he": "מקדוניה",
+            "el": "Βόρεια Μακεδονία"
         },
         "dial_code": "+389",
         "code": "MK",
@@ -3297,7 +3423,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬達加斯加",
             "ee": "Madagaskar",
             "jp": "マダガスカル",
-            "he": "מדגסקר"
+            "he": "מדגסקר",
+            "el": "Μαδαγασκάρη"
         },
         "dial_code": "+261",
         "code": "MG",
@@ -3323,7 +3450,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬拉維",
             "ee": "Malawi",
             "jp": "マラウイ",
-            "he": "מלאווי"
+            "he": "מלאווי",
+            "el": "Μαλάουι"
         },
         "dial_code": "+265",
         "code": "MW",
@@ -3349,7 +3477,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬來西亞",
             "ee": "Malaisia",
             "jp": "マレーシア",
-            "he": "מלזיה"
+            "he": "מלזיה",
+            "el": "Μαλαισία"
         },
         "dial_code": "+60",
         "code": "MY",
@@ -3375,7 +3504,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬爾代夫",
             "ee": "Maldiivid",
             "jp": "モルディブ",
-            "he": "המלדיביים"
+            "he": "המלדיביים",
+            "el": "Μαλδίβες"
         },
         "dial_code": "+960",
         "code": "MV",
@@ -3401,7 +3531,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬里",
             "ee": "Mali",
             "jp": "マリ",
-            "he": "מלי"
+            "he": "מלי",
+            "el": "Μάλι"
         },
         "dial_code": "+223",
         "code": "ML",
@@ -3427,7 +3558,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬耳他",
             "ee": "Malta",
             "jp": "マルタ",
-            "he": "מלטה"
+            "he": "מלטה",
+            "el": "Μάλτα"
         },
         "dial_code": "+356",
         "code": "MT",
@@ -3453,7 +3585,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬紹爾群島",
             "ee": "Marshalli saared",
             "jp": "マーシャル諸島",
-            "he": "איי מרשל"
+            "he": "איי מרשל",
+            "el": "Νήσοι Μάρσαλ"
         },
         "dial_code": "+692",
         "code": "MH",
@@ -3479,7 +3612,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬提尼克島",
             "ee": "Martinique",
             "jp": "マルティニーク",
-            "he": "מרטיניק"
+            "he": "מרטיניק",
+            "el": "Μαρτινίκα"
         },
         "dial_code": "+596",
         "code": "MQ",
@@ -3505,7 +3639,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "毛里塔尼亞",
             "ee": "Mauritaania",
             "jp": "モーリタニア",
-            "he": "מאוריטניה"
+            "he": "מאוריטניה",
+            "el": "Μαυριτανία"
         },
         "dial_code": "+222",
         "code": "MR",
@@ -3531,7 +3666,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "毛里求斯",
             "ee": "Mauritius",
             "jp": "モーリシャス",
-            "he": "מאוריציוס"
+            "he": "מאוריציוס",
+            "el": "Μαυρίκιος"
         },
         "dial_code": "+230",
         "code": "MU",
@@ -3557,7 +3693,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "馬約特島",
             "ee": "Mayotte",
             "jp": "マヨット",
-            "he": "מיוט"
+            "he": "מיוט",
+            "el": "Μαγιότ"
         },
         "dial_code": "+262",
         "code": "YT",
@@ -3583,7 +3720,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "墨西哥",
             "ee": "Mehhiko",
             "jp": "メキシコ",
-            "he": "מקסיקו"
+            "he": "מקסיקו",
+            "el": "Μεξικό"
         },
         "dial_code": "+52",
         "code": "MX",
@@ -3609,7 +3747,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "密克羅尼西亞聯邦",
             "ee": "Mikroneesia, Makedoonia Liiduriigid",
             "jp": "ミクロネシア連邦",
-			"he": "מיקרונזיה"
+			"he": "מיקרונזיה",
+            "el": "Μικρονησία"
         },
         "dial_code": "+691",
         "code": "FM",
@@ -3635,7 +3774,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "摩爾多瓦共和國",
             "ee": "Moldova Vabariik",
             "jp": "モルドバ共和国",
-			"he": "מולדובה"
+			"he": "מולדובה",
+            "el": "Μολδαβία"
         },
         "dial_code": "+373",
         "code": "MD",
@@ -3661,7 +3801,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "摩納哥",
             "ee": "Monaco",
             "jp": "モナコ",
-            "he": "מונקו"
+            "he": "מונקו",
+            "el": "Μονακό"
         },
         "dial_code": "+377",
         "code": "MC",
@@ -3687,7 +3828,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "蒙古",
             "ee": "Mongoolia",
             "jp": "モンゴル",
-            "he": "מונגוליה"
+            "he": "מונגוליה",
+            "el": "Μογγολία"
         },
         "dial_code": "+976",
         "code": "MN",
@@ -3713,7 +3855,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "黑山共和國",
             "ee": "Montenegro",
             "jp": "モンテネグロ",
-            "he": "מונטנגרו"
+            "he": "מונטנגרו",
+            "el": "Μαυροβούνιο"
         },
         "dial_code": "+382",
         "code": "ME",
@@ -3739,7 +3882,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "蒙特塞拉特",
             "ee": "Montserrat",
             "jp": "モントセラト",
-            "he": "מונטסראט"
+            "he": "מונטסראט",
+            "el": "Μοντσερά"
         },
         "dial_code": "+1664",
         "code": "MS",
@@ -3765,7 +3909,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "摩洛哥",
             "ee": "Maroko",
             "jp": "モロッコ",
-            "he": "מרוקו"
+            "he": "מרוקו",
+            "el": "Μαρόκο"
         },
         "dial_code": "+212",
         "code": "MA",
@@ -3791,7 +3936,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "莫桑比克",
             "ee": "Mosambiik",
             "jp": "モザンビーク",
-            "he": "מוזמביק"
+            "he": "מוזמביק",
+            "el": "Μοζαμβίκη"
         },
         "dial_code": "+258",
         "code": "MZ",
@@ -3817,7 +3963,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "緬甸",
             "ee": "Myanmar",
             "jp": "ミャンマー",
-            "he": "מיאנמר"
+            "he": "מיאנמר",
+            "el": "Μιανμάρ"
         },
         "dial_code": "+95",
         "code": "MM",
@@ -3843,7 +3990,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "納米比亞",
             "ee": "Namiibia",
             "jp": "ナミビア",
-            "he": "נמיביה"
+            "he": "נמיביה",
+            "el": "Ναμίμπια"
         },
         "dial_code": "+264",
         "code": "NA",
@@ -3869,7 +4017,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "瑙魯",
             "ee": "Nauru",
             "jp": "ナウル",
-            "he": "נאורו"
+            "he": "נאורו",
+            "el": "Ναουρού"
         },
         "dial_code": "+674",
         "code": "NR",
@@ -3895,7 +4044,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "尼尼泊爾",
             "ee": "Nepal",
             "jp": "ネパール",
-            "he": "נפאל"
+            "he": "נפאל",
+            "el": "Νεπάλ"
         },
         "dial_code": "+977",
         "code": "NP",
@@ -3921,7 +4071,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "荷蘭",
             "ee": "Holland",
             "jp": "オランダ",
-            "he": "הולנד"
+            "he": "הולנד",
+            "el": "Ολλανδία"
         },
         "dial_code": "+31",
         "code": "NL",
@@ -3947,7 +4098,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "荷屬安的列斯",
             "ee": "Hollandi Antillid",
             "jp": "オランダ領アンティル",
-            "he": "האנטילים ההולנדיים"
+            "he": "האנטילים ההולנדיים",
+            "el": "Ολλανδικές Αντίλλες"
         },
         "dial_code": "+599",
         "code": "AN",
@@ -3973,7 +4125,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "新喀里多尼亞",
             "ee": "Uus-Kaledoonia",
             "jp": "ニューカレドニア",
-            "he": "קלדוניה החדשה"
+            "he": "קלדוניה החדשה",
+            "el": "Νέα Καληδονία"
         },
         "dial_code": "+687",
         "code": "NC",
@@ -3999,7 +4152,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "新西蘭",
             "ee": "Uus-Meremaa",
             "jp": "ニュージーランド",
-            "he": "ניו זילנד"
+            "he": "ניו זילנד",
+            "el": "Νέα Ζηλανδία"
         },
         "dial_code": "+64",
         "code": "NZ",
@@ -4025,7 +4179,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "尼加拉瓜",
             "ee": "Nicaragua",
             "jp": "ニカラグア",
-            "he": "ניקרגואה"
+            "he": "ניקרגואה",
+            "el": "Νικαράγουα"
         },
         "dial_code": "+505",
         "code": "NI",
@@ -4051,7 +4206,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "尼日爾",
             "ee": "Niger",
             "jp": "ニジェール",
-            "he": "ניז'ר"
+            "he": "ניז'ר",
+            "el": "Νίγηρας"
         },
         "dial_code": "+227",
         "code": "NE",
@@ -4077,7 +4233,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "奈及利亞",
             "ee": "Nigeeria",
             "jp": "ナイジェリア",
-            "he": "ניגריה"
+            "he": "ניגריה",
+            "el": "Νιγηρία"
         },
         "dial_code": "+234",
         "code": "NG",
@@ -4103,7 +4260,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "紐埃",
             "ee": "Niue",
             "jp": "ニウエ",
-            "he": "ניואה"
+            "he": "ניואה",
+            "el": "Νιούε"
         },
         "dial_code": "+683",
         "code": "NU",
@@ -4129,7 +4287,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "諾福克島",
             "ee": "Norfolki saar",
             "jp": "ノーフォーク島",
-            "he": "האי נורפוק"
+            "he": "האי נורפוק",
+            "el": "Νησί Νόρφολκ"
         },
         "dial_code": "+672",
         "code": "NF",
@@ -4155,7 +4314,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "北馬里亞納群島",
             "ee": "Põhja-Mariaanid",
             "jp": "北マリアナ諸島",
-            "he": "איי מריאנה הצפוניים"
+            "he": "איי מריאנה הצפוניים",
+            "el": "Βόρειες Μαριάνες Νήσοι"
         },
         "dial_code": "+1670",
         "code": "MP",
@@ -4181,7 +4341,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "挪威",
             "ee": "Norra",
             "jp": "ノルウェー",
-            "he": "נורווגיה"
+            "he": "נורווגיה",
+            "el": "Νορβηγία"
         },
         "dial_code": "+47",
         "code": "NO",
@@ -4207,7 +4368,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿曼",
             "ee": "Omaan",
             "jp": "オマーン",
-            "he": "עומאן"
+            "he": "עומאן",
+            "el": "Ομάν"
         },
         "dial_code": "+968",
         "code": "OM",
@@ -4233,7 +4395,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴基斯坦",
             "ee": "Pakistan",
             "jp": "パキスタン",
-            "he": "פקיסטן"
+            "he": "פקיסטן",
+            "el": "Πακιστάν"
         },
         "dial_code": "+92",
         "code": "PK",
@@ -4259,7 +4422,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "u琉",
             "ee": "Palau",
             "jp": "パラオ",
-            "he": "פלאו"
+            "he": "פלאו",
+            "el": "Παλάου"
         },
         "dial_code": "+680",
         "code": "PW",
@@ -4285,7 +4449,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "被占領的巴勒斯坦領土",
             "ee": "Palestiina territoorium, okupeeritud",
             "jp": "パレスチナ自治区、占領下",
-			"he": "הרשות הפלסטינית"
+			"he": "הרשות הפלסטינית",
+            "el": "Κράτος της Παλαιστίνης"
         },
         "dial_code": "+970",
         "code": "PS",
@@ -4311,7 +4476,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴拿馬",
             "ee": "Panama",
             "jp": "パナマ",
-            "he": "פנמה"
+            "he": "פנמה",
+            "el": "Παναμάς"
         },
         "dial_code": "+507",
         "code": "PA",
@@ -4337,7 +4503,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴布亞新幾內亞",
             "ee": "Paapua Uus-Guinea",
             "jp": "パプアニューギニア",
-            "he": "פפואה גינאה החדשה"
+            "he": "פפואה גינאה החדשה",
+            "el": "Παπούα Νέα Γουινέα"
         },
         "dial_code": "+675",
         "code": "PG",
@@ -4363,7 +4530,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "巴拉圭",
             "ee": "Paraguay",
             "jp": "パラグアイ",
-            "he": "פרגוואי"
+            "he": "פרגוואי",
+            "el": "Παραγουάη"
         },
         "dial_code": "+595",
         "code": "PY",
@@ -4389,7 +4557,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "秘魯",
             "ee": "Peruu",
             "jp": "ペルー",
-            "he": "פרו"
+            "he": "פרו",
+            "el": "Περού"
         },
         "dial_code": "+51",
         "code": "PE",
@@ -4415,7 +4584,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "菲律賓",
             "ee": "Filipiinid",
             "jp": "フィリピン",
-            "he": "פיליפינים"
+            "he": "פיליפינים",
+            "el": "Φιλιππίνες"
         },
         "dial_code": "+63",
         "code": "PH",
@@ -4441,7 +4611,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "皮特凱恩",
             "ee": "Pitcairn",
             "jp": "ピトケアン",
-            "he": "פיטקרן"
+            "he": "פיטקרן",
+            "el": "Πίτκαιρν"
         },
         "dial_code": "+872",
         "code": "PN",
@@ -4467,7 +4638,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "波蘭",
             "ee": "Poola",
             "jp": "ポーランド",
-            "he": "פולין"
+            "he": "פולין",
+            "el": "Πολωνία"
         },
         "dial_code": "+48",
         "code": "PL",
@@ -4493,7 +4665,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "葡萄牙",
             "ee": "Portugal",
             "jp": "ポルトガル",
-            "he": "פורטוגל"
+            "he": "פורטוגל",
+            "el": "Πορτογαλία"
         },
         "dial_code": "+351",
         "code": "PT",
@@ -4519,7 +4692,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "波多黎各",
             "ee": "Puerto Rico",
             "jp": "プエルトリコ",
-            "he": "פוארטו ריקו"
+            "he": "פוארטו ריקו",
+            "el": "Πουέρτο Ρίκο"
         },
         "dial_code": "+1939",
         "code": "PR",
@@ -4545,7 +4719,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "卡塔爾",
             "ee": "Katar",
             "jp": "カタール",
-            "he": "קטאר"
+            "he": "קטאר",
+            "el": "Κατάρ"
         },
         "dial_code": "+974",
         "code": "QA",
@@ -4571,7 +4746,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "羅馬尼亞",
             "ee": "Rumeenia",
             "jp": "ルーマニア",
-            "he": "רומניה"
+            "he": "רומניה",
+            "el": "Ρουμανία"
         },
         "dial_code": "+40",
         "code": "RO",
@@ -4597,7 +4773,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "俄羅斯聯邦",
             "ee": "Venemaa Föderatsioon",
             "jp": "ロシア連邦",
-            "he": "רוסיה"
+            "he": "רוסיה",
+            "el": "Ρωσία"
         },
         "dial_code": "+7",
         "code": "RU",
@@ -4623,7 +4800,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "盧旺達",
             "ee": "Rwanda",
             "jp": "ルワンダ",
-            "he": "רואנדה"
+            "he": "רואנדה",
+            "el": "Ρουάντα"
         },
         "dial_code": "+250",
         "code": "RW",
@@ -4649,7 +4827,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "團圓",
             "ee": "Taaskohtumine",
             "jp": "再会",
-            "he": "איחוד"
+            "he": "איחוד",
+            "el": "Ρεουνιόν"
         },
         "dial_code": "+262",
         "code": "RE",
@@ -4675,7 +4854,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖巴托洛繆島",
             "ee": "Püha Barthelemy",
             "jp": "サンバルテルミー",
-            "he": "סנט ברת'למי"
+            "he": "סנט ברת'למי",
+            "el": "Άγιος Βαρθολομαίος"
         },
         "dial_code": "+590",
         "code": "BL",
@@ -4701,7 +4881,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖海倫娜",
             "ee": "Püha Helena",
             "jp": "セントヘレナ",
-			"he": "סנט הלנה"
+			"he": "סנט הלנה",
+            "el": "Αγία Ελένη"
         },
         "dial_code": "+290",
         "code": "SH",
@@ -4727,7 +4908,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖基茨和尼維斯",
             "ee": "Saint Kitts ja Nevis",
             "jp": "セントクリストファーネイビス",
-            "he": "סנט קיטס ונוויס"
+            "he": "סנט קיטס ונוויס",
+            "el": "Άγιος Χριστόφορος και Νέβις"
         },
         "dial_code": "+1869",
         "code": "KN",
@@ -4753,7 +4935,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖盧西亞",
             "ee": "Saint Lucia",
             "jp": "セントルシア",
-            "he": "סנט לוסיה"
+            "he": "סנט לוסיה",
+            "el": "Αγία Λουκία"
         },
         "dial_code": "+1758",
         "code": "LC",
@@ -4779,7 +4962,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖馬丁",
             "ee": "Püha Martin",
             "jp": "サンマルタン",
-            "he": "מרטין הקדוש"
+            "he": "מרטין הקדוש",
+            "el": "Άγιος Μαρτίνος"
         },
         "dial_code": "+590",
         "code": "MF",
@@ -4805,7 +4989,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖皮埃爾和密克隆群島",
             "ee": "Saint Pierre ja Miquelon",
             "jp": "サンピエール島とミクロン島",
-            "he": "סנט פייר ומיקלון"
+            "he": "סנט פייר ומיקלון",
+            "el": "Σεντ Πιέρ και Μικελόν"
         },
         "dial_code": "+508",
         "code": "PM",
@@ -4831,7 +5016,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖文森特和格林納丁斯",
             "ee": "Saint Vincent ja Grenadiinid",
             "jp": "セントビンセントおよびグレナディーン諸島",
-            "he": "סנט וינסנט והגרנדינים"
+            "he": "סנט וינסנט והגרנדינים",
+            "el": "Άγιος Βικέντιος και Γρεναδίνες"
         },
         "dial_code": "+1784",
         "code": "VC",
@@ -4857,7 +5043,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "薩摩亞",
             "ee": "Samoa",
             "jp": "サモア",
-            "he": "סמואה"
+            "he": "סמואה",
+            "el": "Σαμόα"
         },
         "dial_code": "+685",
         "code": "WS",
@@ -4883,7 +5070,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖馬力諾",
             "ee": "San Marino",
             "jp": "サンマリノ",
-            "he": "סן מרינו"
+            "he": "סן מרינו",
+            "el": "Άγιος Μαρίνος"
         },
         "dial_code": "+378",
         "code": "SM",
@@ -4909,7 +5097,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "聖多美和普林西比",
             "ee": "Sao Tome ja Principe",
             "jp": "サントメ・プリンシペ",
-            "he": "סאו טומה ופרינסיפה"
+            "he": "סאו טומה ופרינסיפה",
+            "el": "Σάο Τομέ και Πρίνσιπε"
         },
         "dial_code": "+239",
         "code": "ST",
@@ -4935,7 +5124,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "沙特阿拉伯",
             "ee": "Saudi Araabia",
             "jp": "サウジアラビア",
-            "he": "ערב הסעודית"
+            "he": "ערב הסעודית",
+            "el": "Σαουδική Αραβία"
         },
         "dial_code": "+966",
         "code": "SA",
@@ -4961,7 +5151,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "塞內加爾",
             "ee": "Senegal",
             "jp": "セネガル",
-            "he": "סנגל"
+            "he": "סנגל",
+            "el": "Σενεγάλη"
         },
         "dial_code": "+221",
         "code": "SN",
@@ -4987,7 +5178,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "塞爾維亞",
             "ee": "Serbia",
             "jp": "セルビア",
-            "he": "סרביה"
+            "he": "סרביה",
+            "el": "Σερβία"
         },
         "dial_code": "+381",
         "code": "RS",
@@ -5013,7 +5205,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "塞舌爾",
             "ee": "Seišellid",
             "jp": "セイシェル",
-            "he": "איי סיישל"
+            "he": "איי סיישל",
+            "el": "Σεϋχέλλες"
         },
         "dial_code": "+248",
         "code": "SC",
@@ -5039,7 +5232,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "塞拉利昂",
             "ee": "Sierra Leone",
             "jp": "シエラレオネ",
-            "he": "סיירה לאון"
+            "he": "סיירה לאון",
+            "el": "Σιέρα Λεόνε"
         },
         "dial_code": "+232",
         "code": "SL",
@@ -5065,7 +5259,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "新加坡",
             "ee": "Singapur",
             "jp": "シンガポール",
-            "he": "סינגפור"
+            "he": "סינגפור",
+            "el": "Σιγκαπούρη"
         },
         "dial_code": "+65",
         "code": "SG",
@@ -5091,7 +5286,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "斯洛伐克",
             "ee": "Slovakkia",
             "jp": "スロバキア",
-            "he": "סלובקיה"
+            "he": "סלובקיה",
+            "el": "Σλοβακία"
         },
         "dial_code": "+421",
         "code": "SK",
@@ -5117,7 +5313,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "斯洛文尼亞",
             "ee": "Sloveenia",
             "jp": "スロベニア",
-            "he": "סלובניה"
+            "he": "סלובניה",
+            "el": "Σλοβενία"
         },
         "dial_code": "+386",
         "code": "SI",
@@ -5143,7 +5340,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "所羅門群島",
             "ee": "Saalomoni Saared",
             "jp": "ソロモン諸島",
-            "he": "איי שלמה"
+            "he": "איי שלמה",
+            "el": "Νησιά Σολομώντα"
         },
         "dial_code": "+677",
         "code": "SB",
@@ -5169,7 +5367,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "索馬里",
             "ee": "Somaalia",
             "jp": "ソマリア",
-            "he": "סומליה"
+            "he": "סומליה",
+            "el": "Σομαλία"
         },
         "dial_code": "+252",
         "code": "SO",
@@ -5195,7 +5394,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "南非",
             "ee": "Lõuna-Aafrika",
             "jp": "南アフリカ",
-            "he": "דרום אפריקה"
+            "he": "דרום אפריקה",
+            "el": "Νότια Αφρική"
         },
         "dial_code": "+27",
         "code": "ZA",
@@ -5221,7 +5421,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "南喬治亞島和南桑威奇群島",
             "ee": "Lõuna-Georgia ja Lõuna-Sandwichi saared",
             "jp": "サウスジョージア島とサウスサンドイッチ諸島",
-            "he": "דרום ג'ורג'יה ואיי סנדוויץ' הדרומיים"
+            "he": "דרום ג'ורג'יה ואיי סנדוויץ' הדרומיים",
+            "el": "Νότιος Γεωργία και Νότιοι Νήσοι Σάντουιτς"
         },
         "dial_code": "+500",
         "code": "GS",
@@ -5247,7 +5448,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "西班牙",
             "ee": "Hispaania",
             "jp": "スペイン",
-            "he": "ספרד"
+            "he": "ספרד",
+            "el": "Ισπανία"
         },
         "dial_code": "+34",
         "code": "ES",
@@ -5273,7 +5475,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "斯里蘭卡",
             "ee": "Sri Lanka",
             "jp": "スリランカ",
-            "he": "סרי לנקה"
+            "he": "סרי לנקה",
+            "el": "Σρι Λάνκα"
         },
         "dial_code": "+94",
         "code": "LK",
@@ -5299,7 +5502,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "蘇丹",
             "ee": "Sudaan",
             "jp": "スーダン",
-            "he": "סודן"
+            "he": "סודן",
+            "el": "Σουδάν"
         },
         "dial_code": "+249",
         "code": "SD",
@@ -5325,7 +5529,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "蘇裡南",
             "ee": "Suriname",
             "jp": "スリナム",
-            "he": "סורינאם"
+            "he": "סורינאם",
+            "el": "Σουρινάμ"
         },
         "dial_code": "+597",
         "code": "SR",
@@ -5351,7 +5556,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "斯瓦爾巴和揚·馬延",
             "ee": "Svalbard ja Jan Mayen",
             "jp": "スバールバル諸島およびヤンマイエン",
-            "he": "סבאלברד ויאן מאין"
+            "he": "סבאלברד ויאן מאין",
+            "el": "Σβάλμπαρντ και Γιαν Μάγεν"
         },
         "dial_code": "+47",
         "code": "SJ",
@@ -5377,7 +5583,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "斯威士蘭",
             "ee": "Svaasimaa",
             "jp": "スワジランド",
-            "he": "סווזילנד"
+            "he": "סווזילנד",
+            "el": "Σουαζιλάνδη"
         },
         "dial_code": "+268",
         "code": "SZ",
@@ -5403,7 +5610,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "瑞典",
             "ee": "Rootsi",
             "jp": "スウェーデン",
-            "he": "שבדיה"
+            "he": "שבדיה",
+            "el": "Σουηδία"
         },
         "dial_code": "+46",
         "code": "SE",
@@ -5429,7 +5637,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "瑞士",
             "ee": "Šveits",
             "jp": "スイス",
-            "he": "שוויץ"
+            "he": "שוויץ",
+            "el": "Ελβετία"
         },
         "dial_code": "+41",
         "code": "CH",
@@ -5455,7 +5664,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿拉伯敘利亞共和國",
             "ee": "Süüria Araabia Vabariik",
             "jp": "シリアアラブ共和国",
-            "he": "סוריה"
+            "he": "סוריה",
+            "el": "Συρία"
         },
         "dial_code": "+963",
         "code": "SY",
@@ -5481,7 +5691,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "中國台灣省",
             "ee": "Taiwan, Hiina provints",
             "jp": "台湾、中国省",
-			"he": "טיוואן"
+			"he": "טיוואן",
+            "el": "Ταϊβάν"
         },
         "dial_code": "+886",
         "code": "TW",
@@ -5507,7 +5718,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "塔吉克斯坦",
             "ee": "Tadžikistan",
             "jp": "タジキスタン",
-            "he": "טג'יקיסטן"
+            "he": "טג'יקיסטן",
+            "el": "Τατζικιστάν"
         },
         "dial_code": "+992",
         "code": "TJ",
@@ -5533,7 +5745,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "坦桑尼亞聯合共和國",
             "ee": "Tansaania, Tšehhi Vabariik",
             "jp": "タンザニア、連合共和国",
-			"he": "טנזניה"
+			"he": "טנזניה",
+            "el": "Τανζανία"
         },
         "dial_code": "+255",
         "code": "TZ",
@@ -5559,7 +5772,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "泰國",
             "ee": "Tai",
             "jp": "タイ",
-            "he": "תאילנד"
+            "he": "תאילנד",
+            "el": "Ταϊλάνδη"
         },
         "dial_code": "+66",
         "code": "TH",
@@ -5585,7 +5799,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "東帝汶",
             "ee": "Ida-Timor",
             "jp": "東ティモール",
-            "he": "טימור-לסטה"
+            "he": "טימור-לסטה",
+            "el": "Ανατολικό Τιμόρ"
         },
         "dial_code": "+670",
         "code": "TL",
@@ -5611,7 +5826,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "多哥",
             "ee": "Minema",
             "jp": "トーゴ",
-            "he": "טוגו"
+            "he": "טוגו",
+            "el": "Τόγκο"
         },
         "dial_code": "+228",
         "code": "TG",
@@ -5637,7 +5853,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "托克勞",
             "ee": "Tokelau",
             "jp": "トケラウ",
-            "he": "טוקלאו"
+            "he": "טוקלאו",
+            "el": "Τοκελάου"
         },
         "dial_code": "+690",
         "code": "TK",
@@ -5663,7 +5880,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "湯加",
             "ee": "Tonga",
             "jp": "トンガ",
-            "he": "טונגה"
+            "he": "טונגה",
+            "el": "Τόνγκα"
         },
         "dial_code": "+676",
         "code": "TO",
@@ -5689,7 +5907,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "特立尼達和多巴哥",
             "ee": "Trinidad ja Tobago",
             "jp": "トリニダード・トバゴ",
-            "he": "טרינידד וטובגו"
+            "he": "טרינידד וטובגו",
+            "el": "Τρίνινταντ και Tομπάγκο"
         },
         "dial_code": "+1868",
         "code": "TT",
@@ -5715,7 +5934,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "突尼斯",
             "ee": "Tuneesia",
             "jp": "チュニジア",
-            "he": "תוניסיה"
+            "he": "תוניסיה",
+            "el": "Τυνησία"
         },
         "dial_code": "+216",
         "code": "TN",
@@ -5741,7 +5961,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "火雞",
             "ee": "Türgi",
             "jp": "七面鳥",
-            "he": "טורקיה"
+            "he": "טורקיה",
+            "el": "Τουρκία"
         },
         "dial_code": "+90",
         "code": "TR",
@@ -5767,7 +5988,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "土庫曼斯坦",
             "ee": "Türkmenistan",
             "jp": "トルクメニスタン",
-            "he": "טורקמניסטן"
+            "he": "טורקמניסטן",
+            "el": "Τουρκμενιστάν"
         },
         "dial_code": "+993",
         "code": "TM",
@@ -5793,7 +6015,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "特克斯和凱科斯群島",
             "ee": "Turksi ja Caicose saared",
             "jp": "タークス・カイコス諸島",
-            "he": "איי טורקס וקאיקוס"
+            "he": "איי טורקס וקאיקוס",
+            "el": "Νήσοι Τουρκ και Κάικος"
         },
         "dial_code": "+1649",
         "code": "TC",
@@ -5819,7 +6042,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "圖瓦盧",
             "ee": "Tuvalu",
             "jp": "ツバル",
-            "he": "טובאלו"
+            "he": "טובאלו",
+            "el": "Τουβαλού"
         },
         "dial_code": "+688",
         "code": "TV",
@@ -5845,7 +6069,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "烏干達",
             "ee": "Uganda",
             "jp": "ウガンダ",
-            "he": "אוגנדה"
+            "he": "אוגנדה",
+            "el": "Ουγκάντα"
         },
         "dial_code": "+256",
         "code": "UG",
@@ -5871,7 +6096,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "烏克蘭",
             "ee": "Ukraina",
             "jp": "ウクライナ",
-            "he": "אוקראינה"
+            "he": "אוקראינה",
+            "el": "Ουκρανία"
         },
         "dial_code": "+380",
         "code": "UA",
@@ -5897,7 +6123,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "阿拉伯聯合酋長國",
             "ee": "Araabia Ühendemiraadid",
             "jp": "アラブ首長国連邦",
-            "he": "איחוד האמירויות הערביות"
+            "he": "איחוד האמירויות הערביות",
+            "el": "Ηνωμένα Αραβικά Εμιράτα"
         },
         "dial_code": "+971",
         "code": "AE",
@@ -5923,7 +6150,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "英國",
             "ee": "Ühendkuningriik",
             "jp": "イギリス",
-            "he": "הממלכה המאוחדת"
+            "he": "הממלכה המאוחדת",
+            "el": "Ηνωμένο Βασίλειο"
         },
         "dial_code": "+44",
         "code": "GB",
@@ -5949,7 +6177,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "美國",
             "ee": "Ühendriigid",
             "jp": "アメリカ",
-            "he": "ארצות הברית"
+            "he": "ארצות הברית",
+            "el": "Ηνωμένες Πολιτείες Αμερικής"
         },
         "dial_code": "+1",
         "code": "US",
@@ -5975,7 +6204,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "烏拉圭",
             "ee": "Uruguay",
             "jp": "ウルグアイ",
-            "he": "אורוגוואי"
+            "he": "אורוגוואי",
+            "el": "Ουρουγουάη"
         },
         "dial_code": "+598",
         "code": "UY",
@@ -6001,7 +6231,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "烏茲別克斯坦",
             "ee": "Usbekistan",
             "jp": "ウズベキスタン",
-            "he": "אוזבקיסטן"
+            "he": "אוזבקיסטן",
+            "el": "Ουζμπεκιστάν"
         },
         "dial_code": "+998",
         "code": "UZ",
@@ -6027,7 +6258,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "瓦努阿圖",
             "ee": "Vanuatu",
             "jp": "バヌアツ",
-            "he": "ונואטו"
+            "he": "ונואטו",
+            "el": "Βανουάτου"
         },
         "dial_code": "+678",
         "code": "VU",
@@ -6053,7 +6285,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "委內瑞拉",
             "ee": "Venezuela",
             "jp": "ベネズエラ",
-			"he": "ונצואלה"
+			"he": "ונצואלה",
+            "el": "Βενεζουέλα"
         },
         "dial_code": "+58",
         "code": "VE",
@@ -6079,7 +6312,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "越南",
             "ee": "Vietnam",
             "jp": "ベトナム",
-            "he": "וייטנאם"
+            "he": "וייטנאם",
+            "el": "Βιετνάμ"
         },
         "dial_code": "+84",
         "code": "VN",
@@ -6105,7 +6339,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "英屬維爾京群島",
             "ee": "Neitsisaared, Suurbritannia",
             "jp": "英領バージン諸島",
-			"he": "איי הבתולה הבריטיים"
+			"he": "איי הבתולה הבריטיים",
+            "el": "Βρετανικές Παρθένοι Νήσοι"
         },
         "dial_code": "+1284",
         "code": "VG",
@@ -6131,7 +6366,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "美國維爾京群島",
             "ee": "Neitsisaared, USA",
             "jp": "アメリカ領バージン諸島",
-			"he": "איי הבתולה של ארצות הברית"
+			"he": "איי הבתולה של ארצות הברית",
+            "el": "Αμερικανικές Παρθένοι Νήσοι"
         },
         "dial_code": "+1340",
         "code": "VI",
@@ -6157,7 +6393,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "瓦利斯和富圖納群島",
             "ee": "Wallis ja Futuna",
             "jp": "ウォリス・フツナ",
-            "he": "וואליס ופוטונה"
+            "he": "וואליס ופוטונה",
+            "el": "Ουώλλις και Φουτούνα"
         },
         "dial_code": "+681",
         "code": "WF",
@@ -6183,7 +6420,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "也門",
             "ee": "Jeemen",
             "jp": "イエメン",
-            "he": "תימן"
+            "he": "תימן",
+            "el": "Υεμένη"
         },
         "dial_code": "+967",
         "code": "YE",
@@ -6209,7 +6447,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "讚比亞",
             "ee": "Sambia",
             "jp": "ザンビア",
-            "he": "זמביה"
+            "he": "זמביה",
+            "el": "Ζάμπια"
         },
         "dial_code": "+260",
         "code": "ZM",
@@ -6235,7 +6474,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "津巴布韋",
             "ee": "Zimbabwe",
             "jp": "ジンバブエ",
-            "he": "זימבבואה"
+            "he": "זימבבואה",
+            "el": "Ζιμπάμπουε"
         },
         "dial_code": "+263",
         "code": "ZW",
@@ -6261,7 +6501,8 @@ export const countryCodes: CountryItem[] = [
             "zh": "奧蘭群島",
             "ee": "Alandi saared",
             "jp": "オーランド諸島",
-            "he": "איי אלנד"
+            "he": "איי אלנד",
+            "el": "Νήσοι Άλαντ"
         },
         "dial_code": "+358",
         "code": "AX",
