@@ -394,7 +394,7 @@ export const CountryList = ({
             style={[style?.itemsList]}
             keyboardShouldPersistTaps={'handled'}
             renderItem={renderItem}
-            ListHeaderComponent={(popularCountries && ListHeaderComponent) &&
+            ListHeaderComponent={(popularCountries && ListHeaderComponent && !searchValue ) &&
                 <ListHeaderComponent countries={preparedPopularCountries} lang={lang}/>}
             {...rest}
         />
