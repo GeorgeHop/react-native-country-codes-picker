@@ -16,6 +16,8 @@ import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
 import {CountryButton} from "./components/CountryButton";
 import {countriesRemover} from "./helpers/countriesRemover";
 
+export { countryCodes } from './constants/countryCodes'
+
 
 const height = Dimensions.get('window').height;
 
