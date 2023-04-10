@@ -59,6 +59,7 @@ interface Props {
 
     lang: string,
     inputPlaceholder?: string,
+    inputPlaceholderTextColor?: TextStyle['color'],
     searchMessage?: string,
     androidWindowSoftInputMode?: string,
     initialState?: string,
@@ -69,6 +70,7 @@ export const CountryPicker = ({
                                   popularCountries,
                                   pickerButtonOnPress,
                                   inputPlaceholder,
+                                  inputPlaceholderTextColor,
                                   searchMessage,
                                   lang = 'en',
                                   style,
@@ -261,6 +263,7 @@ export const CountryPicker = ({
                             value={searchValue}
                             onChangeText={setSearchValue}
                             placeholder={inputPlaceholder || 'Search your country'}
+                            placeholderTextColor={inputPlaceholderTextColor || '#8c8c8c'}
                             {...rest}
                         />
                     </View>
@@ -289,8 +292,8 @@ export const CountryPicker = ({
                             style={[style?.itemsList]}
                             keyboardShouldPersistTaps={'handled'}
                             renderItem={renderItem}
-                            ListHeaderComponent={(popularCountries && ListHeaderComponent) &&
-                                <ListHeaderComponent countries={preparedPopularCountries} lang={lang}/>}
+                            ListHeaderComponent={(popularCountries && ListHeaderComponent && !searchValue) ?
+                                <ListHeaderComponent countries={preparedPopularCountries} lang={lang} /> : null}
                             {...rest}
                         />
                     )}
@@ -394,8 +397,8 @@ export const CountryList = ({
             style={[style?.itemsList]}
             keyboardShouldPersistTaps={'handled'}
             renderItem={renderItem}
-            ListHeaderComponent={(popularCountries && ListHeaderComponent && !searchValue ) &&
-                <ListHeaderComponent countries={preparedPopularCountries} lang={lang}/>}
+            ListHeaderComponent={(popularCountries && ListHeaderComponent) &&
+                <ListHeaderComponent countries={preparedPopularCountries} lang={lang} />}
             {...rest}
         />
     )
