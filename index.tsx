@@ -17,6 +17,8 @@ import {CountryButton} from "./components/CountryButton";
 import {countriesRemover} from "./helpers/countriesRemover";
 
 export { countryCodes } from './constants/countryCodes'
+export {CountryButton} from "./components/CountryButton";
+export type {CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps} from "./types/Types";
 
 
 const height = Dimensions.get('window').height;
