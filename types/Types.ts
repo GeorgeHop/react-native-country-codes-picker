@@ -10,6 +10,7 @@ export interface ItemTemplateProps {
 export interface ListHeaderComponentProps {
   countries: CountryItem[],
   lang: string,
+  onPress: (item: CountryItem) => void,
 }
 
 export interface CountryItem {
