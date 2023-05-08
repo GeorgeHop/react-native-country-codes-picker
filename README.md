@@ -70,7 +70,7 @@ export default function App() {
 ```JS
 import {CountryPicker} from "react-native-country-codes-picker";
 
-function ListHeaderComponent({countries, locale, onPress}) {
+function ListHeaderComponent({countries, lang, onPress}) {
     return (
         <View
             style={{
@@ -82,7 +82,7 @@ function ListHeaderComponent({countries, locale, onPress}) {
             </Text>
             {countries?.map((country, index) => {
                 return (
-                    <CountryButton key={index} item={country} name={country?.name?.[locale || 'en']} onPress={() => onPress(country) />
+                    <CountryButton key={index} item={country} name={country?.name?.[lang || 'en']} onPress={() => onPress(country) />
                 )
             })}
         </View>
