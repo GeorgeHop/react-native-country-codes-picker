@@ -15,6 +15,7 @@ import {CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps} from ".
 import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
 import {CountryButton} from "./components/CountryButton";
 import {countriesRemover} from "./helpers/countriesRemover";
+import { removeDiacritics } from './helpers/diacriticsRemover';
 
 export { countryCodes } from './constants/countryCodes'
 export {CountryButton} from "./components/CountryButton";
@@ -153,7 +154,10 @@ export const CountryPicker = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
+            if (country?.dial_code.includes(searchValue) || 
+                country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue) ||
+                removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue)
+                ) {
                 return country;
             }
         });
@@ -374,7 +378,10 @@ export const CountryList = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue)) {
+            if (country?.dial_code.includes(searchValue) || 
+                country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue) ||
+                removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue)
+                ) {
                 return country;
             }
         });
