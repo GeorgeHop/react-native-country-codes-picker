@@ -295,7 +295,16 @@ export const CountryPicker = ({
                             keyboardShouldPersistTaps={'handled'}
                             renderItem={renderItem}
                             ListHeaderComponent={(popularCountries && ListHeaderComponent && !searchValue) ?
-                                <ListHeaderComponent countries={preparedPopularCountries} lang={lang} /> : null}
+                                <ListHeaderComponent
+                                    countries={preparedPopularCountries}
+                                    lang={lang}
+                                    onPress={(item: CountryItem) => {
+                                        Keyboard.dismiss();
+                                        typeof pickerButtonOnPress === 'function' && pickerButtonOnPress(item);
+                                    }}
+                                />
+                                : null
+                            }
                             {...rest}
                         />
                     )}
@@ -400,7 +409,16 @@ export const CountryList = ({
             keyboardShouldPersistTaps={'handled'}
             renderItem={renderItem}
             ListHeaderComponent={(popularCountries && ListHeaderComponent) &&
-                <ListHeaderComponent countries={preparedPopularCountries} lang={lang} />}
+                <ListHeaderComponent
+                    countries={preparedPopularCountries}
+                    lang={lang}
+                    onPress={(item: CountryItem) => {
+                        Keyboard.dismiss();
+                        typeof pickerButtonOnPress === 'function' && pickerButtonOnPress(item);
+                    }}
+                />
+            }
+
             {...rest}
         />
     )
