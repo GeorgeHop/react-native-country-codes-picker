@@ -9,7 +9,9 @@ import {
     Easing,
     Platform,
     Keyboard,
-    ViewStyle, Modal
+    ViewStyle,
+    Modal,
+    TextStyle
 } from 'react-native';
 import {CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps} from "./types/Types";
 import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
