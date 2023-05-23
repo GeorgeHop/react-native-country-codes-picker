@@ -6725,8 +6725,10 @@ export const countryCodes: CountryItem[] = [
         "dial_code": "+1284",
         "code": "VG",
         "flag": "🇻🇬"
+
     },
     {
+
         "name": {
             "en": "Virgin Islands, U.S.",
             "ru": "Американские Виргинские острова",
