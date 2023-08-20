@@ -11,15 +11,15 @@ import {
     Keyboard,
     ViewStyle, Modal
 } from 'react-native';
-import {CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps} from "./types/Types";
-import {useKeyboardStatus} from "./helpers/useKeyboardStatus";
-import {CountryButton} from "./components/CountryButton";
-import {countriesRemover} from "./helpers/countriesRemover";
+import { CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps } from "./types/Types";
+import { useKeyboardStatus } from "./helpers/useKeyboardStatus";
+import { CountryButton } from "./components/CountryButton";
+import { countriesRemover } from "./helpers/countriesRemover";
 import { removeDiacritics } from './helpers/diacriticsRemover';
 
 export { countryCodes } from './constants/countryCodes'
-export {CountryButton} from "./components/CountryButton";
-export type {CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps} from "./types/Types";
+export { CountryButton } from "./components/CountryButton";
+export type { CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps } from "./types/Types";
 
 
 const height = Dimensions.get('window').height;
@@ -69,26 +69,26 @@ interface Props {
 }
 
 export const CountryPicker = ({
-                                  show,
-                                  popularCountries,
-                                  pickerButtonOnPress,
-                                  inputPlaceholder,
-                                  inputPlaceholderTextColor,
-                                  searchMessage,
-                                  lang = 'en',
-                                  style,
-                                  enableModalAvoiding,
-                                  androidWindowSoftInputMode,
-                                  onBackdropPress,
-                                  disableBackdrop,
-                                  excludedCountries,
-                                  initialState,
-                                  onRequestClose,
-                                  showOnly,
-                                  ListHeaderComponent,
-                                  itemTemplate: ItemTemplate = CountryButton,
-                                  ...rest
-                              }: Props) => {
+    show,
+    popularCountries,
+    pickerButtonOnPress,
+    inputPlaceholder,
+    inputPlaceholderTextColor,
+    searchMessage,
+    lang = 'en',
+    style,
+    enableModalAvoiding,
+    androidWindowSoftInputMode,
+    onBackdropPress,
+    disableBackdrop,
+    excludedCountries,
+    initialState,
+    onRequestClose,
+    showOnly,
+    ListHeaderComponent,
+    itemTemplate: ItemTemplate = CountryButton,
+    ...rest
+}: Props) => {
     // ToDo refactor exclude and showOnly props to objects
     let filteredCodes = countriesRemover(excludedCountries);
     const keyboardStatus = useKeyboardStatus();
@@ -154,10 +154,10 @@ export const CountryPicker = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || 
+            if (country?.dial_code.includes(searchValue) ||
                 country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue) ||
                 removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue)
-                ) {
+            ) {
                 return country;
             }
         });
@@ -191,7 +191,7 @@ export const CountryPicker = ({
         }).start(() => setShowModal(false));
     };
 
-    const renderItem = ({item, index}: { item: CountryItem, index: number }) => {
+    const renderItem = ({ item, index }: { item: CountryItem, index: number }) => {
         let itemName = item?.name[lang];
         let checkName = itemName.length ? itemName : item?.name['en'];
 
@@ -273,7 +273,7 @@ export const CountryPicker = ({
                             {...rest}
                         />
                     </View>
-                    <View style={[styles.line, style?.line]}/>
+                    <View style={[styles.line, style?.line]} />
                     {resultCountries.length === 0 ? (
                         <View style={[styles.countryMessage, style?.countryMessageContainer]}>
                             <Text
@@ -342,17 +342,17 @@ interface CountryListProps {
 }
 
 export const CountryList = ({
-                                showOnly,
-                                popularCountries,
-                                lang = 'en',
-                                searchValue = '',
-                                excludedCountries,
-                                style,
-                                pickerButtonOnPress,
-                                ListHeaderComponent,
-                                itemTemplate: ItemTemplate = CountryButton,
-                                ...rest
-                            }: CountryListProps) => {
+    showOnly,
+    popularCountries,
+    lang = 'en',
+    searchValue = '',
+    excludedCountries,
+    style,
+    pickerButtonOnPress,
+    ListHeaderComponent,
+    itemTemplate: ItemTemplate = CountryButton,
+    ...rest
+}: CountryListProps) => {
     // ToDo refactor exclude and showOnly props to objects
     let filteredCodes = countriesRemover(excludedCountries);
 
@@ -378,16 +378,16 @@ export const CountryList = ({
         const lowerSearchValue = searchValue.toLowerCase();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) || 
-                country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue) ||
-                removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue)
-                ) {
+            if (country?.dial_code.includes(searchValue) ||
+                country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue.trim()) ||
+                removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue.trim())
+            ) {
                 return country;
             }
         });
     }, [searchValue]);
 
-    const renderItem = ({item, index}: { item: CountryItem, index: number }) => {
+    const renderItem = ({ item, index }: { item: CountryItem, index: number }) => {
         let itemName = item?.name[lang];
         let checkName = itemName.length ? itemName : item?.name['en'];
 
