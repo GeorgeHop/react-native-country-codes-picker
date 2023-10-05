@@ -9,7 +9,9 @@ import {
     Easing,
     Platform,
     Keyboard,
-    ViewStyle, Modal
+    ViewStyle,
+    Modal,
+    TextStyle
 } from 'react-native';
 import { CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps } from "./types/Types";
 import { useKeyboardStatus } from "./helpers/useKeyboardStatus";
@@ -146,9 +148,10 @@ export const CountryPicker = ({
                 return (showOnly?.find(short => country?.code === short?.toUpperCase()));
             });
         }
+        newCodes.sort((a, b) => (a?.name[lang || 'en'].localeCompare(b?.name[lang || 'en'])));
 
-        return newCodes
-    }, [showOnly, excludedCountries]);
+        return newCodes;
+    }, [showOnly, excludedCountries, lang]);
 
     const resultCountries = React.useMemo(() => {
         const lowerSearchValue = searchValue.toLowerCase();
@@ -193,7 +196,7 @@ export const CountryPicker = ({
 
     const renderItem = ({ item, index }: { item: CountryItem, index: number }) => {
         let itemName = item?.name[lang];
-        let checkName = itemName.length ? itemName : item?.name['en'];
+        let checkName = itemName?.length ? itemName : item?.name['en'];
 
         return (
             <ItemTemplate

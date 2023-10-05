@@ -4966,8 +4966,6 @@ export const countryCodes: CountryItem[] = [
             "he": "פוארטו ריקו",
             "el": "Πουέρτο Ρίκο",
             "ar": "بورتوريكو"
-
-
         },
         "dial_code": "+1939",
         "code": "PR",
@@ -5024,8 +5022,6 @@ export const countryCodes: CountryItem[] = [
             "he": "רומניה",
             "el": "Ρουμανία",
             "ar": "رومانيا"
-
-
         },
         "dial_code": "+40",
         "code": "RO",
@@ -5110,9 +5106,6 @@ export const countryCodes: CountryItem[] = [
             "he": "איחוד",
             "el": "Ρεουνιόν",
             "ar": "روينيون"
-
-
-
         },
         "dial_code": "+262",
         "code": "RE",
@@ -5141,8 +5134,6 @@ export const countryCodes: CountryItem[] = [
             "he": "סנט ברת'למי",
             "el": "Άγιος Βαρθολομαίος",
             "ar": "سان بارتيلمي"
-
-
         },
         "dial_code": "+590",
         "code": "BL",
@@ -5171,9 +5162,6 @@ export const countryCodes: CountryItem[] = [
             "he": "סנט הלנה",
             "el": "Αγία Ελένη",
             "ar": "سانت هيلانة، أسينشين وتريستان دا كونها"
-
-
-
         },
         "dial_code": "+290",
         "code": "SH",
@@ -5202,7 +5190,6 @@ export const countryCodes: CountryItem[] = [
             "he": "סנט קיטס ונוויס",
             "el": "Άγιος Χριστόφορος και Νέβις",
             "ar": "سانت كيتس ونيفيس"
-
         },
         "dial_code": "+1869",
         "code": "KN",
@@ -5259,8 +5246,34 @@ export const countryCodes: CountryItem[] = [
             "he": "מרטין הקדוש",
             "el": "Άγιος Μαρτίνος",
             "ar": "سانت مارتن"
-
-
+        },
+        "dial_code": "+1721",
+        "code": "SX",
+        "flag": "🇸🇽",
+    },
+    {
+        "name": {
+            "en": "Saint Martin",
+            "ru": "Сен-Мартен",
+            "pl": "święty Marcin",
+            "ua": "Святий Мартін",
+            "cz": "Svatý Martin",
+            "by": "Святы Марцін",
+            "pt": "São Martinho",
+            "es": "San Martín",
+            "ro": "Sfântul Martin",
+            "bg": "Свети Мартин",
+            "de": "Sankt Martin",
+            "fr": "Saint Martin",
+            "nl": "Sint-Maarten",
+            "it": "Saint Martin",
+            "cn": "圣马丁",
+            "zh": "聖馬丁",
+            "ee": "Püha Martin",
+            "jp": "サンマルタン",
+            "he": "מרטין הקדוש",
+            "el": "Άγιος Μαρτίνος",
+            "ar": "سانت مارتن"
         },
         "dial_code": "+590",
         "code": "MF",
