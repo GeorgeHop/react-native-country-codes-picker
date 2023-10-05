@@ -1,4 +1,4 @@
-import { CountryItem } from "../types/Types";
+import {CountryItem} from "../types/Types";
 
 export const countryCodes: CountryItem[] = [
     {
@@ -672,7 +672,6 @@ export const countryCodes: CountryItem[] = [
             "he": "ברמודה",
             "el": "Βερμούδες",
             "ar": "برمودا"
-
 
 
         },
@@ -3047,7 +3046,6 @@ export const countryCodes: CountryItem[] = [
             "ar": "جيرسي"
 
 
-
         },
         "dial_code": "+44",
         "code": "JE",
@@ -3929,7 +3927,6 @@ export const countryCodes: CountryItem[] = [
             "ar": "المكسيك"
 
 
-
         },
         "dial_code": "+52",
         "code": "MX",
@@ -3958,7 +3955,6 @@ export const countryCodes: CountryItem[] = [
             "he": "מיקרונזיה",
             "el": "Μικρονησία",
             "ar": "ميكرونيزيا، ولايات الميكرونيزيا المتحدة"
-
 
 
         },
@@ -4736,7 +4732,6 @@ export const countryCodes: CountryItem[] = [
             "he": "פנמה",
             "el": "Παναμάς",
             "ar": "بنما"
-
 
 
         },
