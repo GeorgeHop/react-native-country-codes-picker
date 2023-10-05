@@ -148,9 +148,10 @@ export const CountryPicker = ({
                 return (showOnly?.find(short => country?.code === short?.toUpperCase()));
             });
         }
+        newCodes.sort((a, b) => (a?.name[lang || 'en'].localeCompare(b?.name[lang || 'en'])));
 
-        return newCodes
-    }, [showOnly, excludedCountries]);
+        return newCodes;
+    }, [showOnly, excludedCountries, lang]);
 
     const resultCountries = React.useMemo(() => {
         const lowerSearchValue = searchValue.toLowerCase();
