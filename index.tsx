@@ -195,7 +195,7 @@ export const CountryPicker = ({
 
     const renderItem = ({item, index}: { item: CountryItem, index: number }) => {
         let itemName = item?.name[lang];
-        let checkName = itemName.length ? itemName : item?.name['en'];
+        let checkName = itemName?.length ? itemName : item?.name['en'];
 
         return (
             <ItemTemplate
