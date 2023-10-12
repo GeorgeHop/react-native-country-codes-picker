@@ -41,5 +41,8 @@
     "@types/react-native": "~0.69.1",
     "typescript": "^4.8.2"
   },
-  "homepage": "https://github.com/GeorgeHop/react-native-country-codes-picker#readme"
+  "homepage": "https://github.com/GeorgeHop/react-native-country-codes-picker#readme",
+  "dependencies": {
+    "react-native-modal": "^13.0.1"
+  }
 }
