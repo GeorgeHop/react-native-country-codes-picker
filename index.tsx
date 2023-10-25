@@ -447,26 +447,29 @@ const styles: { [key in StyleKeys]: ViewStyle } = {
         bottom: 0,
         justifyContent: 'flex-end',
     },
-    modal: {
+        modal: {
         backgroundColor: 'white',
         width: '100%',
         maxWidth: Platform.OS === "web" ? 600 : undefined,
         borderTopRightRadius: 15,
         borderTopLeftRadius: 15,
         padding: 10,
-
+    
         shadowColor: '#000',
         shadowOffset: {
-            width: 0,
-            height: 6,
+          width: 0,
+          height: 6,
         },
         bottom: 0,
         zIndex: 10,
         shadowOpacity: 0.37,
         shadowRadius: 7.49,
-
+    
         elevation: 10,
-    },
+    
+        // Update the height to 50% of the screen height
+        height: Dimensions.get('window').height / 2,
+      },
     modalInner: {
         zIndex: 99,
         backgroundColor: 'white',
