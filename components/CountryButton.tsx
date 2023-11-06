@@ -1,11 +1,12 @@
 import React from 'react';
-import {Text, TouchableOpacity, ViewStyle} from "react-native";
-import {ItemTemplateProps} from "../types/Types";
+import { Text, TouchableOpacity, ViewStyle } from "react-native";
+import { ItemTemplateProps } from "../types/Types";
 
 
-export const CountryButton = ({item, name, style, ...rest}: ItemTemplateProps) => (
+export const CountryButton = ({ item, name, style, ...rest }: ItemTemplateProps) => (
     <TouchableOpacity
         style={[styles.countryButton, style?.countryButtonStyles]}
+        testID="countryCodesPickerCountryButton"
         {...rest}
     >
         <Text style={[
@@ -31,7 +32,7 @@ export const CountryButton = ({item, name, style, ...rest}: ItemTemplateProps) =
 
 type StyleKeys = 'countryButton';
 
-const styles: {[key in StyleKeys]: ViewStyle} = {
+const styles: { [key in StyleKeys]: ViewStyle } = {
     countryButton: {
         paddingVertical: 10,
         backgroundColor: '#f5f5f5',

@@ -284,3 +284,4 @@ You can add your lang. if you need !!! But after that make a PR please, it will 
 If you are using this package and need to target one of the components in your automated tests, we currently do provide a `testID` for the following components:
 - The wrapping `FlatList` component: 'countryCodesPickerFlatList'
 - The country search `TextInput` component: 'countryCodesPickerSearchInput'
+- The country button (`TouchableOpacity`) component: 'countryCodesPickerCountryButton'
