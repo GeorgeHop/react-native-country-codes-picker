@@ -3,12 +3,17 @@
 :zap: :zap: :zap: This lib. provide multi lang. country picker or country list with search functionality. Fully crossplatform and supported on React-native and expo.
 Didn't find your country ? Just add the required countries or locales and make a PR. :zap: :zap: :zap:
 
+## :exclamation: Before you start! :exclamation:
+
+I'm looking to enhance this library and would love to hear your thoughts on what features you'd like to see in the next version. Currently, I'm drafting a roadmap for the upcoming release of react-native-country-codes-picker.
+
+Considering whether the next version should be based on reanimated v3 for improved performance or if it's better to introduce a flexible hook instead of a new component. Your input is crucial in guiding the development, so please share your ideas on the most valuable additions or changes you'd like to see.
+
 ## Coming soon :muscle: :pray:
 
 1. Custom search input rendering.
-2. Picker types (modal, input). If you need input with search.
-3. Docs update/improve for the best user experience.
-4. Animation improvements.
+2. Docs update/improve for the best user experience.
+3. Animation improvements.
 
 If you have something interesting ! Just write to us :)
 
