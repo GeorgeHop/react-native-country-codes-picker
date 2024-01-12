@@ -273,6 +273,7 @@ export const CountryPicker = ({
                             onChangeText={setSearchValue}
                             placeholder={inputPlaceholder || 'Search your country'}
                             placeholderTextColor={inputPlaceholderTextColor || '#8c8c8c'}
+                            testID='countryCodesPickerSearchInput'
                             {...rest}
                         />
                     </View>
@@ -301,6 +302,7 @@ export const CountryPicker = ({
                             style={[style?.itemsList]}
                             keyboardShouldPersistTaps={'handled'}
                             renderItem={renderItem}
+                            testID='countryCodesPickerFlatList'
                             ListHeaderComponent={(popularCountries && ListHeaderComponent && !searchValue) ?
                                 <ListHeaderComponent
                                     countries={preparedPopularCountries}
