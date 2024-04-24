@@ -4559,7 +4559,7 @@ export const countryCodes: CountryItem[] = [
         },
         "dial_code": "+599",
         "code": "AN",
-        "flag": "🇦🇳"
+        "flag": "🇧🇶"
     },
     {
         "name": {
