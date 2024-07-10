@@ -4711,7 +4711,7 @@ export const countryCodes: CountryItem[] = [
         },
         "dial_code": "+599",
         "code": "AN",
-        "flag": "🇧🇶"
+        "flag": "🇦🇳"
     },
     {
         "name": {
@@ -5648,7 +5648,7 @@ export const countryCodes: CountryItem[] = [
             "en": "Saint Lucia",
             "da": "Saint Lucia",
             "ru": "Санкт-Люсия",
-            "pl": "Święta Lucia",
+            "pl": "święta Lucia",
             "ua": "Сент-Люсія",
             "cz": "Svatá Lucie",
             "by": "Святая Люсія",
@@ -5679,7 +5679,7 @@ export const countryCodes: CountryItem[] = [
             "en": "Saint Martin",
             "da": "Saint Martin",
             "ru": "Сен-Мартен",
-            "pl": "Święty Marcin",
+            "pl": "święty Marcin",
             "ua": "Святий Мартін",
             "cz": "Svatý Martin",
             "by": "Святы Марцін",
@@ -5710,7 +5710,7 @@ export const countryCodes: CountryItem[] = [
             "en": "Saint Martin",
             "da": "Saint Martin",
             "ru": "Сен-Мартен",
-            "pl": "Święty Marcin",
+            "pl": "święty Marcin",
             "ua": "Святий Мартін",
             "cz": "Svatý Martin",
             "by": "Святы Марцін",
