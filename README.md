@@ -279,7 +279,9 @@ Below are the props you can pass to the React Component.
     "ee": "Estonian",
     "jp": "Japanese",
     "he": "Hebrew",
-    "tr": "Turkish"
+    "tr": "Turkish",
+    "fa": "Farsi",
+    "ps": "Pashto"
   },
 ```
 
