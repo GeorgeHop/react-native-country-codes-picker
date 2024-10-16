@@ -3485,7 +3485,7 @@ export const countryCodes: CountryItem[] = [
             "tr": "Kazakistan",
             "hu": "Kazahsztán"
         },
-        "dial_code": "+77",
+        "dial_code": "+7",
         "code": "KZ",
         "flag": "🇰🇿"
     },
@@ -3653,7 +3653,7 @@ export const countryCodes: CountryItem[] = [
         "name": {
             "en": "Kyrgyzstan",
             "da": "Kyrgyzstan",
-            "ru": "Kyrgyzstan",
+            "ru": "Кыргызстан",
             "pl": "Kirgistan",
             "ua": "Киргизстан",
             "cz": "Kyrgyzstán",
