@@ -187,6 +187,7 @@ export const CountryPicker = ({
     };
 
     const closeModal = () => {
+        setSearchValue('')
         Animated.timing(animationDriver, {
             toValue: 0,
             duration: 400,
