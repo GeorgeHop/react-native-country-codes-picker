@@ -68,6 +68,7 @@ interface Props {
     searchMessage?: string,
     androidWindowSoftInputMode?: string,
     initialState?: string,
+    statusBarTranslucent?: boolean,
 }
 
 export const CountryPicker = ({
@@ -224,6 +225,7 @@ export const CountryPicker = ({
             visible={showModal}
             onShow={openModal}
             onRequestClose={onRequestClose}
+            statusBarTranslucent={statusBarTranslucent}
         >
             <View
                 style={{
