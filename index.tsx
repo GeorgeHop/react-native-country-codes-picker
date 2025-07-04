@@ -68,6 +68,7 @@ interface Props {
     searchMessage?: string,
     androidWindowSoftInputMode?: string,
     initialState?: string,
+    statusBarTranslucent?: boolean,
 }
 
 export const CountryPicker = ({
@@ -89,6 +90,7 @@ export const CountryPicker = ({
     showOnly,
     ListHeaderComponent,
     itemTemplate: ItemTemplate = CountryButton,
+    statusBarTranslucent,
     ...rest
 }: Props) => {
     // ToDo refactor exclude and showOnly props to objects
@@ -224,6 +226,7 @@ export const CountryPicker = ({
             visible={showModal}
             onShow={openModal}
             onRequestClose={onRequestClose}
+            statusBarTranslucent={statusBarTranslucent}
         >
             <View
                 style={{
