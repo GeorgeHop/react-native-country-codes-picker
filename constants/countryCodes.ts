@@ -2877,7 +2877,7 @@ export const countryCodes: CountryItem[] = [
             "tr": "Guyana",
             "hu": "Guyana"
         },
-        "dial_code": "+595",
+        "dial_code": "+592",
         "code": "GY",
         "flag": "🇬🇾"
     },
