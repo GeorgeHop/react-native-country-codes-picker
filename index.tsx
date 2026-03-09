@@ -11,7 +11,8 @@ import {
     Keyboard,
     ViewStyle,
     Modal,
-    TextStyle
+    TextStyle,
+    ModalProps
 } from 'react-native';
 import { CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps } from "./types/Types";
 import { useKeyboardStatus } from "./helpers/useKeyboardStatus";
@@ -68,6 +69,8 @@ interface Props {
     searchMessage?: string,
     androidWindowSoftInputMode?: string,
     initialState?: string,
+
+    modalProps?: ModalProps
 }
 
 export const CountryPicker = ({
@@ -89,6 +92,7 @@ export const CountryPicker = ({
     showOnly,
     ListHeaderComponent,
     itemTemplate: ItemTemplate = CountryButton,
+    modalProps,
     ...rest
 }: Props) => {
     // ToDo refactor exclude and showOnly props to objects
@@ -224,6 +228,7 @@ export const CountryPicker = ({
             visible={showModal}
             onShow={openModal}
             onRequestClose={onRequestClose}
+            {...modalProps}
         >
             <View
                 style={{
