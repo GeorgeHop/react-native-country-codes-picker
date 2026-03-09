@@ -442,9 +442,11 @@ export const CountryList = ({
 };
 
 
-type StyleKeys = 'container' | 'modal' | 'modalInner' | 'searchBar' | 'countryMessage' | 'line';
+type ViewStyleKeys = 'container' | 'modal' | 'modalInner' | 'countryMessage' | 'line';
+type TextStyleKeys = 'searchBar';
+type StylesType = { [key in ViewStyleKeys]: ViewStyle } & { [key in TextStyleKeys]: TextStyle };
 
-const styles: { [key in StyleKeys]: ViewStyle } = {
+const styles: StylesType = {
     container: {
         flex: 1,
         position: 'absolute',
