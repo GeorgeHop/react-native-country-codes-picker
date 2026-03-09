@@ -1,33 +1,42 @@
-import React from 'react';
-import { Text, TouchableOpacity, ViewStyle } from "react-native";
-import { ItemTemplateProps } from "../types/Types";
+import React from "react";
+import {ItemTemplateProps} from "../types/Types";
+import { Text, TouchableOpacity, ViewStyle, StyleProp, TextStyle } from "react-native";
 
+interface CountryButtonProps extends ItemTemplateProps {
+  showDialCode?: boolean;
+  style?: {
+    countryButtonStyles?: StyleProp<ViewStyle>;
+    flag?: StyleProp<TextStyle>;
+    dialCode?: StyleProp<TextStyle>;
+    countryName?: StyleProp<TextStyle>;
+  };
+}
 
-export const CountryButton = ({ item, name, style, ...rest }: ItemTemplateProps) => (
-    <TouchableOpacity
-        style={[styles.countryButton, style?.countryButtonStyles]}
-        testID="countryCodesPickerCountryButton"
-        {...rest}
-    >
-        <Text style={[
-            {
-                flex: 0.2
-            },
-            style?.flag
-        ]}>
-            {item?.flag}
-        </Text>
-        <Text style={[{
-            flex: 0.3,
-        }, style?.dialCode]}>
-            {item?.dial_code}
-        </Text>
-        <Text style={[{
-            flex: 1
-        }, style?.countryName]}>
-            {name}
-        </Text>
-    </TouchableOpacity>
+export const CountryButton = ({item, name, style, showDialCode = true, ...rest}: CountryButtonProps) => (
+  <TouchableOpacity
+    style={[styles.countryButton, style?.countryButtonStyles]}
+    testID="countryCodesPickerCountryButton"
+    {...rest}
+  >
+    <Text style={[
+      {
+        flex: 0.2
+      },
+      style?.flag
+    ]}>
+      {item?.flag}
+    </Text>
+    {showDialCode && (
+      <Text style={[{flex: 0.3}, style?.dialCode]}>
+        {item?.dial_code}
+      </Text>
+    )}
+    <Text style={[{
+      flex: 1
+    }, style?.countryName]}>
+      {name}
+    </Text>
+  </TouchableOpacity>
 );
 
 type StyleKeys = 'countryButton';
