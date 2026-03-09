@@ -6651,7 +6651,7 @@ export const countryCodes: CountryItem[] = [
             "el": "Σουαζιλάνδη",
             "ar": "سوازيلاندا",
             "tr": "Esvatini",
-            "hu": "Svájc"
+            "hu": "Szváziföld"
         },
         "dial_code": "+268",
         "code": "SZ",
@@ -6714,7 +6714,8 @@ export const countryCodes: CountryItem[] = [
             "he": "שוויץ",
             "el": "Ελβετία",
             "ar": "سويسرا",
-            "tr": "İsviçre"
+            "tr": "İsviçre",
+            "hu": "Svájc"
         },
         "dial_code": "+41",
         "code": "CH",
