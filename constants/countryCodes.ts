@@ -217,7 +217,7 @@ export const countryCodes: CountryItem[] = [
             "jp": "アンギラ",
             "he": "אנגווילה",
             "el": "Ανγκουίλα",
-            "ar": "أنغيلا",
+            "ar": "أنغويلا",
             "tr": "Anguilla",
             "hu": "Anguilla"
         },
@@ -2877,7 +2877,7 @@ export const countryCodes: CountryItem[] = [
             "tr": "Guyana",
             "hu": "Guyana"
         },
-        "dial_code": "+595",
+        "dial_code": "+592",
         "code": "GY",
         "flag": "🇬🇾"
     },
@@ -6651,7 +6651,7 @@ export const countryCodes: CountryItem[] = [
             "el": "Σουαζιλάνδη",
             "ar": "سوازيلاندا",
             "tr": "Esvatini",
-            "hu": "Svájc"
+            "hu": "Szváziföld"
         },
         "dial_code": "+268",
         "code": "SZ",
@@ -6714,7 +6714,8 @@ export const countryCodes: CountryItem[] = [
             "he": "שוויץ",
             "el": "Ελβετία",
             "ar": "سويسرا",
-            "tr": "İsviçre"
+            "tr": "İsviçre",
+            "hu": "Svájc"
         },
         "dial_code": "+41",
         "code": "CH",
@@ -7086,9 +7087,9 @@ export const countryCodes: CountryItem[] = [
             "ro": "Curcan",
             "bg": "Турция",
             "de": "Türkei",
-            "fr": "dinde",
-            "nl": "kalkoen",
-            "it": "tacchino",
+            "fr": "Turquie",
+            "nl": "Turkije",
+            "it": "Turchia",
             "cn": "火鸡",
             "zh": "火雞",
             "ko": "터키",

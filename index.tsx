@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import {
     FlatList,
     TextInput,
@@ -11,7 +11,8 @@ import {
     Keyboard,
     ViewStyle,
     Modal,
-    TextStyle
+    TextStyle,
+    ModalProps
 } from 'react-native';
 import { CountryItem, ItemTemplateProps, Style, ListHeaderComponentProps } from "./types/Types";
 import { useKeyboardStatus } from "./helpers/useKeyboardStatus";
@@ -68,6 +69,8 @@ interface Props {
     searchMessage?: string,
     androidWindowSoftInputMode?: string,
     initialState?: string,
+
+    modalProps?: ModalProps
 }
 
 export const CountryPicker = ({
@@ -89,6 +92,7 @@ export const CountryPicker = ({
     showOnly,
     ListHeaderComponent,
     itemTemplate: ItemTemplate = CountryButton,
+    modalProps,
     ...rest
 }: Props) => {
     // ToDo refactor exclude and showOnly props to objects
@@ -224,6 +228,7 @@ export const CountryPicker = ({
             visible={showModal}
             onShow={openModal}
             onRequestClose={onRequestClose}
+            {...modalProps}
         >
             <View
                 style={{
@@ -437,9 +442,11 @@ export const CountryList = ({
 };
 
 
-type StyleKeys = 'container' | 'modal' | 'modalInner' | 'searchBar' | 'countryMessage' | 'line';
+type ViewStyleKeys = 'container' | 'modal' | 'modalInner' | 'countryMessage' | 'line';
+type TextStyleKeys = 'searchBar';
+type StylesType = { [key in ViewStyleKeys]: ViewStyle } & { [key in TextStyleKeys]: TextStyle };
 
-const styles: { [key in StyleKeys]: ViewStyle } = {
+const styles: StylesType = {
     container: {
         flex: 1,
         position: 'absolute',
