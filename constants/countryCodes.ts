@@ -217,7 +217,7 @@ export const countryCodes: CountryItem[] = [
             "jp": "アンギラ",
             "he": "אנגווילה",
             "el": "Ανγκουίλα",
-            "ar": "",
+            "ar": "أنغويلا",
             "tr": "Anguilla",
             "hu": "Anguilla"
         },
