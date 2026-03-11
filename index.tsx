@@ -158,10 +158,11 @@ export const CountryPicker = ({
     }, [showOnly, excludedCountries, lang]);
 
     const resultCountries = React.useMemo(() => {
-        const lowerSearchValue = searchValue.toLowerCase();
+        const lowerSearchValue = searchValue.toLowerCase().trim();
+        const searchDialCode = searchValue.trim();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) ||
+            if (country?.dial_code.includes(searchDialCode) ||
                 country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue) ||
                 removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue)
             ) {
@@ -385,12 +386,13 @@ export const CountryList = ({
     }, [showOnly, excludedCountries]);
 
     const resultCountries = React.useMemo(() => {
-        const lowerSearchValue = searchValue.toLowerCase();
+        const lowerSearchValue = searchValue.toLowerCase().trim();
+        const searchDialCode = searchValue.trim();
 
         return codes.filter((country) => {
-            if (country?.dial_code.includes(searchValue) ||
-                country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue.trim()) ||
-                removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue.trim())
+            if (country?.dial_code.includes(searchDialCode) ||
+                country?.name[lang || 'en'].toLowerCase().includes(lowerSearchValue) ||
+                removeDiacritics(country?.name[lang || 'en'].toLowerCase()).includes(lowerSearchValue)
             ) {
                 return country;
             }
