@@ -21,7 +21,7 @@
     "animated"
   ],
   "author": "George Hope",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/GeorgeHop/react-native-country-codes-picker/issues"
   },
