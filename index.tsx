@@ -152,7 +152,7 @@ export const CountryPicker = ({
                 return (showOnly?.find(short => country?.code === short?.toUpperCase()));
             });
         }
-        newCodes.sort((a, b) => (a?.name[lang || 'en'].localeCompare(b?.name[lang || 'en'])));
+        newCodes.sort((a, b) => (a?.name[lang || 'en']?.localeCompare(b?.name[lang || 'en'])));
 
         return newCodes;
     }, [showOnly, excludedCountries, lang]);
